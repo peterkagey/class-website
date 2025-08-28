@@ -4,12 +4,11 @@ layout: layouts/mat3100WF25.njk
 ---
 
 <h1>MAT 3100W: Introduction to Mathematical Proof</h1>
-<h2>Fall 2025</h2>
-
-<p>Welcome to "Introduction to Mathematical Proof!"</p>
+<p><i>(Last updated: {% currentBuildDate %})</i></p>
 
 <h2>Course Information</h2>
 <ul>
+  <li>Term: Fall 2025</li>
   <li>In-person</li>
   <li>Mondays and Wednesdays</li>
   <li>Monday, August 25th&ndash;Wednesday, December 3rd</li>
@@ -155,9 +154,9 @@ Visiting student hours is one of the best ways you can spend your time to suppor
   We will be discussing ideas and working on problems collaboratively in this class, so as such, attendance is required, and will be reflected in the "participation" portion of the course grade. If you are unable to make it to class, you are encouraged to notify the instructor ahead of time in order to have the absence excused.
 </p>
 
-<h3>Make-up homework and exams</h3>
+<h3>Make-up homework</h3>
 <p>
-  You will be given opportunities to redo homework exercises and exam problems for full credit. In order to redo a problem, you will be asked to either re-submit a thorough answer-key writeup or create a video explaining your solution to other students in the class.
+  You will be given opportunities to redo homework exercises for full credit. In order to redo a problem, you will be asked to either re-submit a thorough answer-key writeup or create a video explaining your solution to other students in the class.
 </p>
 
 <h3>Late work and extensions</h3>
@@ -172,7 +171,7 @@ to provide extra support to help keep you on track.
 <h2>Class policies</h2>
 <h3>Academic Honesty and the Student Conduct Code</h3>
 <p>
-  My goal for this class is for you to learn and grow, and your academic honesty is a crucial part of ensuring that happens. In this course, you are encouraged to ask for extensions when you need them, and you will be allowed to re-submit homework and exams for full credit.
+  My goal for this class is for you to learn and grow, and your academic honesty is a crucial part of ensuring that happens. In this course, you are encouraged to ask for extensions when you need them, and you will be allowed to re-submit homework for full credit.
 </p>
 <p>
   You are encouraged to collaborate with other students, come to drop-in hours, ask questions in class, and reach out to me via email when you need help with completing homework assignments or understanding course content. When submitting work done in collaboration with others, acknowledge their contributions, and write up the ideas in your own words.
