@@ -239,7 +239,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td style="display:none"></td>
     <td>September 3rd</td>
     <td>
-      What is proof?</br>
+      What is proof?<br>
       <i>Homework 0 due on Thursday, September 4th at 8:00PM on Gradescope.</i>
     </td>
   </tr>
@@ -254,7 +254,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>September 10th</td>
     <td>
       Strong induction
-      </br>
+      <br>
       <i>Homework 1 due on Thursday, September 11th at 8:00PM on Gradescope.</i>
     </td>
   </tr>
