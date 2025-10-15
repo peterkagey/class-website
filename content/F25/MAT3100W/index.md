@@ -14,3 +14,7 @@ layout: layouts/mat3100WF25.njk
   {% endif %}
 {% endfor %}
 </ul>
+
+## Other assignments
+- [Proofs portfolio instructions](/F25/MAT3100W/proofs_portfolio/)
+- [Final project instructions](/F25/MAT3100W/project/)

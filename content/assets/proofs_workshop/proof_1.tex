@@ -1,0 +1,17 @@
+\textbf{Prove that \(9^n + 5^n - 2\) is divisible by 4 for all integers \(n \geq 1\).}
+   \begin{proof}
+       We start with a base case where, \(n = 1\). When \(n\) is substituted, the expression becomes \(9^1 + 5^1 - 2\). This then evaluates to \[9 + 5 - 2 = 12.\] Since \(12\) is divisible by \(4\), the base case is true.
+
+       ~
+
+       \noindent By inductive hypothesis, for some integer \(k \ge 1\), it can assumed that the expression \(9^{k} + 5^{k} - 2\) is divisible by \(4\). Therefore, this implies that \(9^{k}+5^{k}-2=4m\) for some integer \(m\). Based off the inductive hypothesis, \(n = k + 1\) can be assessed with the expression:
+       \[9^{k+1} + 5^{k+1} - 2.\]
+       This can then be rewritten as \(9\cdot 9^{k} + 5\cdot 5^{k} - 2\) and further rearranged to \((1+4)\cdot5^n+(1+8)\cdot9^n-2\). After, distribution the expression \(5^n+4\cdot5^n+9^n+8\cdot9^n-2\) results.
+       When like terms are combined we are left with:
+       \(5^n+9^n-2+4\cdot5^n+8\cdot9^n.\)
+
+       ~
+
+       \noindent With this expression, we can now substitute \(4k\) for \(5^n+9^n-2\). This leaves us with the expression \[4k+4\cdot5^n+8\cdot9^n\] Note that \(4\) can now be factored from the expression: \[4(k+5^n+2\cdot9^n)\]
+   Thus, since \(4(k+5^n+2\cdot9^n)\) is an integer, where \(4\) can be factored, the expression is shown to be divisible by \(4\).
+   \end{proof}

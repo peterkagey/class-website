@@ -133,6 +133,11 @@ li {
 	line-height: 1.5;
 }
 
+li > p:first-child {
+  display: inline;
+  margin: 0;
+}
+
 a[href] {
 	color: var(--text-color-link);
 }
@@ -282,6 +287,11 @@ header {
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
+}
+
+span.due {
+	font-size: 0.8em;
+	font-style: italic;
 }
 
 /* Nav */

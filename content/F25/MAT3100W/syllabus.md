@@ -240,7 +240,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>September 3rd</td>
     <td>
       What is proof?<br>
-      <i>HW 0 due on Thursday, 9/4 at 8PM.</i>
+      <span class="due"><a href="/F25/MAT3100W/HW00/">HW00</a> due on Thursday, 9/4 at 8PM.</span>
     </td>
   </tr>
 
@@ -255,7 +255,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Strong induction
       <br>
-      <i>HW 1 due on Thursday, 9/11 at 8PM.</i>
+      <span class="due"><a href="/F25/MAT3100W/HW01/">HW01</a> due on Thursday, 9/11 at 8PM.</span>
     </td>
   </tr>
 
@@ -263,7 +263,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td rowspan="2">4</td>
     <td>September 15th</td>
     <td>
-      Direct proofs: divisibility and modular arithmetic.
+      Direct proof: divisibility and modular arithmetic.
     </td>
   </tr>
   <tr>
@@ -272,7 +272,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       $\LaTeX$ workshop
       <br>
-      <i>HW 2 due on Thursday, 9/18 at 8PM.</i>
+      <span class="due"><a href="/F25/MAT3100W/HW02/">HW02</a> due on Thursday, 9/18 at 8PM.</span>
     </td>
   </tr>
 
@@ -287,7 +287,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Introduction to Set Theory
       <br>
-      <i>HW 3 due on Thursday, 9/25 at 8PM.</i>
+      <span class="due"><a href="/F25/MAT3100W/HW03/">HW03</a> due on Thursday, 9/25 at 8PM.</span>
     </td>
   </tr>
 
@@ -299,70 +299,87 @@ If there are any changes that I can make this course more accessible to you, I a
   <tr>
     <td style="display:none"></td>
     <td>October 1st</td>
-    <td><i>HW 4 due on Thursday, 10/2 at 8PM.</i></td>
-
+    <td>
+      Propositional logic<br>
+      <span class="due"><a href="/F25/MAT3100W/HW04/">HW04</a> due on Thursday, 10/2 at 8PM.</span>
+    </td>
   </tr>
 
   <tr>
     <td rowspan="2">7</td>
     <td>October 6th</td>
-    <td></td>
+    <td>Quantifiers</td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>October 8th</td>
-    <td><i>HW 5 due on Thursday, 10/9 at 8PM.</i></td>
+    <td>
+      Composing and negating quantifiers<br>
+      <span class="due"><a href="/F25/MAT3100W/HW05/">HW05</a> due on Friday, 10/10 at 8PM.</span>
+    </td>
 
   </tr>
 
   <tr>
     <td rowspan="2">8</td>
     <td>October 13th</td>
-    <td></td>
+    <td>Proof workshop</td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>October 15th</td>
-    <td><i>HW 6 due on Thursday, 10/16 at 8PM.</i></td>
+    <td>
+      Proof by contradiction.<br>
+      Irrational numbers and $\sqrt 2$.<br>
+      <span class="due"><a href="/F25/MAT3100W/HW06/">HW06</a> due on Thursday, 10/16 at 8PM.</span>
+    </td>
   </tr>
 
   <tr>
     <td rowspan="2">9</td>
     <td>October 20th</td>
-    <td></td>
+    <td>
+      Relations and equivalence relations
+    </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>October 22nd</td>
-    <td><i>HW 7 due on Thursday, 10/23 at 8PM.</i></td>
-
+    <td>
+      Functions<br>
+      Injections (1-to-1), surjections (onto), and bijections.<br>
+      <span class="due">HW07 due on Thursday, 10/23 at 8PM.</span>
+    </td>
   </tr>
   <tr>
     <td rowspan="2">10</td>
     <td>October 27th</td>
-    <td></td>
+    <td>
+      Cardinality of countably infinite sets<br>
+      Countability of the rational numbers, $\mathbb Q$<br>
+      Introduction to real numbers
+    </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>October 29th</td>
-    <td><i>HW 8 due on Thursday, 10/30 at 8PM.</i></td>
+    <td>
+      Uncountability of the real numbers, $\mathbb R$, via Cantor's diagonalization argument.<br>
+      <span class="due">HW08 due on Thursday, 10/30 at 8PM.</span>
+    </td>
 
   </tr>
-  <!-- <tr>
-    <td style="text-align:center; font-size:larger;" colspan="3">
-      SPRING BREAK
-    </td>
-  </tr> -->
   <tr>
     <td rowspan="2">11</td>
     <td>November 3rd</td>
-    <td></td>
+    <td>Intro to combinatorics</td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>November 5th</td>
     <td>
-      <i>HW 9 due on Thursday, 11/6th at 8PM.</i>
+      Intro to real analysis<br>
+      <span class="due">HW09 and draft 1 of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 11/6 at 8PM.</span>
     </td>
 
   </tr>
@@ -370,23 +387,32 @@ If there are any changes that I can make this course more accessible to you, I a
   <tr>
     <td rowspan="2">12</td>
     <td>November 10th</td>
-    <td></td>
+    <td>Intro to abstract algebra</td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>November 12th</td>
-    <td><i>HW 10 due on Thursday, 11/13th at 8PM.</i></td>
+    <td>
+      Mathematical topics review<br>
+      <span class="due">HW10 and draft 2 of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 11/13 at 8PM.</span>
+    </td>
   </tr>
 
   <tr>
     <td rowspan="2">13</td>
     <td>November 17th</td>
-    <td></td>
+    <td>
+      Introduction to group project<br>
+      Proofs portfolio workshop
+    </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>November 19th</td>
-    <td><i>Term paper due Thursday, 11/20th at 8PM.</i></td>
+    <td>
+      Proofs portfolio workshop<br>
+      <span class="due">Semi-final draft of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 11/20 at 8PM.</span>
+    </td>
   </tr>
 
   <tr>
@@ -406,14 +432,15 @@ If there are any changes that I can make this course more accessible to you, I a
   <tr>
     <td rowspan="2">15</td>
     <td>December 1st</td>
-    <td>Group presentations (Part I)</td>
+    <td>In-class group project presentations (Part I)</td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>December 3rd</td>
     <td>
-      Group presentation (Part II) <br>
-      Wrap-up
+      In-class group project presentation (Part II) <br>
+      Wrap-up <br>
+      <span class="due">Final draft of <a href="/F25/MAT3100W/proofs_portfolio/">Proofs Portfolio</a> due on Thursday, 12/4 at 8PM.</span>
     </td>
   </tr>
 </table>

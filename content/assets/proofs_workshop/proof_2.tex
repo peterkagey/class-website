@@ -1,0 +1,39 @@
+Prove that if all the coefficients of the quadratic equation:
+
+\[ax^2 + bx + c = 0\]
+
+\noindent
+are odd integers, then the roots of the equation cannot be rational.
+
+\begin{proof}
+
+Deriving the quadratic equation to solve x, we get:
+
+\[x = \frac{-b \pm \sqrt{b^2 - 4ac}}{a^2}\]
+
+\noindent
+By definition, in order to get a rational number, \(\sqrt{b^2 - 4ac}\) must be a perfect square. If all numbers are odd, then we know that \(4ac\) can be written as:
+
+\[4(2n+1)(2m+1) = 4(4nm+2n+2m+1) = 16nm+8n+8m+4, \text{ where n and m are integers.}\]
+
+\noindent
+We can write this in modular arithmetic as:
+
+\[4ac \equiv 4 \pmod8.\]
+
+\noindent
+Now for the other part of the square root, \(b^2\). We know that whenever there is an odd square, it is congruent to \(1 \pmod8\).
+
+\noindent
+Adding both of these components up, we get
+
+\[b^2 - 4ac \equiv 1 - 4 \pmod8 = -3 \equiv 5 \pmod8.\]
+
+\noindent
+Remember, a perfect square can be written in either form
+
+\[k = 0 \pmod8 \text{ or } k = 4\pmod8.\]
+
+\noindent
+Since we ended with the form \(k = 5 \pmod8\), we know that \(b^2 - 4ac\) can never be a perfect square, and makes the square root irrational. Therefore, whenever all coefficients of the quadratic equation are odd, the roots of the equation cannot be rational.
+\end{proof}

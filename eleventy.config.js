@@ -37,10 +37,12 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
 		.addPassthroughCopy("./content/**/*.tex")
 		.addPassthroughCopy("./content/assets/*.png")
+		.addPassthroughCopy("./content/assets/*.jpeg")
 		.addPassthroughCopy("./content/assets/favicon.svg")
 		.addPassthroughCopy({ "node_modules/mathjax-full/es5": "mathjax" })
 		.addPassthroughCopy({"content/assets/js": "assets/js"})
 		.addPassthroughCopy("css/index.css")
+		.addPassthroughCopy({"node_modules/prismjs/themes/prism.min.css": "css/prism.css"})
 	;
 
 

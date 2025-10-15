@@ -1,0 +1,27 @@
+\begin{proposition}
+    For all integers $n \geq 2, (A_1 \cup A_2 \cup \dots \cup A_n)^c = A_1^c \cap A_2^c \cap \dots \cap A_n^c.$
+\end{proposition}
+
+\begin{proof}
+    Let's begin with the base case that $n=2$, then we have
+    $$(A_1 \cup A_2)^c = A^c_1 \cap A^c_2.$$
+    Let there be an element $x$ that is in $(A_1 \cup A_2)^c.$  This means that  $x$ is in the difference $\mathcal{U} / A_1 \cup A_2$, where $\mathcal{U}$ is the universal set. We can say that $x$ is not in either $A_1$ or $A_2$. Therefore, we can say that $x$ is not in $A_1 \cap A_2$. Conversely, if $x$ is not in $A_1$ and $A_2$, then it can be said that $x$ is in $\mathcal{U}/A_1 \cap A_2.$ If that is the case, then $x$ is not in the intersection of $A_1$ and $A_2.$
+
+    Let us assume that for some integer $n \geq 2, (A_1 \cup A_2 \cup \dots \cup A_n)^c = A_1^c \cap A_2^c \cap \dots \cap A_n^c.$ For the $k+1$ step, it can be shown that
+    $$(A_1 \cup A_2 \cup A_{k+1})^c = A_1^c \cap A_2^c \cap A_{k+1}^c $$
+    because there can always be an element $x$ in the the set $\mathcal{U} / A_1 \cup A_2 \cup A_{k+1} $ no matter what new set $A_{k+1}$ you choose. If $x$ is in this set, then for the reasons stated in the base case $x$ is also in $A_1^c \cap A_2^c \cap A_{k+1}^c.$ The converse is true for the same reasoning in the base case.
+\end{proof}
+
+\begin{proposition}
+    For all integers $n \geq 2$, $(A_1 \cap A_2 \cap \dots \cap A_n)^c = A_1^c \cup A_2^c \cup \dots \cup A_n^c.$.
+\end{proposition}
+
+\begin{proof}
+    Let's begin with the base case that $n=2$, then we have
+    $$(A_1 \cap A_2)^c = A^c_1 \cup A^c_2.$$
+    Let there be an element $x$ that is in $(A_1 \cap A_2)^c.$  This means that  $x$ is in the difference $\mathcal{U} / A_1 \cap A_2$, where $\mathcal{U}$ is the universal set. We can say that $x$ is not in $A_1$ and $A_2$. Therefore, we can say that $x$ is not in $A_1 \cup A_2$. Conversely, if $x$ is not in $A_1$ or $A_2$, then it can be said that $x$ is in $\mathcal{U}/A_1 \cup A_2.$ If that is the case, then $x$ is not in the union of $A_1$ and $A_2.$
+
+    Let us assume that for some integer $n \geq 2$, $(A_1 \cap A_2 \cap \dots \cap A_n)^c = A_1^c \cup A_2^c \cup \dots \cup A_n^c.$ For the $k+1$ step, it can be shown that
+    $$(A_1 \cap A_2 \cap A_{k+1})^c = A_1^c \cup A_2^c \cup A_{k+1}^c $$
+    because there can always be an element $x$ in the the set $\mathcal{U} / A_1 \cap A_2 \cap A_{k+1} $ no matter what new set $A_{k+1}$ you choose. If $x$ is in this set, then for the reasons stated in the base case $x$ is also in $A_1^c \cup A_2^c \cup A_{k+1}^c.$ The converse is true for the same reasoning in the base case.
+\end{proof}

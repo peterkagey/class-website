@@ -1,0 +1,15 @@
+Prove that \(m\equiv n \pmod{15}\) if and only if \(m\equiv n \pmod{3}\) and \(m\equiv n \pmod{5}\). To do this, here are the two things that you should prove:
+\begin{enumerate}
+\item[(a)] If \(m\equiv n \pmod{15}\), then \(m\equiv n \pmod{3}\) and \(m\equiv n \pmod{5}\).
+\begin{proof}
+    Given \(m\equiv n \pmod{15}\), \(15|(m-n)\), since \(15=3 \cdot 5\), divisibility by 15 implies divisibility by \(3\) and \(5\).
+    \[
+    3|(m-n) \ \text{and}\ 5|(m-n).
+    \]
+    Therefore, \(m\equiv n \pmod{15}\) is \(m\equiv n \pmod{3}\) and \(m\equiv n \pmod{5}\).
+\end{proof}
+\item[(b)] If \(m\equiv n \pmod{3}\) and \(m\equiv n \pmod{5}\), then \(m\equiv n \pmod{15}\).
+\begin{proof}
+    By assumption,  3|(m-n) \ \text{and}\ 5|(m-n). Since  \(3\) and \(5\) share no common factors other than 1. If both  \(3\) and \(5\) divide \((m-n)\). then their product also divides \((m-n)\). Thus,\(m\equiv n \pmod{3}\) and \(m\equiv n \pmod{5}\) is \(m\equiv n \pmod{15}\).
+\end{proof}
+\end{enumerate}
