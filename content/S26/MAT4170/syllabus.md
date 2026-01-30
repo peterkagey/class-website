@@ -18,11 +18,11 @@ term: S26
 
 <h3>Instructor information</h3>
 <p>
-Prof. Peter Kagey (KAY-ghee, he/they).
-<br>
-Email: <a href="mailto:pkagey@cpp.edu">pkagey@cpp.edu</a>
-<br>
-<i>You can call me  "Prof. Kagey," "Dr. Kagey," "Professor," or "Peter."</i></p>
+  Prof. Peter Kagey (KAY-ghee, he/they).
+  <br>
+  Email: <a href="mailto:pkagey@cpp.edu">pkagey@cpp.edu</a>
+  <br>
+  <i>You can call me  "Prof. Kagey," "Dr. Kagey," "Professor," or "Peter."</i>
 </p>
 <h3>Student drop-in hours</h3>
 <p>
@@ -30,11 +30,11 @@ Email: <a href="mailto:pkagey@cpp.edu">pkagey@cpp.edu</a>
 Visiting student hours is one of the best ways you can spend your time to support your learning in college.
 </p>
 <ul>
-  <li>Mondays 2:00 PM&ndash;3:00 PM (Building 94, Room 218)</li>
-  <li>Wednesdays 9:30 AM&ndash;10:30 AM (Building 94, Room 218)</li>
-  <li>Wednesdays 2:15 PM&ndash;3:15 PM (<a href="https://www.cpp.edu/makerstudio/index.shtml">Maker Studio</a>, Library)</li>
+  <li>Tuesdays 10:00 AM&ndash;11:00 AM (<a href="https://cpp.zoom.us/j/5036560744">Zoom room</a>: 503 656 0744)</li>
+  <li>Wednesdays 9:30 AM&ndash;11:00 AM (Building 94, Room 218)</li>
+  <li>Wednesdays 2:00 PM&ndash;2:30 PM (Building 94, Room 218)</li>
   <li>Thursday 11:00AM &ndash;12:00PM (<a href="https://cpp.zoom.us/j/5036560744">Zoom room</a>: 503 656 0744)</li>
-  <li>By appointment via <a href="https://calendly.com/profkagey">calendly.com/profkagey</a></li>
+  <li>By appointment (email)</li>
 </ul>
 
 <h3>Course description</h3>
@@ -78,7 +78,7 @@ Visiting student hours is one of the best ways you can spend your time to suppor
   </ul>
 </p>
 
-<p>You will need reliable access to computer and internet to get assigned readings and activities from Canvas and other websites, and to turn in assignments. Please let me know if you need help accessing this technology so we can connect you with campus resources.</p>
+<p>You will need reliable access to computer and the internet to get assigned readings and activities from Canvas and other websites, and to turn in assignments. Please let me know if you need help accessing this technology so we can connect you with campus resources.</p>
 
 <h2>Grading</h2>
 <p>
@@ -93,7 +93,7 @@ Visiting student hours is one of the best ways you can spend your time to suppor
 <div style="display: flex; gap: 1rem; justify-content: center;">
 <table class="grade-breakdown-table">
   <tr><td>Homework</td><td>40%</td></tr>
-  <tr><td>Take home exams</td><td>15%</td></tr>
+  <tr><td>Take-home exams</td><td>15%</td></tr>
   <tr><td>In-class participation</td><td>20%</td></tr>
   <tr><td>Term paper (blog post)</td><td>15%</td></tr>
   <tr><td>Group project</td><td>10%</td></tr>
@@ -229,7 +229,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Symmetric group ($S_n$) and Cayley (multiplication) tables
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW00/">HW 0</a> due on Thursday, 1/29 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/HW00/">HW 0</a> due on Thursday, 1/29 at 8PM.</span>
     </td>
   </tr>
 
@@ -246,7 +246,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Group theory proofs
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW01/">HW 1</a> due on Thursday, 2/5 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/HW01/">HW 1</a> due on Thursday, 2/5 at 8PM.</span>
     </td>
   </tr>
 
@@ -263,7 +263,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Cosets and equivalence classes
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW02/">HW 2</a> due on Thursday, 2/12 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/HW02/">HW 2</a> due on Thursday, 2/12 at 8PM.</span>
     </td>
   </tr>
 
@@ -278,7 +278,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Lagrange's Theorem
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW03/">HW 3</a> due on Thursday, 2/19 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/HW03/">HW 3</a> due on Thursday, 2/19 at 8PM.</span>
     </td>
   </tr>
 
@@ -293,7 +293,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Quotient groups
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW04/">HW 4</a> due on Thursday, 2/26 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/HW04/">HW 4</a> due on Thursday, 2/26 at 8PM.</span>
     </td>
   </tr>
 
@@ -308,7 +308,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Homomorphism
       <br>
-      <span class="due"><a href="/S26/MAT4200/Exam1/">Exam 1</a> due on Thursday, 3/5 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/Exam1/">Exam 1</a> due on Thursday, 3/5 at 8PM.</span>
     </td>
 
   </tr>
@@ -324,7 +324,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       First isomorphism theorem (and proof!)
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW05/">HW 5</a> due on Thursday, 3/12 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/HW05/">HW 5</a> due on Thursday, 3/12 at 8PM.</span>
     </td>
   </tr>
 
@@ -339,7 +339,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Burnside's lemma
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW06/">HW 6</a> due on Thursday, 3/19 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/HW06/">HW 6</a> due on Thursday, 3/19 at 8PM.</span>
     </td>
   </tr>
   <tr>
@@ -353,7 +353,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
     Introduction to rings, and polynomial rings
     <br>
-    <span class="due"><a href="/S26/MAT4200/HW07">HW 7</a> due on Thursday, 3/26 at 8PM</span>
+    <span class="due"><a href="/S26/MAT4170/HW07">HW 7</a> due on Thursday, 3/26 at 8PM</span>
     </td>
 
   </tr>
@@ -373,7 +373,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Integral domains
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW08">HW 8</a> due on Thursday, 4/9 at 8PM</span>
+      <span class="due"><a href="/S26/MAT4170/HW08">HW 8</a> due on Thursday, 4/9 at 8PM</span>
     </td>
   </tr>
   <tr>
@@ -387,7 +387,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Group, ring, integral domain, and field review.
       <br>
-      <span class="due"><a href="/S26/MAT4200/Exam2/">Exam 2</a> due on Thursday, 4/16 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4170/Exam2/">Exam 2</a> due on Thursday, 4/16 at 8PM.</span>
     </td>
   </tr>
 
@@ -424,7 +424,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td class="date">April 29th</td>
     <td>
       Group project work <br>
-      <span class="due">Final draft of <a href="/S26/MAT4200/term_paper/">Term Paper</a> due on Friday, 5/1 at 8PM.</span>
+      <span class="due">Final draft of <a href="/S26/MAT4170/term_paper/">Term Paper</a> due on Friday, 5/1 at 8PM.</span>
     </td>
   </tr>
   <tr>

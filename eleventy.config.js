@@ -36,11 +36,12 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
 		.addPassthroughCopy("./content/**/*.tex")
 		.addPassthroughCopy("./content/assets/**/*.png")
+		.addPassthroughCopy("./content/assets/**/*.glb")
 		.addPassthroughCopy("./content/assets/*.jpeg")
 		.addPassthroughCopy("./content/assets/favicon.svg")
 		.addPassthroughCopy({ "node_modules/@mathjax": "vendor/mathjax" })
 		.addPassthroughCopy({"content/assets/_global": "assets"})
-		.addPassthroughCopy("./css/index-2026-01-20.css")
+		.addPassthroughCopy("./css/index-2026-01-30.css")
 		.addPassthroughCopy({"node_modules/prismjs/themes/prism.min.css": "css/prism.css"})
 	;
 	eleventyConfig.addWatchTarget("css/**/*.css");

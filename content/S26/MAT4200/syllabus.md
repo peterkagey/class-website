@@ -18,11 +18,11 @@ term: S26
 
 <h3>Instructor information</h3>
 <p>
-Prof. Peter Kagey (KAY-ghee, he/they).
-<br>
-Email: <a href="mailto:pkagey@cpp.edu">pkagey@cpp.edu</a>
-<br>
-<i>You can call me  "Prof. Kagey," "Dr. Kagey," "Professor," or "Peter."</i></p>
+  Prof. Peter Kagey (KAY-ghee, he/they).
+  <br>
+  Email: <a href="mailto:pkagey@cpp.edu">pkagey@cpp.edu</a>
+  <br>
+  <i>You can call me  "Prof. Kagey," "Dr. Kagey," "Professor," or "Peter."</i>
 </p>
 <h3>Student drop-in hours</h3>
 <p>
@@ -30,11 +30,11 @@ Email: <a href="mailto:pkagey@cpp.edu">pkagey@cpp.edu</a>
 Visiting student hours is one of the best ways you can spend your time to support your learning in college.
 </p>
 <ul>
-  <li>Mondays 2:00 PM&ndash;3:00 PM (Building 94, Room 218)</li>
-  <li>Wednesdays 9:30 AM&ndash;10:30 AM (Building 94, Room 218)</li>
-  <li>Wednesdays 2:15 PM&ndash;3:15 PM (<a href="https://www.cpp.edu/makerstudio/index.shtml">Maker Studio</a>, Library)</li>
+  <li>Tuesdays 10:00 AM&ndash;11:00 AM (<a href="https://cpp.zoom.us/j/5036560744">Zoom room</a>: 503 656 0744)</li>
+  <li>Wednesdays 9:30 AM&ndash;11:00 AM (Building 94, Room 218)</li>
+  <li>Wednesdays 2:00 PM&ndash;2:30 PM (Building 94, Room 218)</li>
   <li>Thursday 11:00AM &ndash;12:00PM (<a href="https://cpp.zoom.us/j/5036560744">Zoom room</a>: 503 656 0744)</li>
-  <li>By appointment via <a href="https://calendly.com/profkagey">calendly.com/profkagey</a></li>
+  <li>By appointment (email)</li>
 </ul>
 
 <h3>Course description</h3>
@@ -64,19 +64,19 @@ Visiting student hours is one of the best ways you can spend your time to suppor
   <li>Global Surface Theory and the Gauss-Bonnet Theorem.</li>
 </ol>
 <h3>Textbooks and resources</h3>
-<p>We will be using free resources in this class.
-  <ul>
-    <li>Jerry Shurman, <a href="https://www2.stat.duke.edu/~sayan/informal/vcalc.pdf">Multivariable Calculus</a></li>
-    <li>Don Shimamoto, <a href="https://open.umn.edu/opentextbooks/formats/1343">Multivariable Calculus</a></li>
-    <li>Joel Feldman, Andrew Rechnitzer and Elyse Yeager, <a href="https://personal.math.ubc.ca/~CLP/CLP3/">Multivariable Calculus</a> and <a href="https://personal.math.ubc.ca/~CLP/CLP4/">Vector Calculus</a></li>
-    <li>Oliver Knill, <a href="https://people.math.harvard.edu/~knill/teaching/math136/handouts/differential-geometry-2024.pdf">Differential Geometry: MATH 136</a></li>
-    <li>Eckhard Meinrenken and Gal Gross, <a href="https://www.math.toronto.edu/laithy/3672021/DiffGeomNotes_short.pdf">Introduction to Differential Geometry: Manifolds, vector fields, and differential forms</a></li>
-    <li>Frederic Schuller, <a href="https://www.youtube.com/playlist?list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic">Lectures on Geometrical Anatomy of Theoretical Physics</a>, YouTube</li>
-    <li>Terrence Tao, <a href="https://www.math.ucla.edu/%7Etao/preprints/forms.pdf">Differential Forms And Integration</a></li>
-  </ul>
-</p>
+<p>We will be using free resources in this class.</p>
+<ul>
+  <li>Don Shimamoto, <a href="https://open.umn.edu/opentextbooks/formats/1343">Multivariable Calculus</a></li>
+  <li>Gilbert Strang and Edwin “Jed” Herman, <a href="https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)">Calculus (OpenStax)</a></li>
+  <li>Jerry Shurman, <a href="https://www2.stat.duke.edu/~sayan/informal/vcalc.pdf">Multivariable Calculus</a></li>
+  <li>Joel Feldman, Andrew Rechnitzer and Elyse Yeager, <a href="https://personal.math.ubc.ca/~CLP/CLP3/">Multivariable Calculus</a> and <a href="https://personal.math.ubc.ca/~CLP/CLP4/">Vector Calculus</a></li>
+  <li>Oliver Knill, <a href="https://people.math.harvard.edu/~knill/teaching/math136/handouts/differential-geometry-2024.pdf">Differential Geometry: MATH 136</a></li>
+  <li>Eckhard Meinrenken and Gal Gross, <a href="https://www.math.toronto.edu/laithy/3672021/DiffGeomNotes_short.pdf">Introduction to Differential Geometry: Manifolds, vector fields, and differential forms</a></li>
+  <li>Frederic Schuller, <a href="https://www.youtube.com/playlist?list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic">Lectures on Geometrical Anatomy of Theoretical Physics</a>, YouTube</li>
+  <li>Terrence Tao, <a href="https://www.math.ucla.edu/%7Etao/preprints/forms.pdf">Differential Forms And Integration</a></li>
+</ul>
 
-<p>You will need reliable access to computer and internet to get assigned readings and activities from Canvas and other websites, and to turn in assignments. Please let me know if you need help accessing this technology so we can connect you with campus resources.</p>
+<p>You will need reliable access to computer and the internet to get assigned readings and activities from Canvas and other websites, and to turn in assignments. Please let me know if you need help accessing this technology so we can connect you with campus resources.</p>
 
 <h2>Grading</h2>
 <p>
@@ -91,7 +91,7 @@ Visiting student hours is one of the best ways you can spend your time to suppor
 <div style="display: flex; gap: 1rem; justify-content: center;">
 <table class="grade-breakdown-table">
   <tr><td>Homework</td><td>40%</td></tr>
-  <tr><td>Take home exams</td><td>10%</td></tr>
+  <tr><td>Take-home exams</td><td>10%</td></tr>
   <tr><td>In-class participation</td><td>20%</td></tr>
   <tr><td>Term paper</td><td>20%</td></tr>
   <tr><td>Group project</td><td>10%</td></tr>
@@ -224,9 +224,9 @@ If there are any changes that I can make this course more accessible to you, I a
     <td rowspan="2">2</td>
     <td class="date">January 26th</td>
     <td>
-      Introduction to <i>Differential Geometry<i>
+      Introduction to <i>Differential Geometry</i>
       <br>
-      </i>Syllabus, class policies, and \(\LaTeX\)
+      Syllabus, class policies, and \(\LaTeX\)
     </td>
   </tr>
   <tr>
@@ -242,7 +242,7 @@ If there are any changes that I can make this course more accessible to you, I a
   <tr>
     <td rowspan="2">3</td>
     <td class="date">February 2nd</td>
-    <td>[...]</td>
+    <td>Linear approximation and the Jacobian matrix and determinant</td>
   </tr>
   <tr>
     <td style="display:none"></td>
@@ -394,7 +394,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       [...]
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW08">HW 8</a> due on Thursday, 4/9 at 8PM</span>
+      <span class="due"><a href="/S26/MAT4200/HW08">HW 8</a> due on Thursday, 4/16 at 8PM</span>
     </td>
   </tr>
 
