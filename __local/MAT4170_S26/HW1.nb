@@ -1,0 +1,382 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     15291,        372]
+NotebookOptionsPosition[     13859,        340]
+NotebookOutlinePosition[     14251,        356]
+CellTagsIndexPosition[     14208,        353]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<~/Website/classes/content/S26/MAT4200/tetrahedra.stl\>\"", ",", 
+   Graphics3DBox[{
+     PolyhedronBox[{{1, 1, 1}, {1, -1, -1}, {-1, 1, -1}, {-1, -1, 1}}, {{1, 2,
+       3}, {4, 1, 3}, {2, 4, 3}, {4, 2, 1}}], 
+     PolyhedronBox[
+      NCache[{{Rational[-5, 3], Rational[-5, 3], Rational[-5, 3]}, {
+        1, -1, -1}, {-1, 1, -1}, {-1, -1, 
+        1}}, {{-1.6666666666666667`, -1.6666666666666667`, \
+-1.6666666666666667`}, {1, -1, -1}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {
+      4, 1, 3}, {2, 4, 3}, {4, 2, 1}}], 
+     PolyhedronBox[
+      NCache[{{Rational[-5, 3], Rational[-5, 3], Rational[-5, 3]}, {
+        Rational[-31, 9], Rational[-1, 9], Rational[-1, 9]}, {-1, 
+        1, -1}, {-1, -1, 
+        1}}, {{-1.6666666666666667`, -1.6666666666666667`, \
+-1.6666666666666667`}, {-3.4444444444444446`, -0.1111111111111111, \
+-0.1111111111111111}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {4, 1, 3}, {2, 
+      4, 3}, {4, 2, 1}}], 
+     PolyhedronBox[
+      NCache[{{Rational[-53, 27], Rational[43, 27], Rational[43, 27]}, {
+        Rational[-31, 9], Rational[-1, 9], Rational[-1, 9]}, {-1, 
+        1, -1}, {-1, -1, 1}}, {{-1.962962962962963, 1.5925925925925926`, 
+        1.5925925925925926`}, {-3.4444444444444446`, -0.1111111111111111, \
+-0.1111111111111111}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {4, 1, 3}, {2, 
+      4, 3}, {4, 2, 1}}], 
+     PolyhedronBox[
+      NCache[{{Rational[-53, 27], Rational[43, 27], Rational[43, 27]}, {
+        Rational[65, 81], Rational[95, 81], Rational[95, 81]}, {-1, 
+        1, -1}, {-1, -1, 1}}, {{-1.962962962962963, 1.5925925925925926`, 
+        1.5925925925925926`}, {0.8024691358024691, 1.1728395061728396`, 
+        1.1728395061728396`}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {4, 1, 
+      3}, {2, 4, 3}, {4, 2, 1}}]},
+    Boxed->False,
+    ImageSize->{180., 183.8737067451562},
+    ViewPoint->{10.848744914710311`, 
+     18.569590406352322`, -20.915904138139837`},
+    ViewVertical->{0.795425856004698, 
+     0.5987281630782044, -0.09392706924094185}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.978707689448601*^9, 3.978707727600882*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"56b53735-58be-4fd4-a3b0-27a72071e611"],
+
+Cell[BoxData["\<\"~/Website/classes/content/S26/MAT4200/tetrahedra.stl\"\>"], \
+"Output",
+ CellChangeTimes->{3.9787077289260893`*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"3f39e428-33a6-4a64-8400-ce48ffcb5902"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SystemOpen", "[", 
+  RowBox[{"DirectoryName", "[", 
+   RowBox[{
+   "AbsoluteFileName", 
+    "[", "\"\<~/Website/classes/content/S26/MAT4200/tetrahedra.stl\>\"", 
+    "]"}], "]"}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[12]:=",ExpressionUUID->"68213d26-02dd-49fd-b757-25001d25db19"],
+
+Cell[BoxData[
+ RowBox[{
+  Graphics3DBox[{
+    PolyhedronBox[{{1, 1, 1}, {1, -1, -1}, {-1, 1, -1}, {-1, -1, 1}}, {{1, 2, 
+     3}, {4, 1, 3}, {2, 4, 3}, {4, 2, 1}}], 
+    PolyhedronBox[
+     NCache[{{Rational[-5, 3], Rational[-5, 3], Rational[-5, 3]}, {
+       1, -1, -1}, {-1, 1, -1}, {-1, -1, 
+       1}}, {{-1.6666666666666667`, -1.6666666666666667`, \
+-1.6666666666666667`}, {1, -1, -1}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {
+     4, 1, 3}, {2, 4, 3}, {4, 2, 1}}], 
+    PolyhedronBox[
+     NCache[{{Rational[-5, 3], Rational[-5, 3], Rational[-5, 3]}, {
+       Rational[-31, 9], Rational[-1, 9], Rational[-1, 9]}, {-1, 
+       1, -1}, {-1, -1, 
+       1}}, {{-1.6666666666666667`, -1.6666666666666667`, \
+-1.6666666666666667`}, {-3.4444444444444446`, -0.1111111111111111, \
+-0.1111111111111111}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {4, 1, 3}, {2, 
+     4, 3}, {4, 2, 1}}], 
+    PolyhedronBox[
+     NCache[{{Rational[-53, 27], Rational[43, 27], Rational[43, 27]}, {
+       Rational[-31, 9], Rational[-1, 9], Rational[-1, 9]}, {-1, 
+       1, -1}, {-1, -1, 1}}, {{-1.962962962962963, 1.5925925925925926`, 
+       1.5925925925925926`}, {-3.4444444444444446`, -0.1111111111111111, \
+-0.1111111111111111}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {4, 1, 3}, {2, 
+     4, 3}, {4, 2, 1}}], 
+    PolyhedronBox[
+     NCache[{{Rational[-53, 27], Rational[43, 27], Rational[43, 27]}, {
+       Rational[65, 81], Rational[95, 81], Rational[95, 81]}, {-1, 
+       1, -1}, {-1, -1, 1}}, {{-1.962962962962963, 1.5925925925925926`, 
+       1.5925925925925926`}, {0.8024691358024691, 1.1728395061728396`, 
+       1.1728395061728396`}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {4, 1, 
+     3}, {2, 4, 3}, {4, 2, 1}}]},
+   Boxed->False,
+   ImageSize->{180., 183.8737067451562},
+   ViewPoint->{10.848744914710311`, 18.569590406352322`, -20.915904138139837`},
+   ViewVertical->{0.795425856004698, 
+    0.5987281630782044, -0.09392706924094185}], "//", "FullForm"}]], "Input",
+ CellChangeTimes->{{3.978711337887628*^9, 3.9787113389366293`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"636888f9-19fe-44a3-9d34-3632cffdbda4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{
+     RowBox[{"List", "[", 
+      RowBox[{
+       RowBox[{"Polyhedron", "[", 
+        RowBox[{
+         RowBox[{"List", "[", 
+          RowBox[{
+           RowBox[{"List", "[", 
+            RowBox[{"1", ",", "1", ",", "1"}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{"1", ",", 
+             RowBox[{"-", "1"}], ",", 
+             RowBox[{"-", "1"}]}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", "1", ",", 
+             RowBox[{"-", "1"}]}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", 
+             RowBox[{"-", "1"}], ",", "1"}], "]"}]}], "]"}], ",", 
+         RowBox[{"List", "[", 
+          RowBox[{
+           RowBox[{"List", "[", 
+            RowBox[{"1", ",", "2", ",", "3"}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{"4", ",", "1", ",", "3"}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{"2", ",", "4", ",", "3"}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{"4", ",", "2", ",", "1"}], "]"}]}], "]"}]}], "]"}], ",", 
+       RowBox[{"Polyhedron", "[", 
+        RowBox[{
+         RowBox[{"List", "[", 
+          RowBox[{
+           RowBox[{"List", "[", 
+            RowBox[{
+             RowBox[{"Rational", "[", 
+              RowBox[{
+               RowBox[{"-", "5"}], ",", "3"}], "]"}], ",", 
+             RowBox[{"Rational", "[", 
+              RowBox[{
+               RowBox[{"-", "5"}], ",", "3"}], "]"}], ",", 
+             RowBox[{"Rational", "[", 
+              RowBox[{
+               RowBox[{"-", "5"}], ",", "3"}], "]"}]}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{"1", ",", 
+             RowBox[{"-", "1"}], ",", 
+             RowBox[{"-", "1"}]}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", "1", ",", 
+             RowBox[{"-", "1"}]}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", 
+             RowBox[{"-", "1"}], ",", "1"}], "]"}]}], "]"}], ",", 
+         RowBox[{"List", "[", 
+          RowBox[{
+           RowBox[{"List", "[", 
+            RowBox[{"1", ",", "2", ",", "3"}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{"4", ",", "1", ",", "3"}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{"2", ",", "4", ",", "3"}], "]"}], ",", 
+           RowBox[{"List", "[", 
+            RowBox[{"4", ",", "2", ",", "1"}], "]"}]}], "]"}]}], "]"}]}], 
+      "]"}], ",", 
+     RowBox[{"Rule", "[", 
+      RowBox[{"Boxed", ",", "False"}], "]"}], ",", 
+     RowBox[{"Rule", "[", 
+      RowBox[{"ImageSize", ",", 
+       RowBox[{"List", "[", 
+        RowBox[{"180.`", ",", "183.8737067451562`"}], "]"}]}], "]"}], ",", 
+     RowBox[{"Rule", "[", 
+      RowBox[{"ViewPoint", ",", 
+       RowBox[{"List", "[", 
+        RowBox[{"10.848744914710311`", ",", "18.569590406352322`", ",", 
+         RowBox[{"-", "20.915904138139837`"}]}], "]"}]}], "]"}], ",", 
+     RowBox[{"Rule", "[", 
+      RowBox[{"ViewVertical", ",", 
+       RowBox[{"List", "[", 
+        RowBox[{"0.795425856004698`", ",", "0.5987281630782044`", ",", 
+         RowBox[{"-", "0.09392706924094185`"}]}], "]"}]}], "]"}]}], "]"}],
+   ShowSpecialCharacters->False,
+   ShowStringCharacters->True,
+   NumberMarks->True],
+  FullForm]], "Input",
+ CellChangeTimes->{{3.978711343079104*^9, 3.978711374429223*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"bd673938-cd90-48d6-b4d6-7568ef8e666b"],
+
+Cell[BoxData[
+ Graphics3DBox[{
+   PolyhedronBox[{{1, 1, 1}, {1, -1, -1}, {-1, 1, -1}, {-1, -1, 1}}, {{1, 2, 
+    3}, {4, 1, 3}, {2, 4, 3}, {4, 2, 1}}], 
+   PolyhedronBox[
+    NCache[{{Rational[-5, 3], Rational[-5, 3], Rational[-5, 3]}, {
+      1, -1, -1}, {-1, 1, -1}, {-1, -1, 
+      1}}, {{-1.6666666666666667`, -1.6666666666666667`, \
+-1.6666666666666667`}, {1, -1, -1}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {
+    4, 1, 3}, {2, 4, 3}, {4, 2, 1}}]},
+  Boxed->False,
+  ImageSize->{161.16177228445844`, 175.04131798491613`},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{12.058607015605704`, 11.445859933951132`, -24.9716296467723},
+  ViewVertical->{0.8525297205351554, 
+   0.46087865983759685`, -0.24654398494092397`}]], "Output",
+ CellChangeTimes->{3.978711343149514*^9, 3.978711375033972*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"d93213e4-f8dc-4966-95a2-86907595cb49"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\</Users/local_pkagey/Website/classes/content/assets/S26/MAT4200/\
+HW01/tetrahedra2.stl\>\"", ",", 
+   Graphics3DBox[{
+     PolyhedronBox[{{1, 1, 1}, {1, -1, -1}, {-1, 1, -1}, {-1, -1, 1}}, {{1, 2,
+       3}, {4, 1, 3}, {2, 4, 3}, {4, 2, 1}}], 
+     PolyhedronBox[
+      NCache[{{Rational[-5, 3], Rational[-5, 3], Rational[-5, 3]}, {
+        1, -1, -1}, {-1, 1, -1}, {-1, -1, 
+        1}}, {{-1.6666666666666667`, -1.6666666666666667`, \
+-1.6666666666666667`}, {1, -1, -1}, {-1, 1, -1}, {-1, -1, 1}}], {{1, 2, 3}, {
+      4, 1, 3}, {2, 4, 3}, {4, 2, 1}}]},
+    Boxed->False,
+    ImageSize->{161.16177228445844`, 175.04131798491613`},
+    ImageSizeRaw->Automatic,
+    ViewPoint->{12.058607015605704`, 11.445859933951132`, -24.9716296467723},
+    ViewVertical->{0.8525297205351554, 
+     0.46087865983759685`, -0.24654398494092397`}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.978711395309705*^9, 3.978711405682481*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"fc1eacea-0432-43f3-b1f7-a79dc626819e"],
+
+Cell[BoxData["\<\"/Users/local_pkagey/Website/classes/content/assets/S26/\
+MAT4200/HW01/tetrahedra2.stl\"\>"], "Output",
+ CellChangeTimes->{3.9787114063884687`*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"e1b29524-ee94-48ee-9459-cfd69e3be47a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"HueToHex", "[", "h_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "rgb", "}"}], ",", 
+    RowBox[{
+     RowBox[{"rgb", "=", 
+      RowBox[{"ColorConvert", "[", 
+       RowBox[{
+        RowBox[{"Hue", "[", "h", "]"}], ",", "\"\<RGB\>\""}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"StringJoin", "[", 
+      RowBox[{"\"\<#\>\"", ",", 
+       RowBox[{"IntegerString", "[", 
+        RowBox[{
+         RowBox[{"Round", "[", 
+          RowBox[{"255", " ", 
+           RowBox[{"rgb", "[", 
+            RowBox[{"[", "1", "]"}], "]"}]}], "]"}], ",", "16", ",", "2"}], 
+        "]"}], ",", 
+       RowBox[{"IntegerString", "[", 
+        RowBox[{
+         RowBox[{"Round", "[", 
+          RowBox[{"255", " ", 
+           RowBox[{"rgb", "[", 
+            RowBox[{"[", "2", "]"}], "]"}]}], "]"}], ",", "16", ",", "2"}], 
+        "]"}], ",", 
+       RowBox[{"IntegerString", "[", 
+        RowBox[{
+         RowBox[{"Round", "[", 
+          RowBox[{"255", " ", 
+           RowBox[{"rgb", "[", 
+            RowBox[{"[", "3", "]"}], "]"}]}], "]"}], ",", "16", ",", "2"}], 
+        "]"}]}], "]"}]}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Hue", "[", 
+  RowBox[{"0.3", ",", "1", ",", "0.5"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Table", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"HueToHex", "[", 
+    RowBox[{"Hue", "[", 
+     RowBox[{
+      FractionBox["n", "6"], ",", "1", ",", "0.5"}], "]"}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "0", ",", "5"}], "}"}]}], "\[IndentingNewLine]", 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.9787276506111298`*^9, 3.978727761457345*^9}, {
+  3.978727799194806*^9, 3.978727806356827*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"651f4b35-390b-4b1c-944c-adae32ec6535"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> Hue[0.3, 1, 0.5]|>,
+  "HueColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{{3.9787276568274117`*^9, 3.978727761921783*^9}, 
+   3.978727810733132*^9},
+ CellLabel->"Out[42]=",ExpressionUUID->"93f83750-b68c-45f6-8e43-286c3c6d4fa4"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"#800000\"\>", ",", "\<\"#808000\"\>", ",", "\<\"#008000\"\>", 
+   ",", "\<\"#008080\"\>", ",", "\<\"#000080\"\>", ",", "\<\"#800080\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.9787276568274117`*^9, 3.978727761921783*^9}, 
+   3.978727810735053*^9},
+ CellLabel->"Out[43]=",ExpressionUUID->"d3800a86-9fb7-4975-9139-0963365e637b"]
+}, Open  ]]
+},
+WindowSize->{808, 741},
+WindowMargins->{{36, Automatic}, {16, Automatic}},
+FrontEndVersion->"14.3 for Mac OS X ARM (64-bit) (July 8, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"5e0c6453-6905-4e91-a36d-56dbe2b72dbf"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 2228, 41, 196, "Input",ExpressionUUID->"56b53735-58be-4fd4-a3b0-27a72071e611"],
+Cell[2807, 65, 212, 3, 33, "Output",ExpressionUUID->"3f39e428-33a6-4a64-8400-ce48ffcb5902"]
+}, Open  ]],
+Cell[3034, 71, 320, 8, 49, "Input",ExpressionUUID->"68213d26-02dd-49fd-b757-25001d25db19"],
+Cell[3357, 81, 2108, 39, 196, "Input",ExpressionUUID->"636888f9-19fe-44a3-9d34-3632cffdbda4"],
+Cell[CellGroupData[{
+Cell[5490, 124, 3637, 94, 192, "Input",ExpressionUUID->"bd673938-cd90-48d6-b4d6-7568ef8e666b"],
+Cell[9130, 220, 872, 17, 192, "Output",ExpressionUUID->"d93213e4-f8dc-4966-95a2-86907595cb49"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10039, 242, 1048, 20, 249, "Input",ExpressionUUID->"fc1eacea-0432-43f3-b1f7-a79dc626819e"],
+Cell[11090, 264, 243, 3, 33, "Output",ExpressionUUID->"e1b29524-ee94-48ee-9459-cfd69e3be47a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11370, 272, 1818, 49, 200, "Input",ExpressionUUID->"651f4b35-390b-4b1c-944c-adae32ec6535"],
+Cell[13191, 323, 272, 5, 33, "Output",ExpressionUUID->"93f83750-b68c-45f6-8e43-286c3c6d4fa4"],
+Cell[13466, 330, 377, 7, 33, "Output",ExpressionUUID->"d3800a86-9fb7-4975-9139-0963365e637b"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

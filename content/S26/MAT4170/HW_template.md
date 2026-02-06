@@ -19,6 +19,7 @@ eleventyExcludeFromCollections: true
 </ul> -->
 <hr>
 <h3>Exercise 1 [2]</h3>
+<i>Either save this exercise for last, or do it incrementally as you work on the homework. You may need to add <code>\usepackage{xcolor}</code> to the preamble of your document.</i>
 <ol>
   <li>
     Once you have completed the assignment, fill out the following template listing collaborators, tools, and a reflection on each problem you worked on.
@@ -42,7 +43,7 @@ Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out ho
 \end{enumerate}</code></pre>
   </li>
   <li>
-    Choose one or two problems that you would most like feedback on, with a brief note of what you would most like me to focus on. (This could be ``mathematical correctness,'' ``grammar,'' ``notation,'' ``formatting,'' or anything else.)
+    Choose one or two problems that you would most like feedback on, with a brief note of what you would most like me to focus on. (This could be "mathematical correctness," "grammar," "notation," "formatting," or anything else.)
   </li>
 </ol>
 
@@ -70,12 +71,12 @@ Maker Studio/modeling
 <h3>Choice Exercise x [0]</h3>
 Challenging/hard
 
-<h3>[≤7] Final Choice Exercise</h3>
+<h3>Final Choice Exercise [≤7]</h3>
 <i>Do any subset of the following parts, state which you did and how many points you are claiming for this problem (maximum of 7 points).</i>
 <ol>
   <li>[≤3] Email Prof Kagey (pkagey@cpp.edu) or post in the <code>#feedback</code> channel on Discord with a typo that you have spotted in this assignment or with a suggestion about how to make something clearer. (One point for every six minutes that the typo got you stuck, with a maximum of three points.)</li>
   <li>[≤2] Ask a question on Discord. (One point per question, up to 2.)</li>
-  <li>[≤4] Answer a classmate’s question on Discord or give a hint about a problem on this week's assignment.<a id="ref-asterisk" href="#label-asterisk"><sup>*</sup></a> (Two points per answer/hint, up to 4.)</li>
+  <li>[≤4] Answer a classmate's question on Discord or give a hint about a problem on this week's assignment.<a id="ref-asterisk" href="#label-asterisk"><sup>*</sup></a> (Two points per answer/hint, up to 4.)</li>
   <li>[≤4] Can you generalize any of the above problems in an interesting way? If so say what the generalization is, attempt to solve it, say something about it, and say how many points you feel like your effort was worth, up to 4.</li>
   <li>[≤4] Choose one or more problems from our textbook or a previous homework assignment which interest you and write the problem statement along with an answer. Say how many points you feel like your effort was worth, up to 4.</li>
   <li>[2] Stop by student drop-in hours.</li>
