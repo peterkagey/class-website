@@ -1,0 +1,474 @@
+---
+title: 'MAT 4170 syllabus'
+layout: layouts/base.njk
+courseNumber: MAT4170
+term: F26
+---
+
+<h1>MAT 4170: Introduction to Abstract Algebra I</h1>
+
+<h2>Course Information</h2>
+<ul>
+  <li>Spring 2026, Thursday, August 20th&ndash;Thursday, December 3rd</li>
+  <li>In-person, 4 credits</li>
+  <li>
+    Tuesdays and Thursdays
+    <ul>
+      <li>Section 1: 10:00AM&ndash;11:50AM, Bldg 8 Rm 247
+      <li>Section 2: 1:00PM&ndash;2:50PM, Bldg 8 Rm 210
+    </ul>
+  <li>Discord link to be posted later.</li>
+  <!-- <li><a href="https://discord.com/channels/1463302619110969458/">Discord server</a> (<a href="https://discord.gg/9m27h3sfhs">Invitation</a>)</li> -->
+</ul>
+<h3>Instructor information</h3>
+<p>
+  Prof. Peter Kagey (KAY-ghee, he/they).
+  <br>
+  Email: <a href="mailto:pkagey@cpp.edu">pkagey@cpp.edu</a>
+  <br>
+  <i>You can call me  "Prof. Kagey," "Dr. Kagey," "Professor," or "Peter."</i>
+</p>
+<h3>Student drop-in hours</h3>
+<p>
+  I strongly encourage you to come to the student drop-in hours (i.e. "office hours" or "open hours") that are set aside for you in my calendar.
+Visiting student hours is one of the best ways you can spend your time to support your learning in college.
+</p>
+<ul>
+  <!-- <li>Tuesdays 10:00 AM&ndash;11:00 AM (<a href="https://cpp.zoom.us/j/5036560744">Zoom room</a>: 503 656 0744)</li> -->
+  <!-- <li>Wednesdays 9:30 AM&ndash;11:00 AM (Building 94, Room 218)</li> -->
+  <li>TBD</li>
+  <li>By appointment (email)</li>
+</ul>
+
+<h3>Course description</h3>
+<p>
+  Introduction to algebraic structures, groups, rings, and fields; permutation groups, cyclic groups, homomorphisms and isomorphisms, quotient groups, polynomial rings.
+</p>
+
+<h4>Expected Outcome</h4>
+<p>
+  Students will be able to define basic properties of algebraic structures like groups, rings, fields, and integral domains. In particular, students will be able to state that $\mathbb{R}$ and $\mathbb C$ are fields, while $\mathbb Z$ is not.
+  Students will be able to discuss many examples of groups, including permutation groups, cyclic and noncyclic groups, abelian and nonabelian groups.
+  Students will be able to state Lagrange's Theorem and its consequences.
+  Students will be able to apply the fact that homomorphisms and isomorphisms preserve algebraic structure.
+  Students will be able to describe how results on polynomial rings are related to high school algebra.
+  Students will continue to develop the critical thinking and proof-writing skills begun in MAT 3100W.
+</p>
+
+<h4>Expanded description</h4>
+<ol>
+  <li>Groups and subgroups</li>
+  <li>Cyclic groups</li>
+  <li>Groups of permutations and Cayley's Theorem</li>
+  <li>Lagrange's Theorem and cosets</li>
+  <li>Quotient Groups</li>
+  <li>Introduction to rings, fields, and integral domains</li>
+  <li>Polynomial rings</li>
+</ol>
+
+<h3>Textbooks and resources</h3>
+<p>
+  We will use the following free, online resources: <ul>
+    <li>Thomas W. Judson, <a href="https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_(Judson)"><i>Abstract Algebra: Theory and Applications</i></a></li>
+    <li>Frederick Goodman, <a href="https://homepage.divms.uiowa.edu/~goodman/algebrabook.dir/book.2.6.pdf"><i>Algebra: Abstract and Concrete</i></a></li>
+  </ul>
+  I also encourage you to take a look at some of the following resources: <ul>
+    <li>Ryota Matsuura, <a href="https://www.youtube.com/playlist?list=PL2yKaDKP1wmQpnL7F5U_B8rxK8pxrwOmY">Abstract Algebra Lesson Videos</a> on YouTube</li>
+    <li>Ryota Matsuura, <a href="https://pages.stolaf.edu/matsuura/teaching-materials/">Teaching Materials</a></li>
+    <li>Matthew Macauley, <a href="https://www.math.clemson.edu/\~macaule/visualalgebra.html"><i>Visual Algebra</i> textbook &amp; supplemental materials</a></li>
+    <li>Matthew Macauley, <a href="https://www.youtube.com/playlist?list=PLwV-9DG53NDxU337smpTwm6sef4x-SCLv">Visual Group Theory</a> on YouTube</li>
+    <li>Evan Chen, <a href="https://web.evanchen.cc/napkin.html"><i>An Infinitely Large Napkin</i></a>, Chapters 1&ndash;5</li>
+  </ul>
+</p>
+
+<p>You will need reliable access to computer and the internet to get assigned readings and activities from Canvas and other websites, and to turn in assignments. Please let me know if you need help accessing this technology so we can connect you with campus resources.</p>
+
+<h2>Grading</h2>
+<p>
+  The grade in this course is intended to reflect your learning, growth, and hard work.
+</p>
+<p>
+  Spending time working on problems is essentially the only way to learn mathematics deeply. As such, homework will constitute 40% of the credit in this class.
+</p>
+<div style="display: flex; gap: 1rem; justify-content: center;">
+<table class="grade-breakdown-table">
+  <tr><td>Homework</td><td>40%</td></tr>
+  <tr><td>In-class participation/quizzes</td><td>20%</td></tr>
+  <tr><td>Take-home exams</td><td>10%</td></tr>
+  <tr><td>Proof portfolio</td><td>10%</td></tr>
+  <tr><td>Group project (assignment)</td><td>10%</td></tr>
+  <tr><td>Group project (video)</td><td>10%</td></tr>
+</table>
+<p>
+  \[
+    g(s) = \begin{cases}
+      \text{A}  & s \in [93,\infty)\\
+      \text{A-} & s \in [90,93)\\
+      \text{B+} & s \in [87,90)\\
+      \text{B}  & s \in [83,87)\\
+      \text{B-} & s \in [80,83)\\
+      \text{C+} & s \in [77,80)\\
+      \text{C} & s \in [73,77)\\
+      \text{C-} & s \in [70,73)\\
+      \text{D} & s \in [60,70)\\
+      \text{F} & s \in [-\infty,60)\\
+    \end{cases}
+  \]
+</p>
+</div>
+
+<h3>Homework</h3>
+<p>
+  Homework assignments will be posted approximately once every weeks for the first 12 weeks of the term, with the exception of exam weeks. Each assignment will be due at least seven days after it is posted, and HW \( (n + 1) \) will not be posted until grading is finished for HW \( (n - 1) \).
+</p>
+<p>
+  Homework is expected to be typed up using \(\LaTeX\) and submitted via Gradescope. (I will accept handwritten homework upon request.)
+</p>
+<p>
+  The homework is intended to take 250 minutes or less each week. (According to the course catalog <a href="https://catalog.cpp.edu/content.php?catoid=69&navoid=5945#Credit_Hour">you should be spending eight hours</a> outside of class each week for a four credit class.) Please let me know as soon as possible if you spend more than 250 minutes on an assignment or more than six hours on out-of-class student work in a week.
+</p>
+<p>
+  You are encouraged to get help in drop-in hours and collaborate with other classmates on your homework assignments, provided you acknowledge any assistance given or received. Assignments must be written up individually.
+</p>
+
+<h3>Proofs portfolio</h3>
+<p>
+  Throughout the term, you will be putting together a document with examples of your work gathered from homework, quizzes, and exams, which you will revise throughout the term.
+</p>
+
+<h3>Group project</h3>
+<h4>Group assignment</h4>
+<p>
+  You and your group will learn about a new abstract algebra topic together, and then you will collaborate to write a sample homework assignment containing problems that are intended to introduce your classmates to that topic. This problem should contain motivation, figures, and an answer key showcasing an exemplary writeup of the solution.
+</p>
+<h4>Group video</h4>
+<p>
+  During the last four meetings of the term, group to make a Numberphile-style video about the topic you researched and wrote about, which we will watch the videos as a class in the last week.
+</p>
+
+<h3>Attendance</h3>
+<p>
+  We will be discussing ideas and working on problems collaboratively in this class, so as such, attendance is required, and will be reflected in the "participation" portion of the course grade.
+</p>
+<h4>Absences</h4>
+<p>
+  If you are unable to make it to class because you are sick or for any other reason, you should notify the instructor as soon as possible in order to have the absence excused, and you should ask a classmate for materials from class.
+</p>
+<h4>Quizzes</h4>
+<p>
+  During most classes, we will use the last 20 minutes of class in order to take a quiz based on the material from earlier lectures.
+</p>
+
+<h3>Make-up homework</h3>
+<p>
+  On request, you can redo homework and exam exercises for credit.
+</p>
+
+<h3>Extensions</h3>
+<p>
+  There are two standard ways to request an extension on a Homework assignment of up to four "school days."<ol>
+    <li>
+      Spend at least 30 minutes working on the assignment, and then ask for an extension in drop-in hours, after class, or during our break.
+    </li>
+    <li>
+      First spend at least 90 minutes working on the homework assignment; next, post in <code>#hints-and-questions</code> Discord channel with a hint or question; finally, post in the <code>#hw-extensions</code> Discord channel with a proposed extended due date and a specific time window during which you would be open to collaborating with other students on the homework.
+    </li>
+  </ol>
+  If you have extenuating circumstances, we can work out other mechanisms for HW extensions.
+</p>
+
+<h3>Late work</h3>
+<p>
+  Late work will be accepted on a problem-by-problem basis until grading has been finished on that particular problem.
+  With each on-time homework submission, you can turn in up to 15 points of make-up work.
+</p>
+
+<h2>Class policies</h2>
+<h3>Academic Honesty and the Student Conduct Code</h3>
+<p>
+  My goal for this class is for you to learn and grow, and your academic honesty is a crucial part of ensuring that happens. In this course, you are encouraged to ask for extensions when you need them, and you will be allowed to re-submit homework for full credit.
+</p>
+<p>
+  You are encouraged to collaborate with other students, come to drop-in hours, ask questions in class, and reach out to me via email when you need help with completing homework assignments or understanding course content. When submitting work done in collaboration with others, acknowledge their contributions, and write up the ideas in your own words.
+</p>
+<p>
+  In this course, you <i>are</i> permitted to use tools such as generative AI (e.g. Claude, Gemini, ChatGPT), Question and Answer sites (e.g. Math StackExchange), and other online resources (e.g. Google, GitHub) <b>given that you acknowledge your use of these tools whenever they impact your written work,</b> and that you share any insights you gained from using them with the class via the <code>#hints-and-questions</code> channel on Discord.
+</p>
+<p>
+  If it appears to me that students are using these tools in a way that undermines their learning or engagement, I may ask individual students to stop using these tools.
+</p>
+<h2>Resources</h2>
+<h3>Disability Resource Center</h3>
+<p>
+  Many students have disabilities both visible and invisible. If you have a disability, I encourage you to reach out to the <a href="https://www.cpp.edu/drc/index.shtml">Disability Resource Center</a> to coordinate specific accommodations.
+If there are any changes that I can make this course more accessible to you, I am eager to work with you&mdash;please reach out to me via email, after class, or in drop-in hours.
+</p>
+
+<h3>Care Center</h3>
+<p>
+  <i>The <a href="https://www.cpp.edu/broncoscarecenter/">Care Center</a> is a first-stop location for any student seeking assistance with basic needs and wellbeing services.</i>
+</p>
+
+<p>
+  The Care Center can help students who need access to Housing Resources, Food Resources, Financial Resources, Clothing Assistance, Advocacy and Support, and Case Management.
+</p>
+
+<h3>Centers for Transformation, Retention, Equity and Empowerment (TREE)</h3>
+<p>
+  <i>The Centers for Transformation, Retention, Equity and Empowerment create culturally engaging community spaces to validate and elevate our students' identities, lived experiences, and cultural wealth. We use cultural and identity-based retention frameworks to support the empowerment of our students as they actualize their educational, personal, and career goals.</i>
+</p>
+
+<p>TREE is made up of six unique Cultural and Identity Centers: Asian and Pacific Islander Student Center, Black Resource Center, César E. Chávez Center for Higher Education, Native American Student Center, Pride Center, and Womxn's Resource Center.
+</p>
+
+<h3>The Learning Resource Center</h3>
+<p>
+  <i>The Learning Resource Center's mission is to promote student success by providing programs and services that advance students' critical thinking, problem solving, and analytical skills.</i>
+</p>
+
+<h2>Calendar</h2>
+<table class="weekly-calendar">
+  <tr>
+    <td>1</td>
+    <td class="date">August 20th</td>
+    <td>
+      Introduction to <i>Introduction to Abstract Algebra I<i>
+      <br>
+      What is symmetry? What is abstraction?
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">2</td>
+    <td class="date">August 25th</td>
+    <td>
+      Syllabus, class policies, and \(\LaTeX\)
+      <br>
+      Dihedral groups.
+    </td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">August 27th</td>
+    <td>
+      Symmetric group ($S_n$) and Cayley (multiplication) tables
+      <br>
+      <span class="due"><a href="../HW00/">HW 0</a> due at 8PM.</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">3</td>
+    <td class="date">September 1st</td>
+    <td>
+      Group axioms and Cayley diagrams
+    </td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">September 3rd</td>
+    <td>
+      Group theory proofs
+      <br>
+      <span class="due"><a href="/S26/MAT4170/HW01/">HW 1</a> due on Thursday, 2/5 at 8PM.</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">4</td>
+    <td class="date">September 8th</td>
+    <td>
+      Cyclic groups and subgroups
+    </td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">September 10th</td>
+    <td>
+      Cosets and equivalence classes
+      <br>
+      <span class="due"><a href="/S26/MAT4170/HW02/">HW 2</a> due on Thursday, 2/12 at 8PM.</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">5</td>
+    <td class="date">September 15th</td>
+    <td>Cosets</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">September 17th</td>
+    <td>
+      Asynchronous class
+      <br>
+      <span class="due"><a href="/S26/MAT4170/HW03/">HW 3</a> due on Thursday, 2/19 at 8PM.</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">6</td>
+    <td class="date">September 22nd</td>
+    <td>Lagrange's Theorem</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">September 24th</td>
+    <td>
+      Quotient groups
+      <br>
+      <span class="due"><a href="/S26/MAT4170/HW04/">HW 4</a> due on Thursday, 2/26 at 8PM.</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">7</td>
+    <td class="date">September 29th</td>
+    <td>Normal subgroups</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">October 1st</td>
+    <td>
+      Isomorphism
+      <br>
+      <span class="due"><a href="/S26/MAT4170/Exam1/">Exam 1</a> due on Thursday, 3/5 at 8PM.</span>
+    </td>
+
+  </tr>
+
+  <tr>
+    <td rowspan="2">8</td>
+    <td class="date">October 6th</td>
+    <td>Homomorphism</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">October 8th</td>
+    <td>
+      Kernels and images of homomorphisms
+      <br>
+      <span class="due"><a href="/S26/MAT4170/HW05/">HW 5</a> due on Thursday, 3/12 at 8PM.</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">9</td>
+    <td class="date">October 13th</td>
+    <td>Properties of kernels and images</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">October 15th</td>
+    <td>
+      First isomorphism theorem (and proof!)
+      <br>
+      <span class="due"><a href="/S26/MAT4170/HW06/">HW 6</a> due on Thursday, 3/19 at 8PM.</span>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">10</td>
+    <td class="date">October 20th</td>
+    <td>Group theory review (part 1)</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">October 22nd</td>
+    <td>
+      Group theory review (part 2)
+      <br>
+      <span class="due"><a href="/S26/MAT4170/HW07">HW 7</a> due on Thursday, 3/26 at 8PM</span>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">11</td>
+    <td class="date">October 27th</td>
+    <td>Burnside's lemma</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">October 29th</td>
+    <td>
+      Introduction to rings and polynomial rings
+      <br>
+      <span class="due"><a href="/S26/MAT4170/HW08">HW 8</a> due on Thursday, 4/9 at 8PM</span>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">12</td>
+    <td class="date">November 3rd</td>
+    <td>Commutative rings</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">November 5th</td>
+    <td>
+      Integral domains
+      <br>
+      <span class="due">Take-home <a href="../Exam2/">Exam 2</a> due on Friday, 11/6 at 8PM.</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">13</td>
+    <td class="date">November 10th</td>
+    <td>
+      Fields and their properties
+    </td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">November 12th</td>
+    <td>
+      Abstract vector spaces, matrix groups, or simple finite groups
+      <br>
+      Discussion of group projects
+      <br>
+      <span class="due">Final draft of <a href="../term_paper/">student-submitted homework</a> due on Friday, 11/13 at 8PM.</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">14</td>
+    <td class="date">November 17th</td>
+    <td>
+      Course evaluations
+      <br>
+      Group project work
+    </td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">November 19th</td>
+    <td>
+      Group project work (Part I)
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">15</td>
+    <td class="date">November 24th</td>
+    <td>Group project work (Part II)</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">November 26th</td>
+    <td>
+      🦃 Thanksgiving
+      <br>
+      <i>No class</i>
+    </td>
+  </tr>
+    <tr>
+    <td rowspan="2">16</td>
+    <td class="date">December 1st</td>
+    <td>In-class group project videos (Part I)</td>
+  </tr>
+  <tr>
+    <td style="display:none"></td>
+    <td class="date">December 3rd</td>
+    <td>
+      In-class group project videos (Part II) <br>
+      Wrap-up
+    </td>
+  </tr>
+</table>

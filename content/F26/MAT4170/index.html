@@ -1,0 +1,92 @@
+---
+title: 'MAT 4170: Introduction to Abstract Algebra I'
+layout: layouts/base.njk
+term: F26
+courseNumber: MAT4170
+courseTitle: Introduction to Abstract Algebra I
+---
+<h1 style="margin:0;">{{ courseNumber }}</h1>
+<h4 style="margin:0;">{{ courseTitle }} ({{ term }})</h4>
+
+<h2>Outline</h2>
+<p>Also go through homework and rearrange problems.</p>
+<ol>
+  <li>
+    Intuition for symmetry
+    <ol>
+      <li>
+        Examples of groups.
+        <ol>
+          <li>
+            Early and frequent use of \( GL_n(\mathbb{R}) \) as an example of a group, and discussion of this as a "symmetry."
+          </li>
+          <li>
+            \( SO_2(\mathbb{R}) \)
+          </li>
+          <li>\( (\mathbb{C} \setminus \{0\}, \times) \)</li>
+        </ol>
+      </li>
+      <li>
+        <i>Explicit</i> instructions on drawing Cayley Diagrams.
+      </li>
+      <li>
+        Generators and relations. Particularly \( rf = fr^{-1} \in D_n \).
+      </li>
+      <li>
+        Isomorphism early: \( C_n \) and \( \mathbb{Z}/n\mathbb{Z} \) along with \( S_3 \) and \( D_3 \).
+      </li>
+      <li>
+        Abelian groups early.
+      </li>
+      <li>
+        Direct product of groups.
+      </li>
+    </ol>
+  </li>
+  <li>
+    Discuss conjugation early, along with conjugation as an example of an automorphism.
+  </li>
+  <li>
+    Equivalence relations.
+    <ol>
+      <li>
+        Cosets (particularly integers mod \( n\))
+      </li>
+      <li>
+        Conjugacy classes
+      </li>
+      <li>
+        Orbits of a group action
+      </li>
+    </ol>
+  </li>
+  <li>
+    Isomorphisms and homomorphisms
+    <ol>
+      Automorphisms and the automorphism group.
+    </ol>
+  </li>
+</ol>
+
+<h2>Assignments</h2>
+<div class="three-column grid by-columns">
+{% for post in collections.all | reverse %}{% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "assignment") %}
+  <a href="{{ post.url }}" class="hw-list-item">
+    <div>
+      <div class="hw-link">
+        {{ post.data.title }}
+      </div>
+      <div>
+        ({{ post.data.date | dueDate }})
+      </div>
+    </div>
+  </a>
+{% endif %}{% endfor %}
+</div>
+
+<h3>Other pages</h3>
+<ul>
+  <li><a href="first_day/">First day symmetry activity</a></li>
+  <li><a href="/LaTeX_tips/">\( \LaTeX \) tips</a></li>
+</ul>
+</div>

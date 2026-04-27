@@ -57,6 +57,21 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
+{% elif courseNumber == "MAT4170" and term == "F26" and type == "assignment" %}
+<h1>{{ title }}</h1>
+
+<ul class="post-metadata">
+	<li><b>Due on {{ page.date | readableDate }} at 8PM on <a href="https://www.gradescope.com/courses/1236231">Gradescope</a>.</b></li>
+</ul>
+
+<p>
+  <i>This assignment is worth 30 points, and you should be spending roughly <a href="https://catalog.cpp.edu/content.php?catoid=69&navoid=5945#Credit_Hour">10 minutes per point on average</a>. If you find yourself spending more than \(10n\) minutes on a \(n\)-point problem, reach out to me via drop-in hours, Discord, or email.</i>
+</p>
+
+<button id="toggle-details">Collapse all exercises</button>
+
+{{ content | safe }}
+
 {% else %}
 <h1>This page hasn't been written yet :(</h1>
 {% endif %}

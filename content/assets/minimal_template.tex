@@ -1,11 +1,25 @@
 \documentclass{article}
-\usepackage[margin=1in]{geometry}
-\usepackage{mathtools, amsfonts, amsthm}
+\usepackage[margin=1in]{geometry} % set margin size
+\usepackage{mathtools, amsfonts, amsthm} % load math symbols
+\usepackage{hyperref} % to add hyperlinks via \url{...}
+\usepackage{xcolor}   % to add color
+\usepackage{graphicx} % to include images
+\usepackage{listings} % to include code snippets
+\lstset{ % Options for the listings package to make the code pretty.
+  basicstyle=\ttfamily,
+  numbers=left,
+  breaklines=true,
+  frame=leftline,
+  backgroundcolor=\color{gray!5!white},
+  tabsize=2,
+}
 
 \title{Title}
 \author{Your name here}
 
 \begin{document}
 \maketitle
+
+The body of your document goes here!
 
 \end{document}
