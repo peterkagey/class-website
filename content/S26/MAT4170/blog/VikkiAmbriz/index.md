@@ -17,7 +17,7 @@ A Latin Square is an *n* × *n* matrix with *n* ∈ ℕ such that no symbol or n
 
 Below are some valid examples of Latin Squares of order *n* = 3:
 
-<img width="2396" height="841" alt="IMG_0569" src="https://gist.github.com/user-attachments/assets/81957086-b681-4d2c-bbcc-0bb80c756b83" />
+content/S26/MAT4170/blog/VikkiAmbriz/IMG_0569.jpg
 <br>
 
 Below is a short video I created showing how Latin square ideas can help rotate nurses fairly across departments. Please excuse my stuttering; I was nervous!
