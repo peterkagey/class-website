@@ -16,7 +16,9 @@ What if I told you that as the dimensions increase, most of the volume of an $n$
 Now what about cubes?
 Let's start with a unit square with four unit circles at the corners and a center circle tangent to the four corner circles like this, (see figure 1). We get that the center's circle’s radius is $\sqrt{2}-1$. Now imagine this same set up in 3 dimensions. A Cube with eight spheres at the corners and a center sphere tangent to all others (see figure 2) we get its radius to be $\sqrt{3}-1$, in $R^4$ its $\sqrt{4}-1$ . Now if we increase dimensions then we get, for the smallest $n$-dimensional ball we can fit in the center using this same set up has radius $\sqrt{n}-1$. The corners of the cube grow at a rate of $\sqrt{n}$ because the distance from the center to a corner is $\sqrt{n}$ while the side length stays the same. This is where the idea of the cube becoming spikey and the corners get farther away as we move up in dimensions. Just as the $n$‑ball pushes volume outward, the $n$‑cube pushes volume toward its corners.
 ![CircleSquare](image83.png)
+### Figure 1.
 ![SphereCube](image101.png)
+### Figure 2.
 
 ## Behavior in higher dimensions
 What do hypercubes and hyperspheres look like?
