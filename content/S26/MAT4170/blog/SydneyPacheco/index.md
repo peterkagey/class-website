@@ -1,5 +1,5 @@
 ---
-title: Futurama
+title: Futurama Theorem
 author: Sydney Pacheco
 date: 2026-05-01
 type: blog
@@ -7,8 +7,6 @@ courseNumber: MAT4170
 term: S26
 layout: layouts/blog.njk
 ---
-
-# Futurama Theorem
 Futurama is a science fiction sitcom created by Matt Groening (also the creator of The Simpsons and Disenchantment). Set in the 31st century, the show follows the adventures of Philip J. Fry, a man who is cryogenically frozen and wakes up in the future. He joins a diverse crew of people and creatures, including a one-eyed pilot, a bending robot, an alcoholic robot, and a lobster-like alien aboard the spaceship Planet Express. Through comedy and satire, Futurama explores a wide range of themes, combining humor with science fiction elements. The characters navigate a futuristic world filled with bizarre technology, intergalactic politics, and social commentary. Futurama has had a very dedicated fan base since its debut in 1999, and is a show known for its intelligent writing, creative storylines, and clever humor.
 
 In "The Prisoner of Benda", Professor Farnsworth (a somewhat mad scientist type of character) is finally able to test out a machine that he created which can switch the minds of two people. Farnsworth and Amy, an engineering student and helper of the professor, are the first 2 people to switch minds, and when they test the machine out, they soon realize that there is a major error in the way the machine works. Once two bodies switch minds, those same bodies cannot switch back. However, throughout the episode, multiple characters end up switching minds and bodies for their own personal gain, unaware of the glaring issue with the machine. Once the mind switching gets out of hand, the crew needs to figure out a way to get everyone's minds back in the proper body.
