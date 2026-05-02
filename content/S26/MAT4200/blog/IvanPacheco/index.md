@@ -1,7 +1,7 @@
 ---
 title: Making sense of higher dimensions
 author: Ivan Pacheco
-date: 2026-05-02
+date: 2026-05-01
 type: blog
 courseNumber: MAT4200
 term: S26
