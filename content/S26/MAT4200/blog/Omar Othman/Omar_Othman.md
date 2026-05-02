@@ -31,3 +31,4 @@ With the deep description of what the real projective plane is and Boy’s surfa
  
 
 
+<img width="960" height="720" alt="! description of image here (boy_bryant_kusner_equat_012 png)" src="https://github.com/user-attachments/assets/55a81bd7-478d-4de2-a006-be45cfe605e2" />
