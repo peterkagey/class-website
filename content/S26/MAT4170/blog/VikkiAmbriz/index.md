@@ -21,8 +21,7 @@ Below are some valid examples of Latin Squares of order *n* = 3:
 
 Below is a short video I created showing how Latin square ideas can help rotate nurses fairly across departments. Please excuse my stuttering; I was nervous!
 
-https://gist.github.com/user-attachments/assets/a6d45a21-957a-488d-a1c7-c566a2ec94db
-
+[![Watch my video](https://img.youtube.com/vi/iNrT0FwkGoo/0.jpg)](https://youtu.be/iNrT0FwkGoo)
 
 *Figure 1. A nurse scheduling schedule based on Latin square structure.*
 
