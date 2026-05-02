@@ -93,7 +93,7 @@ We can construct a normal magic square of order $n = 2k+1$ where $k$ is some int
 * We continue again in this manner (up one row, right one column, then move down one row) until we reach n^2. 
 
 For example, I've created a normal magic square of order 3 below:
-![Magic Square Construction 3x3][https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif]
+![Magic Square Construction 3x3](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHM4MnB2Y2RyZ2l2dWZrOGw2bGw4c3N2YW5md3lib2o1d202eDRyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nAUYcNHYtSWkJerT65/giphy.gif)
 
 Another way to construct odd magic squares, one can utilize the Bachet method created by Claude-Gaspar Bachet de Méziriac shown below for a normal magic square of order 5. 
 
