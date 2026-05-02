@@ -104,7 +104,7 @@ Written out mathematically, we say $f(\theta; x) = f(\theta; g \cdot x)$ for all
 
 The above is a visualization of convolutional layer in a CNN. Notice that each element of the output is produced from a neighborhood of the input. Crucially, the **filter** that is applied to each patch of the input is **the same**. 
 
-![[attachments/Pasted image 20260501163010.png]]
+<img width="960" height="960" alt="image" src="https://gist.github.com/user-attachments/assets/287821ba-48be-4a89-9e3d-e3189b2b5847" />
 
 On the top left, we have an input, and on the top right, we have an output of the convolution. On the bottom left, we have the input, with some translation $g \in E_2$ applied to it. In this case, $g$ is to translate 1 unit down. 
 
