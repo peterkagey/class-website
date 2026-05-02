@@ -100,4 +100,4 @@ For example, I've created a normal magic square of order 3 below:
 
 Another way to construct odd magic squares, one can utilize the Bachet method created by Claude-Gaspar Bachet de Méziriac shown below for a normal magic square of order 5. 
 
-![Bechat method 5x5](IMG_1175.JPG)
+![Bechat method 5x5](IMG_1175.jpg)
