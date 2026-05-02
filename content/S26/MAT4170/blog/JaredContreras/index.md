@@ -22,7 +22,7 @@ After much trepidation, I've decided to do my blog post on a particular group:
    
   The matrix above describes the aforementioned rotation centered around the z-axis, and is visualized as continuous rotation on the 3D rendering of the cube from $\theta = 0$ to $\theta = 2\pi$.  
   <div align="center">
-  <img width="200" height="200" alt="look at my cube" src="https://gist.github.com/user-attachments/assets/70add7ce-775a-4bcf-ae79-96ad0df9a8cd" />
+  <img width="200" height="200" alt="look at my cube" src="content/S26/MAT4170/blog/JaredContreras/Z_axis_rotation.gif" />
    </div>
    
 The matrix listed above us descibes as the rotational matrix of the z-axis, and is one of three forms of matrices included in
