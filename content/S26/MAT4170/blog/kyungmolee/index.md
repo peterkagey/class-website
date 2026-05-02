@@ -16,8 +16,7 @@ So, we could have like:
 
 
 
-<img width="500" height="100" alt="image" src="https://gist.github.com/user-attachments/assets/939f591d-1170-4bd9-9b6c-955e9f99e448" />
-
+<img src="image.png" alt="description of image">
 
 
 So, what you did informally is the free monoid. You did not know, but you did!How do you know you did this free monoid?
