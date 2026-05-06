@@ -103,8 +103,8 @@ In flat space, it is very natural for us to compare vectors at different points 
 
 Geodesics are the curved space generalization of the idea of a straight line in Euclidean space. More specifically, a geodesic path is the path taken in which the tangent vectors measured at the initial point will change the least. The computation of geodesics allow us to find the shortest path along a manifold, which is particularly important, as it tells us the trajectories of free-falling objects under the influence of gravity.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=uHkPHyCi6hU" frameborder="0" allowfullscreen></iframe>
- 
+<iframe width="973" height="547" src="https://www.youtube.com/embed/uHkPHyCi6hU" title="2D Shwarzshild Surface Visualization Using Mathematica V1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **Figure 3:** A visualization of the Schwarzschild surface. This video shows a plot of the 2-dimensional spatial geometry surrounding a black hole at the origin in 3-dimensional Euclidean space. The mass of the black hole at the center increases as a funciton of time in this case. Note that the 2-dimensional space is flat (zero curvature) at the start when the black hole's mass is zero but begins curving more as the mass increases. One can visualize an object traversing the space around the black hole following a geodesic path when under only gravitational influence by thinking of a small marble spiraling down a funnel.
 
 ### A Brief Summary
