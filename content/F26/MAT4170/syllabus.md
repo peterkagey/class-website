@@ -96,8 +96,7 @@ Visiting student hours is one of the best ways you can spend your time to suppor
   <tr><td>In-class participation/quizzes</td><td>20%</td></tr>
   <tr><td>Take-home exams</td><td>10%</td></tr>
   <tr><td>Proof portfolio</td><td>10%</td></tr>
-  <tr><td>Group project (assignment)</td><td>10%</td></tr>
-  <tr><td>Group project (video)</td><td>10%</td></tr>
+  <tr><td>Group project</td><td>20%</td></tr>
 </table>
 <p>
   \[

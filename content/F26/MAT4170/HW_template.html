@@ -20,31 +20,38 @@ eleventyExcludeFromCollections: true
 <hr>
 <details open>
   <summary>Exercise 1 [2]</summary>
-  <i>Either save this exercise for last, or do it incrementally as you work on the homework. You may need to add <code>\usepackage{xcolor}</code> to the preamble of your document.</i>
+  <i>Either save this exercise for last, or do it incrementally as you work on the homework.</i>
   <ol>
     <li>
-      Once you have completed the assignment, fill out the following template listing collaborators, tools, and a reflection on each problem you worked on.
-      <pre><code>Collaborators: Alex, Ross, Margaret, Joan
-
-\noindent
-Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out how to [...]. On Choice Exercise 7, I watched a YouTube video to [...].
-\begin{enumerate}
-  \item[Exercise 1]
-    {\color{red} Points attempted: 7}.
-    {\color{blue} Time spent: 56 minutes}.
-    {\color{brown} Difficulty: 3/10}.
-    {\color{green!50!black} Self-assessed score: 6/7}.
-    {\color{magenta} Questions/Feedback: None.}
-  \item[Choice Exercise 7]
-    {\color{red} Points attempted: 3}.
-    {\color{blue} Time spent: 18 minutes}.
-    {\color{brown} Difficulty: 7/10}.
-    {\color{green!50!black} Self-assessed score: 3/3}.
-    {\color{magenta} Questions/Feedback: How should I be thinking about gradients?}
-\end{enumerate}</code></pre>
+      At the beginning of  document, let me know if and how you used LLMs or other AI tools, question and answer sites, or other similar resources. For example, <pre><code>\section*{Exercise 1}
+  \textbf{Tools and resources used:} On Exercise 4, I used ChatGPT to help me figure out how to [...]. On Choice Exercise 7, I watched the YouTube video \url{https://www.youtube.com/watch?v=m47h47CpP} to [...].</code></pre>
     </li>
     <li>
-      Choose one or two problems that you would most like feedback on, with a brief note of what you would most like me to focus on. (This could be "mathematical correctness," "grammar," "notation," "formatting," or anything else.)
+      Once you have completed the assignment, do the following for each exercise you attempted where $n \ge 2$:
+      <ol>
+        <li>
+          Start each write-up by filling out the following
+          <pre><code>\section*{Exercise n}
+  \begin{description}
+    \item[Points attempted:]
+    \item[Self-assessed score:]
+    \item[Time spent:]
+    \item[Difficulty:]
+    \item[Questions/Feedback:]
+  \end{description}
+\end{document}</code></pre>
+          Where you specify the number of points you attempted (e.g. 7), your self-assessed score on that (e.g. 6/7), approximately much time you spent on the problem (e.g. 52 minutes), your difficulty rating (e.g. 6/10), and anything you want me to pay attention to while grading (e.g. "none" or "did I use the right notation for the morphism?" or "can you give me feedback on my grammar?").
+        </li>
+        <li>
+          Make sure that each problem ends with <code>\pagebreak</code>
+        </li>
+      </ol>
+    </li>
+    <li>
+      Make sure that your document ends with <pre><code>\pagebreak
+\lstinputlisting{HW_n.tex}
+\end{document}</code></pre>
+      where <code>HW_n.tex</code> is the name of your file. (Give each homework write-up a different name instead of overwriting the same document.)
     </li>
   </ol>
 </details>
