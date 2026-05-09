@@ -55,7 +55,7 @@ As aforementioned, Wolfram has a sound library built into the program, and has p
 ## Playing and Plotting Functions from Mathematica
 ___
 
-Triggering sounds with different frequencies can be produced using trigonometric functions in Mathematica as well as the aforementioned methods. For example, if we create a basic sine wave, using $\\sin(n*2\\pi*t)$ or $\\cos(n*2\\pi*t)$ will create a frequency oscillating at n Hertz.
+Triggering sounds with different frequencies can be produced using trigonometric functions in Mathematica as well as the aforementioned methods. For example, if we create a basic sine wave, using $\\sin(2\\pi nt)$ or $\\cos(2\\pi nt)$ will create a frequency oscillating at $n$ Hertz.
 
 Modifying this further can creating a "warbling" effect on the pitch, making it vary for a more sci-fi sound. (Multiplying two trigonometric functions together can achieve this effect)
 
