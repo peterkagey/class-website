@@ -6,7 +6,7 @@ type: blog
 courseNumber: MAT4170
 term: S26
 layout: layouts/blog.njk
-------
+---
 
 Interestingly enough, Möbius transformations are one of those topics in mathematics that at first glance seem purely algebraic, however the deeper one studies them the more geometry, symmetry, and abstract algebra begin to overlap. In a sense, Möbius transformations allow mathematicians to bend and distort the complex plane while still preserving important geometric structure. Straight lines suddenly become circles, infinity behaves like a legitimate point in space, and despite all this distortion, angles remain preserved. The mathematics behind this topic is not only elegant but surprisingly visual.
 
