@@ -20,21 +20,24 @@ What are the complex numbers? How do we formulate them? These are questions I ha
 
 A Complex Group? The Klein Bottle
 ============
-Tying in complex numbers to our class, a beautiful example of a group that relates to a beautiful geometry is the Klein bottle group, which we can eventually define with the help of the following group 
+Tying in complex numbers to our class, a beautiful example of a group that relates to a beautiful geometry is the Klein bottle group, which we can eventually define with the help of the following group
 $$H = \langle a,b  : aba^{-1} = b^{-1}\rangle.$$
-The Klein bottle is an object that only can truly exist in four spacial dimensions, and therefore cannot be accurately represented in our world or comprehended in its entirety by our minds. It has no volume because it is all one-sided. While the Klein bottle group is not complex by itself, we can think of the Klein bottle as being a result of various transformations on the complex plane. For example, we can define two explicit transformations over the complex plane. Namely, 
+The Klein bottle is an object that only can truly exist in four spacial dimensions, and therefore cannot be accurately represented in our world or comprehended in its entirety by our minds. It has no volume because it is all one-sided. While the Klein bottle group is not complex by itself, we can think of the Klein bottle as being a result of various transformations on the complex plane. For example, we can define two explicit transformations over the complex plane. Namely,
 $$a = z + 1$$
 $$b = \bar{z} + i$$
 where $z$ is a complex number and the bar over $z$ denotes the complex conjugate.
 
-![A 3D printed Klein bottle](klein_bottle.png)
+<figure>
+  <img src="klein_bottle.png" alt="A 3D printed Klein bottle">
+  <figcaption>A 3D printed Klein bottle</figcaption>
+</figure>
 
 These two maps each do something unique within the complex plane. The transformation $a$ takes any complex number, and shifts it to the right by one unit. It is a translation to the right by one unit in other words. The transformation $b$ takes any complex number and reflects it about the real axis before translating it upward by one. This is what is going on geometrically with these two transformations on the complex plane.
 
-Then define a left group action from H acting on the set of complex numbers which we will denote by 
-$H \cdot \mathbb{C} = \[ h \cdot z : e \cdot z = z, h_1 \cdot (h_2 \cdot z) =  (h_1h_2) \cdot z \].$ We can then partition the complex numbers into equivalence classes via their orbits. Recall that an orbit is given by $\mathbb{C}^h = \[ h \cdot z : h \in H \]$. Call the set of all the equivalence classes via our partition $\mathbb{C}/H$ which is also called the quotient space of $\mathbb{C}$ by the action of $H$. Let us explicitly state for clarification that the group $H$ is a group consisting of functions, or transformations, and the binary operation is function composition. The quotient space $\mathbb{C}/H$ has partitioned the complex numbers according to the transformations explicitly defined previously $a$ and $b$, as well as all the possible unique compositions of them. 
+Then define a left group action from H acting on the set of complex numbers which we will denote by
+$H \cdot \mathbb{C} = \[ h \cdot z : e \cdot z = z, h_1 \cdot (h_2 \cdot z) =  (h_1h_2) \cdot z \].$ We can then partition the complex numbers into equivalence classes via their orbits. Recall that an orbit is given by $\mathbb{C}^h = \[ h \cdot z : h \in H \]$. Call the set of all the equivalence classes via our partition $\mathbb{C}/H$ which is also called the quotient space of $\mathbb{C}$ by the action of $H$. Let us explicitly state for clarification that the group $H$ is a group consisting of functions, or transformations, and the binary operation is function composition. The quotient space $\mathbb{C}/H$ has partitioned the complex numbers according to the transformations explicitly defined previously $a$ and $b$, as well as all the possible unique compositions of them.
 
-Now we will examine only a strip of the complex plane that is of particular importance to us. Namely, the strip such that 
+Now we will examine only a strip of the complex plane that is of particular importance to us. Namely, the strip such that
 $$0 \leq \text{Re}(z) < 1.$$ Fortunately for us, we can describe every single point in the complex plane as being of the same equivalent class as one in this strip with repeated compositions of the transformation $a$. The transformation $b$ takes all vertical points in this strip and reflects them about the real axis as well as shifting them up one which is similar to twisting the bottle in on itself.
 
 Some Informal Intuition
@@ -49,9 +52,9 @@ Why Care at All?
 ============
 This is a great question and one I find myself asking all the time when I learn something new. With this idea of rebuilding the geometry of planes, we can greatly simplify complicated problems into much simpler ones if they respect the rules of the transformations.
 
-Allow me to present a specific example, and what better one than to give than a physics example. Consider the heat equation in two dimensions 
+Allow me to present a specific example, and what better one than to give than a physics example. Consider the heat equation in two dimensions
 $$\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}.$$
-Yes, this is a partial differential equation of three variables with two being second order derivatives. Normally, solving this explicitly is very difficult. But suppose you have the condition that $u(x+1,y,t)=u(x,y,t)$. This condition is very similar to what we observe with the Klein bottle transformations, but it is slightly different. Regardless, it makes the function $u$ periodic. So, every element $x + 1$ is in the same orbit as $x$ according to our transformation $a$. Then we restrict the $xy$-plane to a strip 
+Yes, this is a partial differential equation of three variables with two being second order derivatives. Normally, solving this explicitly is very difficult. But suppose you have the condition that $u(x+1,y,t)=u(x,y,t)$. This condition is very similar to what we observe with the Klein bottle transformations, but it is slightly different. Regardless, it makes the function $u$ periodic. So, every element $x + 1$ is in the same orbit as $x$ according to our transformation $a$. Then we restrict the $xy$-plane to a strip
 $$0 \leq x <1$$
 and we must introduce a condition where $u(0,y,t)=u(1,y,t)$ because we require that the function's structure is preserved. In other words, since $u(x+1,y,t)=u(x,y,t)$ on the normal plane, we must have the same be true on the new strip we are representing $u$ on.
 
