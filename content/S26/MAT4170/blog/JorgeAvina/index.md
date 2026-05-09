@@ -52,7 +52,7 @@ To better understand this visually, imagine a standard rectangular grid in the c
 
 The following demonstrates this idea through a before and after visualization:
 
-![Möbius Transformation Visualization](Möbius_Transformation_of_a_Grid.png)
+![Möbius Transformation Visualization](Möbius_Transformation_of_a_Grid1.png)
 
 The left image represents the original grid while the right image shows the transformed grid after applying
 
