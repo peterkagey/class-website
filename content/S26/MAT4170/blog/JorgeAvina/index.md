@@ -87,7 +87,7 @@ g & h
 \end{pmatrix}.
 $$
 
-This is not a coincidence. Every Möbius transformation naturally corresponds to a \(2\times2\) complex matrix. Interestingly enough, what initially appears to be a complicated rational function is actually deeply connected to linear algebra.
+This is not a coincidence. Every Möbius transformation naturally corresponds to a $2\times2$ complex matrix. Interestingly enough, what initially appears to be a complicated rational function is actually deeply connected to linear algebra.
 
 ---
 
