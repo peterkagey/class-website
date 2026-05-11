@@ -7,15 +7,6 @@ courseNumber: MAT4200
 term: S26
 layout: layouts/blog.njk
 ---
-[KyleTeats_index.md](https://github.com/user-attachments/files/27613915/KyleTeats_index.md)
-# MAT 4200 Blog Post
-
-**Author:** Kyle Teats
-**Date:** May 11, 2026
-
----
-
-# Unfolding Manifolds
 
 ## 1. What are Manifolds?
 
