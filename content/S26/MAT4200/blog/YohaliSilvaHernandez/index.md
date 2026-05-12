@@ -1,9 +1,9 @@
 ---
-title: Reinventing Pasta Geometry: Modeling, Failure, and Discovery Inspired by Pasta by Design
+title: "Reinventing Pasta Geometry: Modeling, Failure, and Discovery Inspired by Pasta by Design"
 author: Yohali Silva Hernandez
 date: 2026-05-11
 type: blog
-courseNumber: MAT4280
+courseNumber: MAT4200
 term: S26
 layout: layouts/blog.njk
 ---
