@@ -7,7 +7,6 @@ courseNumber: MAT4200
 term: S26
 layout: layouts/blog.njk
 ---
-# Modern Differential Geometry
 
 Differential geometry is a mathematical area of study that is at the foundation of modern physical scientific interpretations of the world and the universe around our world. It is the foundation of fields of study like the theory of relativity, and has applications to things like machining. Even concepts like Einstein's interpretation of space as a surface of "space-time" has its roots in differential geometry and manifolds. Modern differential geometry is based off of several key mathematical concepts, amongst which are manifolds, tangent spaces, and differentiable forms.
 

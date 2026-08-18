@@ -3,3 +3,4 @@ node_modules/
 .cache
 content/F25/MAT3100W/HW*_draft.md
 content/F25/MAT3100W/HW_template.md
+__local/
