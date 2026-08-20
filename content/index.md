@@ -1,12 +1,12 @@
 ---
 ---
-### Fall 2026 Classes
+# Fall 2026 Classes
   - [MAT 4111A](/F26/MAT4111A/): Putnam Preparation
   - [MAT 4170](/F26/MAT4170/): Introduction to Abstract Algebra I
   - [MAT 5010](/F26/MAT5010/): Introduction to Mathematical Typesetting
 
 ----
-# Previous classes
+## Previous classes
 
 ### Spring 2026
   - [MAT 4170](/S26/MAT4170/): Introduction to Abstract Algebra I
