@@ -18,7 +18,7 @@ layout: layouts/hw.njk
 <hr>
 
 <details open>
-  <summary>Exercise 1 [8]</summary>
+  <summary>Exercise 1 [8] <span style="font-size: small;">(\(\LaTeX\))</span></summary>
   <p>
     In this class we will be <i>writing</i> lots of mathematics. Throughout the term, we will be learning to use \( \LaTeX \) (pronounced LAY-teck or LAH-teck), which is the most common way for professionals to typeset mathematics.<a id="ref-1" href="#label-1"><sup>1</sup></a>
   </p>
@@ -26,7 +26,7 @@ layout: layouts/hw.njk
     We write our math as code, save the file with a <code>.tex</code> extension, and compile the file to get our final document (typically a PDF).
   </p>
   <ul>
-    <li>Download <a href="/assets/minimal_template.tex">this minimal \(\LaTeX\) homework template</a>, which has about 20 lines of header information.</li>
+    <li>Download <a href="/assets/template_with_source.tex">this minimal \(\LaTeX\) homework template</a>, which has about 20 lines of header information and an appendix which includes your raw code in the document.</li>
     <li>Go to <a href="https://www.overleaf.com/project">Overleaf</a>,<a id="ref-2" href="#label-2"><sup>2</sup></a> make an account if necessary, and start a new project.</li>
     <li>Click on the "upload" button in the upper left corner of the screen, and upload the <code>.tex</code> file you downloaded. The upload button looks like this: <img src="/assets/upload_button.png" alt="upload button" class="inline-img"/>.</li>
   </ul>
@@ -47,45 +47,69 @@ layout: layouts/hw.njk
       </li>
     </ol>
     </li>
-    <li>You can do one of two things for this next part. If you're new to \( \LaTeX \) you can just do the problems below. However, if you feel that you are already competent at writing \( \LaTeX \) (i) say so here, (ii) skip the remaining sub-problems associated with this problem (iii) set a timer for 20 minutes, (iv) try to learn a new \( \LaTeX \) skill (perhaps TikZ), and (v) post what you learned to the <code>#hints-questions-tips</code> Discord channel.<ol>
-      <li>
-        Look at the \( \LaTeX \) code below, and try to <i>guess</i> what it's going to look like when it compiles. (This is called display style math mode.)
-        <pre><code>The following integral converges: \[
+    <li>
+      Spend twenty minutes doing one of the following two options. (Click to expand the option.)
+      <details closed>
+        <summary class="plain">
+          <b>Option 1.</b> New to \( \LaTeX \)?
+        </summary>
+        <ol>
+          <li>
+            Look at the \( \LaTeX \) code below, and try to <i>guess</i> what it's going to look like when it compiles. (This is called display style math mode.)
+            <pre><code>The following integral converges: \[
   \int_{x=\varepsilon}^\infty \frac{1}{x^2} dx = \frac{1}{\varepsilon}.
 \]</code></pre>
-      Type (don't copy/paste) the above code in the section you just made. (You may need to scroll to the right to see the end of the code.)
-      <br>
-      Did the result look exactly how you expected? Say how it was the same or different.
-      </li>
-      <li>
-        Look at the following code and <u>guess</u> what you think it's going to do. Type (don't copy/paste) the following code in the section you just made. (This is called inline math mode.)
-        <pre><code>The following integral diverges: \(\int_1^\infty \frac{1}{x} dx.\)</code></pre>
-        Describe how the output was similar to or different from what you expected.
-      </li>
-      <li>
-        It's helpful to make lists for your homework, which you do using the <code>enumerate</code> environment like this:
-        <pre><code>\begin{enumerate}
+          Type (don't copy/paste) the above code in the section you just made. (You may need to scroll to the right to see the end of the code.)
+          <br>
+          Did the result look exactly how you expected? Say how it was the same or different.
+          </li>
+          <li>
+            Look at the following code and <u>guess</u> what you think it's going to do. Type (don't copy/paste) the following code in the section you just made. (This is called inline math mode.)
+            <pre><code>The following integral diverges: \(\int_1^\infty \frac{1}{x} dx.\)</code></pre>
+            Describe how the output was similar to or different from what you expected.
+          </li>
+          <li>
+            It's helpful to make lists for your homework, which you do using the <code>enumerate</code> environment like this:
+            <pre><code>\begin{enumerate}
   \item[2a.] (Move your response to Problem 2.2a here.)
   \item[2b.] (Move your response to Problem 2.2b here.)
   \item[2c.] Look! I made a list!
 \end{enumerate}</code></pre>
-      </li>
-      <li>
-          Think of a math symbol that you'd like to use, and go to <a href="https://detexify.kirelabs.org/classify.html">Detexify</a>, draw it, and include it here in math mode (e.g. <code>\(...\)</code>). Make sure to add it to your list you've already started <code>\item[2d.].</code>
-      </li>
-      <li>
-        What's something else you'd like to know how to do? Tell us in the <code>#hints-questions-tips</code> Discord channel.
-      </li>
-      <li>
-        After <code>\end{enumerate}</code>, add a <code>\pagebreak</code> to get ready for the next exercise.
-      </li>
-    </ol></li>
+          </li>
+          <li>
+              Think of a math symbol that you'd like to use, and go to <a href="https://detexify.kirelabs.org/classify.html">Detexify</a>, draw it, and include it here in math mode (e.g. <code>\(...\)</code>). Make sure to add it to your list you've already started <code>\item[2d.].</code>
+          </li>
+          <li>
+            What's something else you'd like to know how to do? Tell us in the <code>#hints-questions-tips</code> Discord channel.
+          </li>
+          <li>
+            After <code>\end{enumerate}</code>, add a <code>\pagebreak</code> to get ready for the next exercise.
+          </li>
+        </ol>
+      </details>
+      <details closed>
+        <summary class="plain">
+          <b>Option 2.</b> Already know \( \LaTeX \)?
+        </summary>
+        <ol>
+          <li>
+            Write a sentence about when you first started using \(\LaTeX\) and what kinds of documents you have used it for so far (e.g., homework, posters, research paper, etc.).
+          </li>
+          <li>
+            Set a timer for 20 minutes, and try to learn a new \( \LaTeX \) skill (perhaps <a href="https://www.overleaf.com/learn/latex/TikZ_package">TikZ</a>).
+          </li>
+          <li>
+            Post what you learned to the <code>#hints-questions-tips</code> Discord channel.
+          </li>
+        </ol>
+      </details>
+    </li>
   </ol>
 </details>
 
 <details open>
   <summary>
-    Exercise 2 [2 + 2]
+    Exercise 2 [2 + 2 + 2]
     <span style="font-size: small;">(Getting started)</span>
   </summary>
   <ol>
@@ -93,38 +117,110 @@ layout: layouts/hw.njk
       This part of the problem will have you get set up on Discord.
       <br>
       <i>(When you have exercises like this on your homework, you can just write "I did it!" in your writeup. Better yet, include a copy/paste of what you wrote on Discord or include a screenshot.)</i>
+      <br>
+      Accept the <a href="https://discord.gg/9m27h3sfhs">Discord invitation</a> to the class Discord server and introduce yourself in the <code>#introductions</code> channel by sharing an image and telling us what it is.
+    </li>
+    <li>[2]
+      In this class, we will be turning in assignments via Gradescope. Go to our class page on Canvas, click "Gradescope" in the menu on the left side of the page, and make sure that you can see the "Homework 0" assignment there. (Ask on Discord if you get stuck!)
+    </li>
+    <li>[2]
+      Spend 10&ndash;20 minutes completing the following survey. You can either handwrite your responses and include scans in your PDF, or you can write your responses in \(\LaTeX\) by using the following snippet: <pre><code>\begin{enumerate}
+  \item[a.] As a person, ...
+  \item[b.] As a student, ...
+  \item[c.] Outside of school, ...
+\end{enumerate}</code></pre>
       <ol>
         <li>
-          Accept the <a href="https://discord.gg/9m27h3sfhs">Discord invitation</a> to the class Discord server and introduce yourself in the <code>#introductions</code> channel by sharing an image and telling us what it is.
+          Tell me about yourself as a person.
+          <br>
+          <div style="font-style: italic; font-size:small; padding-left:2em">
+            For example, you might answer questions such as: What's important to you? What's your family structure like? What's something you wish more people knew about you?
+          </div>
         </li>
         <li>
-          In this class, we will be turning in assignments via Gradescope. Go to our class page on Canvas, click "Gradescope" in the menu on the left side of the page, and make sure that you can see the "Homework 0" assignment there. (Ask on Discord if you get stuck!)
+          Tell me about yourself as a student.
+          <br>
+          <div style="font-style: italic; font-size:small; padding-left:2em">
+            For example: What's your major? How long have you been at CPP? What is an academic topic that you're curious about? How are you feeling about this class? Is there anything that CPP offers that you want to try out?
+          </div>
+        </li>
+        <li>
+          What do you like to do outside of school?
+          <br>
+          <div style="font-style: italic; font-size:small; padding-left:2em">
+            e.g., play tennis, crochet, read fashion magazines, watch anime, make crossword puzzles, play video games
+          </div>
+        </li>
+        <li>
+          What's something you'd recommend that you don't think I've heard of?
+          <br>
+          <div style="font-style: italic; font-size:small; padding-left:2em">
+            e.g., a YouTube channel, a restaurant, a musical artist, a garden, an iPhone app, a method for tying your shoelaces
+          </div>
+        </li>
+        <li>
+          What would you like to do after college?
+          <br>
+          <div style="font-style: italic; font-size:small; padding-left:2em">
+            e.g. get a job with NASA, move back to your hometown, run for political office, ride your bike up to Canada.
+            (If you don't know yet, describe one possible future that you could see for yourself.)
+          </div>
+        </li>
+        <li>
+          Tell me about your favorite teacher. What made them so good?
+          <br>
+          <div style="font-style: italic; font-size:small; padding-left:2em">
+            This might be a high school English teacher, a religious leader, a tutor, a sports coach, or anyone else that you consider to be a teacher.
+          </div>
+        </li>
+        <li>
+          Anything else you want me to know? [Optional]
+          <br>
+          <div style="font-style: italic; font-size:small; padding-left:2em">
+            Are you a caretaker? Do you have a job that takes up a lot of your time? Do you have a long commute? Anything you're feeling worried about with this class? Are there ways that you need flexibility from me?
+          </div>
         </li>
       </ol>
     </li>
-    <li>...</li>
-    <li>[2]
-      Add the following snippet to second to last line of your document (the line before <code>\end{document}</code>) in order to include all of your source code at the end as an appendix. This helps me to give you feedback on your \( \LaTeX \) code and help you improve.
-      <pre><code>\pagebreak
-\appendix
-\section*{Source Code}
-\lstinputlisting[language=TeX]{examples.tex}</code></pre>
+  </ol>
+</details>
+
+<details open>
+  <summary>
+    Exercise 3 [4]
+    <span style="font-size: small;">(Collaborate)</span>
+  </summary>
+  <p>Do one of the following:</p>
+  <ol>
+    <li>
+      Spend at least 20 minutes working with a classmate outside of class on this assignment, and write who you worked with and a brief description of how it went.
+    </li>
+    <li>
+      Come to drop-in hours, ask at least one <i>specific</i> question. Write down the question you asked and what you learned in drop-in hours.
+    </li>
+    <li>
+      Do an additional 5 points worth of choice exercise problems, say which problems you chose, and put your answers under this exercise. (Do not tag that problem on Gradescope, only tag it here.)
     </li>
   </ol>
 </details>
 
 <details open>
-  <summary>Exercise 3 [5]</summary>
-  <p>Do one of the following:</p>
+  <summary>
+    Exercise 4 [4]
+    <span style="font-size: small;">(Mathematical writing)</span>
+  </summary>
   <ol>
-    <li>Spend at least 20 minutes working with a classmate outside of class on this assignment, and write who you worked with and a brief description of how it went.</li>
-    <li>Come to drop-in hours for at least 15 minutes, and ask at least one specific question.</li>
-    <li>Do an additional 5 points worth of choice exercise problems, say which problems you chose, and put your answers under this exercise. (Do not tag that problem on Gradescope, only tag it here.)</li>
+    <li>Read Francis Su's <a href="https://math.hmc.edu/su/wp-content/uploads/sites/10/2020/08/Guidelines-for-Good-Mathematical-Writing.pdf"><i>Guidelines for Good Mathematical Writing</i></a>.</li>
+    <li>Make a new <code>\section*{Exercise 4}</code> in your \( \LaTeX \) document. Underneath it, write a 3&ndash;5 sentence response discussing things that you thought were insightful, that you disagree with, or any questions you have.</li>
+    <li>Make at least one change to your Homework submission based on what you read, and state here what you changed.</li>
   </ol>
 </details>
 
 <details open>
-  <summary>Exercise 3 [4]</summary>
+  <summary>
+    Exercise 5 [4]
+    <span style="font-size: small;">(YouTube)</span>
+  </summary>
   <ol>
     <li>
       Watch the following 22-minute 3Blue1Brown video <a href="https://youtu.be/mH0oCDa74tE">Group theory, abstraction, and the 196,883-dimensional monster</a>. (The video gets into quite technical topics, and you are not expected to understand every detail.)
@@ -136,26 +232,42 @@ layout: layouts/hw.njk
   </ol>
 </details>
 
-<details open>
-  <summary>Exercise 4 [3]</summary>
-  <ol>
-    <li>Read Francis Su's <a href="https://math.hmc.edu/su/wp-content/uploads/sites/10/2020/08/Guidelines-for-Good-Mathematical-Writing.pdf"><i>Guidelines for Good Mathematical Writing</i></a>.</li>
-    <li>Make a new <code>\section*{Exercise 4}</code> in your \( \LaTeX \) document. Underneath it, write a 3&ndash;5 sentence response discussing things that you thought were insightful, that you disagree with, or any questions you have.</li>
-    <li>Make at least one change to your Homework submission based on what you read, and state here what you changed.</li>
-  </ol>
-</details>
-
 <h2>Choice Exercises</h2>
 <p>
-  <i>Do 8 points worth of the following choice exercises. Make sure to tag the appropriate problems when you submit on Gradescope.</i>
+  <i>Do 4 points worth of the following choice exercises. Make sure to tag the appropriate problems when you submit on Gradescope.</i>
 </p>
 
 <details open>
-  <summary>Choice Exercise 5 [3]</summary>
+  <summary>
+    Choice Exercise 6 [4]
+    <span style="font-size: small;">(Hang out!)</span>
+  </summary>
+  <i>(This can double-up with Exercise 3!)</i>
+  <ol>
+    <li>
+      Meet up for 25+ minutes with anyone in MAT 4170 that you haven't previously spent time with outside of class.
+    </li>
+    <li>
+      Spend at least 5 minutes talking about this class, but otherwise chat about whatever you want.
+    </li>
+    <li>
+      Take a selfie together! (You don't have to post it anywhere, but you can post it here or on the class Discord if you want!)
+    </li>
+    <li>
+      Write 2&ndash;3+ sentences about what you talked about.
+    </li>
+  </ol>
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 7 [4]
+    <span style="font-size: small;">(Reading)</span>
+  </summary>
   <ol>
     <li>Set a timer to read for 20 minutes. (You can stop reading when the timer goes off.)</li>
     <li>
-      Start reading Chapter 1 of Goodman. It's up to you whether you want to read quickly for coverage or slowly for depth, and it's up to you whether or not you want to work through the included problems.<a id="ref-3" href="#label-3"><sup>3</sup></a>
+      Start reading Chapter 1 of Goodman or any other chapter of a relevant abstract algebra or linear algebra resource. It's up to you whether you want to read quickly for coverage or slowly for depth, and it's up to you whether or not you want to work through any included problems.<a id="ref-3" href="#label-3"><sup>3</sup></a>
     </li>
     <li>
       Once the timer goes off, write three sentences: <ol>
@@ -168,28 +280,13 @@ layout: layouts/hw.njk
 </details>
 
 <details open>
-  <summary>Choice Exercise 6 [5]</summary>
+  <summary>
+    Choice Exercise 8 [4 + 4 + 4]
+    <span style="font-size: small;">(Linear Algebra)</span>
+  </summary>
+  <i>Do any subset of the following parts. Make sure to do all subparts within any attempted part. You can do this on a pen and paper and include a photo in your PDF.</i>
   <ol>
-    <li>
-      Meet up for 45 minutes with anyone in MAT 4170 that you haven't spent time with outside of class.
-    </li>
-    <li>
-      Spend at least 10 minutes talking about this class, but otherwise chat about whatever you want.
-    </li>
-    <li>
-      Take a selfie together! (You don't have to post it anywhere, but you can post it here or on the class Discord if you want!)
-    </li>
-    <li>
-      Write 2&ndash;3+ sentences about what you talked about.
-    </li>
-  </ol>
-</details>
-
-<details open>
-  <summary>Choice Exercise 7 [4 + 5 + 4 + 3]</summary>
-  <i>Do any subset of the following parts. Make sure to do all subparts within any attempted part.</i>
-  <ol>
-    <li><b>[4 pts]</b>
+    <li><b>[4]</b>
       Prove or disprove the following facts about linear algebra: <ol>
         <li>
           If \( A \in \mathbb{R}^{2 \times 2} \) is a real-valued \( 2\times2 \) matrix, and \( I_2 \) is the identity matrix, then there exists a matrix \( B \) such that \( AB = I_2 \).
@@ -201,11 +298,11 @@ layout: layouts/hw.njk
           For all pairs of matrices \( A, B \in \mathbb{R}^{2 \times 2} \), \( AB = BA \).
         </li>
         <li>
-          If \( A \) is an invertible matrix with inverse \( A^{-1} \), then \( A^{-1} \) is an invertible matrix with inverse \( (A^{-1})^{-1} = A \). <i>(Note that the \( -1 \) superscript is ``just notation,'' meaning we don't know <i> a priori</i> how multiplying matrices affects exponents, so it is not enough to simply show that \( -1 \times -1 = 1 \).)</i>
+          If \( A \) is an invertible matrix with inverse \( A^{-1} \), then \( A^{-1} \) is an invertible matrix with inverse \( (A^{-1})^{-1} = A \). <i>(Note that the \( -1 \) superscript is "just notation," meaning we don't know <i> a priori</i> how multiplying matrices affects exponents, so it is not enough to simply show that \( -1 \times -1 = 1 \).)</i>
         </li>
       </ol>
     </li>
-    <li><b>[5 pts]</b>
+    <li><b>[4]</b>
       <ol>
         <li>
           Suppose we have two \( n \times n \) matrices \( A \) and \( B \) with entries \( a_{ij} \) and \( b_{ij} \) respectively. Let \( C = AB \) be the result of matrix multiplication of \( A \) and \( B \). Describe \( c_{ij} \) (the entry in the \( i \)th row and \( j \)th column of \( C \)) in terms of \( a_{ij} \) and \( b_{ij} \).
@@ -217,7 +314,7 @@ layout: layouts/hw.njk
         </li>
       </ol>
     </li>
-    <li><b>[4 pts]</b>
+    <li><b>[4]</b>
       Give examples of the following: <ol>
         <li>A \( 3 \times 3 \) matrix \( A \) where any two of the columns are linearly independent, but all three are not.</li>
         <li>A \( 2 \times 2 \) matrix \( B \) where \( B \neq I_2 \), but \( B^3 = I_2 \). (Here \( I_2 \) is the \( 2 \times 2 \) identity matrix.)</li>
@@ -230,19 +327,6 @@ layout: layouts/hw.njk
             <li>the column vector \( (0,1,0)^T \) to \( (4,1,7)^T \), and</li>
             <li>the column vector \( (0,0,1)^T \) to \( (9,1,9)^T \).</li>
           </ol>
-        </li>
-      </ol>
-    </li>
-    <li><b>[3 pts]</b>
-      Before starting this problem, find an online linear algebra textbook and grab a pen and paper (or a tablet).<ol>
-        <li>
-          Start a timer for 30 minutes. While the timer is running, do any problems that look challenging and interesting.
-        </li>
-        <li>
-          Take a photo or screenshot of your work and include it here using <code>\includegraphics</code>. (Feel free to ask for help on Discord or you can use <u>any</u> tools to get it working. Just make sure the image looks nice in your PDF.)
-        </li>
-        <li>
-          Type a list of the ideas that you learned (or relearned).
         </li>
       </ol>
     </li>

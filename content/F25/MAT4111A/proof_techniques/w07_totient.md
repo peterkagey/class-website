@@ -16,4 +16,5 @@ week: 7
 {% include 'content/F25/MAT4111A/problems/totient-theorem/exponent_sum.html' %}
 
 ## Problem 3
+<h3>Power tower</h3>
 {% include 'content/F25/MAT4111A/problems/totient-theorem/power_tower.html' %}

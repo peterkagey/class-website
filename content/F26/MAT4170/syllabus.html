@@ -17,8 +17,7 @@ term: F26
       <li>Section 1: 10:00AM&ndash;11:50AM, Bldg 8 Rm 247
       <li>Section 2: 1:00PM&ndash;2:50PM, Bldg 8 Rm 210
     </ul>
-  <li>Discord link to be posted later.</li>
-  <!-- <li><a href="https://discord.com/channels/1463302619110969458/">Discord server</a> (<a href="https://discord.gg/9m27h3sfhs">Invitation</a>)</li> -->
+  <li><a href="https://discord.com/channels/1539798074170286191/">Discord server</a> (see Canvas for invitation link)</li>
 </ul>
 <h3>Instructor information</h3>
 <p>
@@ -28,17 +27,8 @@ term: F26
   <br>
   <i>You can call me  "Prof. Kagey," "Dr. Kagey," "Professor," or "Peter."</i>
 </p>
-<h3>Student drop-in hours</h3>
-<p>
-  I strongly encourage you to come to the student drop-in hours (i.e. "office hours" or "open hours") that are set aside for you in my calendar.
-Visiting student hours is one of the best ways you can spend your time to support your learning in college.
-</p>
-<ul>
-  <!-- <li>Tuesdays 10:00 AM&ndash;11:00 AM (<a href="https://cpp.zoom.us/j/5036560744">Zoom room</a>: 503 656 0744)</li> -->
-  <!-- <li>Wednesdays 9:30 AM&ndash;11:00 AM (Building 94, Room 218)</li> -->
-  <li>TBD</li>
-  <li>By appointment (email)</li>
-</ul>
+
+{% include 'content/F26/shared/syllabus_drop-in_hours.html' %}
 
 <h3>Course description</h3>
 <p>
@@ -196,88 +186,78 @@ Visiting student hours is one of the best ways you can spend your time to suppor
 <p>
   If it appears to me that students are using these tools in a way that undermines their learning or engagement, I may ask individual students to stop using these tools.
 </p>
-<h2>Resources</h2>
-<h3>Disability Resource Center</h3>
-<p>
-  Many students have disabilities both visible and invisible. If you have a disability, I encourage you to reach out to the <a href="https://www.cpp.edu/drc/index.shtml">Disability Resource Center</a> to coordinate specific accommodations.
-If there are any changes that I can make this course more accessible to you, I am eager to work with you&mdash;please reach out to me via email, after class, or in drop-in hours.
-</p>
 
-<h3>Care Center</h3>
-<p>
-  <i>The <a href="https://www.cpp.edu/broncoscarecenter/">Care Center</a> is a first-stop location for any student seeking assistance with basic needs and wellbeing services.</i>
-</p>
-
-<p>
-  The Care Center can help students who need access to Housing Resources, Food Resources, Financial Resources, Clothing Assistance, Advocacy and Support, and Case Management.
-</p>
-
-<h3>Centers for Transformation, Retention, Equity and Empowerment (TREE)</h3>
-<p>
-  <i>The Centers for Transformation, Retention, Equity and Empowerment create culturally engaging community spaces to validate and elevate our students' identities, lived experiences, and cultural wealth. We use cultural and identity-based retention frameworks to support the empowerment of our students as they actualize their educational, personal, and career goals.</i>
-</p>
-
-<p>TREE is made up of six unique Cultural and Identity Centers: Asian and Pacific Islander Student Center, Black Resource Center, César E. Chávez Center for Higher Education, Native American Student Center, Pride Center, and Womxn's Resource Center.
-</p>
-
-<h3>The Learning Resource Center</h3>
-<p>
-  <i>The Learning Resource Center's mission is to promote student success by providing programs and services that advance students' critical thinking, problem solving, and analytical skills.</i>
-</p>
+{% include 'content/F26/shared/syllabus_resources.html' %}
 
 <h2>Calendar</h2>
 <table class="weekly-calendar">
   <tr>
-    <td>1</td>
+    <td>0</td>
     <td class="date">August 20th</td>
     <td>
-      Introduction to <i>Introduction to Abstract Algebra I<i>
+      Introduction to <i>Introduction to Abstract Algebra I</i>
       <br>
       What is symmetry? What is abstraction?
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">2</td>
+    <td rowspan="2">1</td>
     <td class="date">August 25th</td>
     <td>
       Syllabus, class policies, and \(\LaTeX\)
       <br>
-      Dihedral groups.
+      Dihedral groups
+      <br>
+      Generators and relations
     </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td class="date">August 27th</td>
     <td>
-      Symmetric group ($S_n$) and Cayley (multiplication) tables
+      Symmetric group ($S_n$)
+      <br>
+      Cayley diagrams (explicit instructions)
       <br>
       <span class="due"><a href="../HW00/">HW 0</a> due at 8PM.</span>
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">3</td>
+    <td rowspan="2">2</td>
     <td class="date">September 1st</td>
     <td>
-      Group axioms and Cayley diagrams
+      Matrix groups
+      <br>
+      Isomorphism, informally
+      <br>
+      Cayley tables
     </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td class="date">September 3rd</td>
     <td>
+      Group axioms
+      <br>
       Group theory proofs
       <br>
-      <span class="due"><a href="/S26/MAT4170/HW01/">HW 1</a> due on Thursday, 2/5 at 8PM.</span>
+      <span class="due">HW 1 due on Thursday, 9/3 at 8PM.</span>
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">4</td>
+    <td rowspan="2">3</td>
     <td class="date">September 8th</td>
     <td>
-      Cyclic groups and subgroups
+      Abelian groups
+      <br>
+      Infinite groups
+      <br>
+      Cyclic groups
+      <br>
+      Subgroups
     </td>
   </tr>
   <tr>
@@ -286,12 +266,12 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Cosets and equivalence classes
       <br>
-      <span class="due"><a href="/S26/MAT4170/HW02/">HW 2</a> due on Thursday, 2/12 at 8PM.</span>
+      <span class="due">HW 2 due on Thursday, 9/10 at 8PM.</span>
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">5</td>
+    <td rowspan="2">4</td>
     <td class="date">September 15th</td>
     <td>Cosets</td>
   </tr>
@@ -301,12 +281,12 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Asynchronous class
       <br>
-      <span class="due"><a href="/S26/MAT4170/HW03/">HW 3</a> due on Thursday, 2/19 at 8PM.</span>
+      <span class="due">HW 3 due on Thursday, 9/17 at 8PM.</span>
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">6</td>
+    <td rowspan="2">5</td>
     <td class="date">September 22nd</td>
     <td>Lagrange's Theorem</td>
   </tr>
@@ -316,12 +296,12 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Quotient groups
       <br>
-      <span class="due"><a href="/S26/MAT4170/HW04/">HW 4</a> due on Thursday, 2/26 at 8PM.</span>
+      <span class="due">HW 4 due on Thursday, 9/24 at 8PM.</span>
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">7</td>
+    <td rowspan="2">6</td>
     <td class="date">September 29th</td>
     <td>Normal subgroups</td>
   </tr>
@@ -331,13 +311,12 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Isomorphism
       <br>
-      <span class="due"><a href="/S26/MAT4170/Exam1/">Exam 1</a> due on Thursday, 3/5 at 8PM.</span>
+      <span class="due">Exam 1 due on Friday, 10/2 at 11:59PM.</span>
     </td>
-
   </tr>
 
   <tr>
-    <td rowspan="2">8</td>
+    <td rowspan="2">7</td>
     <td class="date">October 6th</td>
     <td>Homomorphism</td>
   </tr>
@@ -347,12 +326,12 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Kernels and images of homomorphisms
       <br>
-      <span class="due"><a href="/S26/MAT4170/HW05/">HW 5</a> due on Thursday, 3/12 at 8PM.</span>
+      <span class="due">HW 5 due on Thursday, 10/8 at 8PM.</span>
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">9</td>
+    <td rowspan="2">8</td>
     <td class="date">October 13th</td>
     <td>Properties of kernels and images</td>
   </tr>
@@ -362,11 +341,11 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       First isomorphism theorem (and proof!)
       <br>
-      <span class="due"><a href="/S26/MAT4170/HW06/">HW 6</a> due on Thursday, 3/19 at 8PM.</span>
+      <span class="due">HW 6 due on Thursday, 10/15 at 8PM.</span>
     </td>
   </tr>
   <tr>
-    <td rowspan="2">10</td>
+    <td rowspan="2">9</td>
     <td class="date">October 20th</td>
     <td>Group theory review (part 1)</td>
   </tr>
@@ -376,11 +355,11 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Group theory review (part 2)
       <br>
-      <span class="due"><a href="/S26/MAT4170/HW07">HW 7</a> due on Thursday, 3/26 at 8PM</span>
+      <span class="due">HW 7 due on Thursday, 10/22 at 8PM</span>
     </td>
   </tr>
   <tr>
-    <td rowspan="2">11</td>
+    <td rowspan="2">10</td>
     <td class="date">October 27th</td>
     <td>Burnside's lemma</td>
   </tr>
@@ -390,11 +369,11 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Introduction to rings and polynomial rings
       <br>
-      <span class="due"><a href="/S26/MAT4170/HW08">HW 8</a> due on Thursday, 4/9 at 8PM</span>
+      <span class="due">HW 8 due on Thursday, 10/29 at 8PM</span>
     </td>
   </tr>
   <tr>
-    <td rowspan="2">12</td>
+    <td rowspan="2">11</td>
     <td class="date">November 3rd</td>
     <td>Commutative rings</td>
   </tr>
@@ -404,12 +383,14 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Integral domains
       <br>
-      <span class="due">Take-home <a href="../Exam2/">Exam 2</a> due on Friday, 11/6 at 8PM.</span>
+      Discussion of group projects
+      <br>
+      <span class="due">Exam 2 due on Friday, 11/6 at 8PM.</span>
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">13</td>
+    <td rowspan="2">12</td>
     <td class="date">November 10th</td>
     <td>
       Fields and their properties
@@ -421,32 +402,32 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Abstract vector spaces, matrix groups, or simple finite groups
       <br>
-      Discussion of group projects
-      <br>
-      <span class="due">Final draft of <a href="../term_paper/">student-submitted homework</a> due on Friday, 11/13 at 8PM.</span>
+      <span class="due">Draft of student-submitted homework</a> due on Friday, 11/13 at 8PM.</span>
     </td>
   </tr>
 
   <tr>
-    <td rowspan="2">14</td>
+    <td rowspan="2">13</td>
     <td class="date">November 17th</td>
     <td>
       Course evaluations
       <br>
       Group project work
+      <br>
+      <span class="due">Final draft of student-submitted homework</a> due on Wednesday, 11/18 at 11:59PM.</span>
     </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td class="date">November 19th</td>
     <td>
-      Group project work (Part I)
+      roup project work (Part I, online)
     </td>
   </tr>
   <tr>
-    <td rowspan="2">15</td>
+    <td rowspan="2">14</td>
     <td class="date">November 24th</td>
-    <td>Group project work (Part II)</td>
+    <td>Group project work (Part II, in person)</td>
   </tr>
   <tr>
     <td style="display:none"></td>
@@ -458,7 +439,7 @@ If there are any changes that I can make this course more accessible to you, I a
     </td>
   </tr>
     <tr>
-    <td rowspan="2">16</td>
+    <td rowspan="2">15</td>
     <td class="date">December 1st</td>
     <td>In-class group project videos (Part I)</td>
   </tr>

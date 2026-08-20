@@ -1,0 +1,33 @@
+---
+---
+
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+
+		<link rel="stylesheet" href="/css/index-2026-05-01.css">
+
+		{#- Add the heading-anchors web component to the JavaScript bundle #}
+		<script type="module">{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
+
+		<script src="/assets/mathjax-config-2025-11-10.js" defer></script>
+  	<script defer id="MathJax-script" src="/vendor/mathjax/src/bundle/tex-chtml.js"></script>
+	</head>
+
+<h1>{{ title }}</h1>
+<div style="font-size:larger; font-weight: 600;">
+  Name:
+</div>
+<hr>
+{{ content | safe }}
+<hr>
+<p>
+  <i>
+    Write a question, make an observation, or tell me something that you're curious about. For example, is there anything that you'd like to see on the next homework assignment or that you'd like to spend more time on in the next class?
+  </i>
+</p>
