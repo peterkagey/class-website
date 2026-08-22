@@ -2,7 +2,18 @@
 layout: layouts/base.njk
 ---
 
-<h1 style="margin-bottom:0em;">Class notes</h1>
-<div>{{ date | htmlDateString }}</div>
-<hr>
-{{ content | safe }}
+<script>
+  if (new URLSearchParams(location.search).get('p') === '1') {
+    document.head.insertAdjacentHTML('beforeend', `<style>
+      body > :not(main) { display: none !important; }
+      main { width: 100% !important; margin: 0 !important; }
+    </style>`);
+  }
+</script>
+
+<div id="print-show">
+  <h1 style="margin-bottom:0em;">Class notes</h1>
+  <div>{{ date | htmlDateString }}</div>
+  <hr>
+  {{ content | safe }}
+</div>
