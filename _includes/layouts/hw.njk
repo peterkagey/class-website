@@ -72,6 +72,17 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
+{% elif courseNumber == "MAT5010" and term == "F26" and type == "assignment" %}
+<h1>{{ title }}</h1>
+
+<p class="post-metadata">
+	<b>Due on {{ page.date | readableDate }} at 2:50PM on <a href="https://www.gradescope.com/courses/1236231">Gradescope</a>.</b>
+</p>
+
+{{ content | safe }}
+
 {% else %}
+
 <h1>This page hasn't been written yet :(</h1>
+
 {% endif %}

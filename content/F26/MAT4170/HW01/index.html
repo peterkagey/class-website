@@ -6,13 +6,15 @@ courseNumber: MAT4170
 term: F26
 date: 2026-09-03
 layout: layouts/hw.njk
-permalink: false
-eleventyExcludeFromCollections: true
 ---
 
 <h2>Goals</h2>
 <ul>
-  <li>[...]</li>
+  <li>Collaborate with your classmates!</li>
+  <li>Practice with the dihedral groups and symmetric groups</li>
+  <li>Quiz review or \(\LaTeX\) practice</li>
+  <li>Explore some details of \(S_n\)</li>
+  <li>Write some code</li>
 </ul>
 <!-- <h2>Change log</h2>
 <ul>
@@ -26,7 +28,7 @@ eleventyExcludeFromCollections: true
   </summary>
   <ol>
     <li>[3]
-      Starting with Exercise 2, preface each each exercise with the following reflection.
+      Preface each each exercise (except for this one) with the following reflection.
       <pre><code>\section*{Exercise n}
 \begin{description}
   \item[Points attempted:]
@@ -35,15 +37,14 @@ eleventyExcludeFromCollections: true
   \item[Difficulty:]
   \item[Tools/resources/collaborators:]
   \item[Questions/Feedback:] % Fill out for up to two exercises
-\end{description}
-\end{document}</code></pre>
+\end{description}</code></pre>
       Where you specify...
       <ul>
         <li>the number of points you attempted (e.g. 7),</li>
         <li>your self-assessed score out of that number of points (e.g. 6/7),</li>
         <li>approximately much time you spent on the exercise (e.g. 52 minutes),</li>
         <li>your assessment of the difficulty of the exercise (e.g. 8/10),</li>
-        <li>any tools you used (e.g. LLMs or other AI tools), resources you used that aren't listed in the syllabus (e.g. Math StackExchange), and any collaborators you worked with on this exercise. Make sure to state what you learned from these resources.</li>
+        <li>any tools you used (e.g. LLMs or other AI tools), resources you used that aren't listed in the syllabus (e.g. Math StackExchange) and any collaborators you worked with on this exercise. (Remember to state what you learned from these resources.)</li>
         <li>and (for 0&ndash;2 exercises) notes of what you would like feedback on (e.g.  "did I use the right notation for the morphism?" or "can you give me feedback on my grammar?").</li>
       </ul>and
     </li>
@@ -82,16 +83,99 @@ eleventyExcludeFromCollections: true
       Come to drop-in hours, ask at least one <i>specific</i> question. Write down the question you asked and what you learned in drop-in hours.
     </li>
     <li>
-      Do an additional 5 points worth of choice exercise problems, say which problems you chose, and put your answers under this exercise. (Do not tag that problem on Gradescope, only tag it here.)
+      Do an additional 5 points worth of choice exercises, say which exercise you chose, and put your answers under this exercise. (Do not tag that exercise as a choice exercise on Gradescope, only tag it here.)
     </li>
   </ol>
 </details>
 
+<details open>
+  <summary>
+    Exercise 3 [1]
+    <span style="font-size: small;">(Discord)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW01/exercises/discord.html' %}
+</details>
+
+<details open>
+  <summary>
+    Exercise 4 [1]
+    <span style="font-size: small;">(Binary operations)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW01/exercises/binary_operations.html' %}
+</details>
+
+<details open>
+  <summary>
+    Exercise 5 [4]
+    <span style="font-size: small;">(Dihedral group)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW01/exercises/dihedral_group.html' %}
+</details>
+
+<details open>
+  <summary>
+    Exercise 6 [5]
+    <span style="font-size: small;">(Symmetric group)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW01/exercises/symmetric_group.html' %}
+</details>
+
 <h2>Choice Exercises</h2>
 <p>
-  <i>Do 15 points worth of the following choice exercises. Make sure to tag the appropriate problems when you submit on Gradescope.</i>
+  <i>Do 10 points worth of the following choice exercises. Make sure to tag the appropriate problems when you submit on Gradescope.</i>
 </p>
 
+<details open>
+  <summary>
+    Choice Exercise 7 [2]
+    <span style="font-size: small;">Quiz review</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW01/exercises/quiz_review.html' %}
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 8 [≤6]
+    <span style="font-size: small;">(\(\LaTeX\) practice)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW01/exercises/latex_tips.html' %}
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 9 [≤9]
+    <span style="font-size: small;">(Symmetry practice)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW01/exercises/practice.html' %}
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 10 [≤10] ⭐️
+    <span style="font-size: small;">(Generating \(S_n\))</span>
+  </summary>
+  <i>The star indicates that this is a previous student's favorite choice exercise.</i>
+  {% include 'content/F26/MAT4170/HW01/exercises/choice_adjacent_transpositions.html' %}
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 11 [≤10]
+    <span style="font-size: small;">(programming)</span>
+  </summary>
+  <i>I will try to have a programming exercise on most homework assignments, which you can complete in any programming language of your choice. If you would like to learn to code for the first time, please come chat with me and I can help you get started!</i>
+  {% include 'content/F26/MAT4170/HW01/exercises/programming.html' %}
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 12 [≤3 + ≤3]
+    <span style="font-size: small;">(video/self-study)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW01/exercises/self_study.html' %}
+</details>
+
+{% include 'content/F26/MAT4170/HW01/exercises/final_choice_exercise.html' %}
 <hr>
 
 <ol class="footnotes">

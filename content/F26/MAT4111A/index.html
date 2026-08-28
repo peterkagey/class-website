@@ -19,13 +19,11 @@ courseTitle: Putnam Preparation
 </ul>
 
 <h2>Weekly notes</h2>
-<div class="three-column grid by-columns">
-{% for post in collections.all | reverse %}{% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "notes") %}
-  <a href="{{ post.url }}">
-    <div>
-      <!-- <div class="hw-link"> -->
-        Week {{ post.data.week }}
-    </div>
-  </a>
-{% endif %}{% endfor %}
+<ul>
+{% for post in collections.all | reverse %}
+  {% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "notes") %}
+  <li><a href="{{ post.url }}">Week {{ post.data.week }}: {{post.data.title}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
 </div>
