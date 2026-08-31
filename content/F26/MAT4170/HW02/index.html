@@ -6,7 +6,6 @@ courseNumber: MAT4170
 term: F26
 date: 2026-09-10
 layout: layouts/hw.njk
-permalink: false
 eleventyExcludeFromCollections: true
 ---
 
@@ -19,75 +18,41 @@ eleventyExcludeFromCollections: true
   <li><i>(2026-xx-xx xx:xx)</i>[...]</li>
 </ul> -->
 <hr>
+<h2>Reflect and Collaborate</h2>
 <details open>
   <summary>
     Exercise 1 [5]
-    <span style="font-size: small;">(Reflection)</span>
+    <span style="font-size: small;">(Reflection and formatting)</span>
   </summary>
-  <ol>
-    <li>[1]
-      Read the feedback I gave on HW 0 on Gradescope, and write at least one reflection sentence about it.
-    </li>
-    <li>[3]
-      Starting with Exercise 2, preface each each exercise with the following reflection.
-      <pre><code>\section*{Exercise n}
-\begin{description}
-  \item[Points attempted:]
-  \item[Self-assessed score:]
-  \item[Time spent:]
-  \item[Difficulty:]
-  \item[Tools/resources/collaborators:]
-  \item[Questions/Feedback:] % Fill out for up to two exercises
-\end{description}
-\end{document}</code></pre>
-      Where you specify...
-      <ul>
-        <li>the number of points you attempted (e.g. 7),</li>
-        <li>your self-assessed score out of that number of points (e.g. 6/7),</li>
-        <li>approximately much time you spent on the exercise (e.g. 52 minutes),</li>
-        <li>your assessment of the difficulty of the exercise (e.g. 8/10),</li>
-        <li>any tools you used (e.g. LLMs or other AI tools), resources you used that aren't listed in the syllabus (e.g. Math StackExchange), and any collaborators you worked with on this exercise. Make sure to state what you learned from these resources.</li>
-        <li>and (for 0&ndash;2 exercises) notes of what you would like feedback on (e.g.  "did I use the right notation for the morphism?" or "can you give me feedback on my grammar?").</li>
-      </ul>and
-    </li>
-    <li>[1]
-      Do the following formatting-related checks:
-      <ol>
-        <li>
-          You have named your \(\LaTeX\) file <code>HW_{{number}}.tex</code>, updated the <code>\title{...}</code> to {{title}}, and listed yourself as the <code>\author{...}</code> on the assignment.
-        </li>
-        <li>
-          Each exercise ends with <code>\pagebreak</code>, ensuring that the next exercise starts on a new page.
-        </li>
-        <li>
-          Your document ends with the following snippet which will display your \(\LaTeX\) code as an appendix. <pre><code>\pagebreak
-\appendix
-\section*{Source Code}
-\lstinputlisting[language=TeX]{HW_{{number}}.tex}
-\end{document}</code></pre>
-        </li>
-      </ol>
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW02/exercises/reflect.html' %}
 </details>
 
 <details open>
   <summary>
-    Exercise 3 [5]
+    Exercise 2 [5]
     <span style="font-size: small;">(Collaborate)</span>
   </summary>
-  <p>Do one of the following:</p>
   <ol>
-    <li>
-      Spend at least 20 minutes working with a classmate outside of class on this assignment, and write who you worked with and a brief description of how it went.
-    </li>
-    <li>
-      Come to drop-in hours, ask at least one <i>specific</i> question. Write down the question you asked and what you learned in drop-in hours.
-    </li>
-    <li>
-      Do an additional 5 points worth of choice exercise problems, say which problems you chose, and put your answers under this exercise. (Do not tag that problem on Gradescope, only tag it here.)
-    </li>
+    <li>[1] Post on Discord with ... </li>
+    <li>[4] {% include 'content/F26/MAT4170/HW02/exercises/collaborate.html' %}</li>
   </ol>
+</details>
+
+<h2>Required Exercises</h2>
+<details open>
+  <summary>
+    Exercise 3 [5]
+    <span style="font-size: small;">(Cayley diagram)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW02/exercises/cayley_diagram.html' %}
+</details>
+
+<details open>
+  <summary>
+    Exercise 4 [5]
+    <span style="font-size: small;">(...)</span>
+  </summary>
+  [...]
 </details>
 
 <h2>Choice Exercises</h2>
@@ -97,11 +62,45 @@ eleventyExcludeFromCollections: true
 
 <details open>
   <summary>
-    Choice Exercise [] ⭐️
-    <span style="font-size: small;">(Generating \(S_n\))</span>
+    Choice Exercise 5 [2]
+    <span style="font-size: small;">(Quiz review &mdash; TODO)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW02/exercises/quiz_review.html' %}
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 6 [≤6]
+    <span style="font-size: small;">(Symmetric group practice)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW02/exercises/symmetric_group.html' %}
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 6 [≤15]
+    <span style="font-size: small;">(programming)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW02/exercises/openscad.html' %}
+</details>
+
+
+<details open>
+  <summary>
+    Choice Exercise [4] ⭐️
+    <span style="font-size: small;">(Cayley polytope)</span>
   </summary>
   <i>The star indicates that this is a previous student's favorite choice exercise.</i>
-  [Based on HW6.6 (S26)]
+  {% include 'content/F26/MAT4170/HW02/exercises/cayley_polytope.html' %}
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise [4]
+    <span style="font-size: small;">(Self-study)</span>
+  </summary>
+  <p>Watch $30$ minutes worth of Professor Macauley's videos from his <a href="https://www.youtube.com/playlist?list=PLwV-9DG53NDxU337smpTwm6sef4x-SCLv">Visual Group Theory</a> playlist on YouTube. Feel free to skip around but try to find the sweet spot between challenging and understandable. Write at least three sentences about what you understood, didn't understand, are curious about, etc.</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vzEObOzsSKY?si=3EDDDgK-dBfWGMMH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
 {% include 'content/F26/MAT4170/HW01/exercises/final_choice_exercise.html' %}

@@ -1,0 +1,15 @@
+---
+title: 'MAT 4170 Notes'
+layout: layouts/base.njk
+term: F26
+courseNumber: MAT4170
+courseTitle: Introduction to Abstract Algebra I
+---
+<h2>Notes</h2>
+<ul>
+  {% for post in collections.all | reverse %}{% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "notes") %}
+  <li>
+    <a href="{{ post.url }}">Week {{ post.data.week }} ({{ post.data.day }})</a>
+  </li>
+  {% endif %}{% endfor %}
+</ul>

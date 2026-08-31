@@ -1,0 +1,45 @@
+<ol>
+  <li>[1]
+    Read the feedback I gave on HW {{ number - 2 }} on Gradescope, and write at least one reflection sentence about it.
+  </li>
+  <li>[3]
+    Starting with Exercise 2, preface each each exercise with the following reflection.
+    <pre><code>\section*{Exercise n}
+\begin{description}
+\item[Points attempted:]
+\item[Self-assessed score:]
+\item[Time spent:]
+\item[Difficulty:]
+\item[Tools/resources/collaborators:]
+\item[Questions/Feedback:] % Fill out for up to two exercises
+\end{description}
+\end{document}</code></pre>
+    Where you specify...
+    <ul>
+      <li>the number of points you attempted (e.g. 7),</li>
+      <li>your self-assessed score out of that number of points (e.g. 6/7),</li>
+      <li>approximately much time you spent on the exercise (e.g. 52 minutes),</li>
+      <li>your assessment of the difficulty of the exercise (e.g. 8/10),</li>
+      <li>any tools you used (e.g. LLMs or other AI tools), resources you used that aren't listed in the syllabus (e.g. Math StackExchange), and any collaborators you worked with on this exercise. Make sure to state what you learned from these resources.</li>
+      <li>and (for 0&ndash;2 exercises) notes of what you would like feedback on (e.g.  "did I use the right notation for the morphism?" or "can you give me feedback on my grammar?").</li>
+    </ul>and
+  </li>
+  <li>[1]
+    Do the following formatting-related checks:
+    <ol>
+      <li>
+        You have named your \(\LaTeX\) file <code>HW_{{number}}.tex</code>, updated the <code>\title{...}</code> to {{title}}, and listed yourself as the <code>\author{...}</code> on the assignment.
+      </li>
+      <li>
+        Each exercise ends with <code>\pagebreak</code>, ensuring that the next exercise starts on a new page.
+      </li>
+      <li>
+        Your document ends with the following snippet which will display your \(\LaTeX\) code as an appendix. <pre><code>\pagebreak
+\appendix
+\section*{Source Code}
+\lstinputlisting[language=TeX]{HW_{{number}}.tex}
+\end{document}</code></pre>
+      </li>
+    </ol>
+  </li>
+</ol>
