@@ -1,0 +1,46 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer NW -->
+  <circle cx="5" cy="5" r="5"/>
+  <!-- Inner NW -->
+  <g transform="translate(30, 30)">
+    <circle cx="5" cy="5" r="5"/>
+  </g>
+  <!-- Outer NE -->
+  <g transform="translate(90, 0)">
+    <circle cx="5" cy="5" r="5"/>
+  </g>
+  <!-- Inner NE -->
+  <g transform="translate(60, 30)">
+    <circle cx="5" cy="5" r="5"/>
+  </g>
+  <!-- Outer SW -->
+  <g transform="translate(0, 90)">
+    <circle cx="5" cy="5" r="5"/>
+  </g>
+  <!-- Inner SW -->
+  <g transform="translate(30, 60)">
+    <circle cx="5" cy="5" r="5"/>
+  </g>
+  <!-- Outer SE -->
+  <g transform="translate(90, 90)">
+    <circle cx="5" cy="5" r="5"/>
+  </g>
+  <!-- Inner SE -->
+  <g transform="translate(60, 60)">
+    <circle cx="5" cy="5" r="5"/>
+  </g>
+  <path d="M 88,5 12,5" stroke="#060" marker-end="url(#arrow)"/>
+  <path d="M 5,12 5,88" stroke="#060" marker-end="url(#arrow)"/>
+  <path d="M 12,95 88,95" stroke="#060" marker-end="url(#arrow)"/>
+  <path d="M 95,88 95,12" stroke="#060" marker-end="url(#arrow)"/>
+
+  <path d="M 42,35 58,35" stroke="#060" marker-end="url(#arrow)"/>
+  <path d="M 35,58 35,42" stroke="#060" marker-end="url(#arrow)"/>
+  <path d="M 58,65 42,65" stroke="#060" marker-end="url(#arrow)"/>
+  <path d="M 65,42 65,58" stroke="#060" marker-end="url(#arrow)"/>
+
+  <path d="M 10,10 30,30" stroke="#00A" stroke-dasharray="2"/>
+  <path d="M 90,90 70,70" stroke="#00A" stroke-dasharray="2"/>
+  <path d="M 10,90 30,70" stroke="#00A" stroke-dasharray="2"/>
+  <path d="M 90,10 70,30" stroke="#00A" stroke-dasharray="2"/>
+</svg>

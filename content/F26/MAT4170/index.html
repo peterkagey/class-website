@@ -25,16 +25,13 @@ courseTitle: Introduction to Abstract Algebra I
 </div>
 
 <h2>Notes</h2>
-<div class="three-column grid by-columns">
+<ul>
 {% for post in collections.all | reverse %}{% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "notes") %}
-  <a href="{{ post.url }}">
-    <div>
-      <!-- <div class="hw-link"> -->
-        Week {{ post.data.week }} ({{ post.data.day }})
-    </div>
-  </a>
+  <li>
+    <a href="{{ post.url }}">Week {{ post.data.week }} ({{ post.data.day }})</a>
+  </li>
 {% endif %}{% endfor %}
-</div>
+</ul>
 
 <h3 style="margin-bottom:0;">Other pages</h3>
 <ul style="margin-top:0;">

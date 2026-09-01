@@ -1,5 +1,5 @@
 ---
-title: Matrix Groups
+title: Cayley Diagrams and Group Representations
 type: notes
 courseNumber: MAT4170
 term: F26
@@ -9,13 +9,69 @@ day: Tuesday
 layout: layouts/notes.njk
 ---
 <p>
-  We begin by observing that we can think of all of the symmetries in the dihedral group as linear transformations, which gives us a <i>matrix representation</i> of the dihedral group.
+  We begin today by talking about <i>Cayley diagrams</i> and conclude by thinking about the <i>matrix representations</i> of groups.
+</p>
+
+<h2>Cayley diagrams</h2>
+<p>
+  Cayley diagrams (sometimes called Cayley graphs) are a way to visualize group structure by drawing a picture. This can help us think about <i>generators</i>, sets of elements that we can use to build every symmetry. This can also help us to see when two groups are somehow essentially the same or when one group lives inside of another group.
+</p>
+<div class="example">
+  <p>
+    Below is an example of a Cayley diagram for the dihedral group of the square \[ D_4 = \langle r, f \mid r^4 = f^2 = (rf)^2 = e \rangle, \] where the solid green edges represent rotations and the dashed blue edges represent horizontal reflections.
+  </p>
+  <div style="display: flex; justify-content: center; margin-top:1em; margin-bottom:1em;">
+    {% include 'content/F26/MAT4170/notes/assets/cayley_diagram_d4.svg' %}
+  </div>
+  <p>
+    Recalling that our group operation \(*\) is "followed by", we can see by following the diagram (starting from any state at all) that \(r \circ f = f \circ r \circ r \circ r\), and both of these words represent a flip transposing the NW and SE corners of the diagram.
+  </p>
+  <p>
+    In alignment with graph theory conventions, we call the states <i>vertices</i>, and we call the arrows <i>edges</i>.
+    Here, we have drawn the states as squares with their corners marked, but often we draw our Cayley diagram where the states are simply dots, which agrees with the conventions for drawing vertices in graph theory. We also frequently do not draw the arrowheads on the two-headed edges.
+  </p>
+  <div style="display: flex; justify-content: center; margin-top:1em; margin-bottom:1em;">
+    {% include 'content/F26/MAT4170/notes/assets/cayley_diagram_d4_minimal.svg' %}
+  </div>
+</div>
+<p>
+  We draw these diagrams by the following steps.
+</p>
+<ol>
+  <li>Start by drawing a state and choosing a non-identity element \(g\), draw the the state that results from applying \(g\) along with an arrow from the starting state to the new state.</li>
+  <li>Continue drawing all new states (and corresponding arrows) that result from repeated applications of \(g\) until you've drawn every state you can reach by applying \(g\).</li>
+  <li>If you have drawn every possible state, you're done. Otherwise, pick another non-identity element, and a new color for an arrow, and repeatedly apply it (and all of the previous generators you've chosen) to every state until you've drawn all of the states you can reach with these two elements.</li>
+  <li>Repeat the previous step as many times as necessary until you have reached every possible state. When you're done, there should be an arrow representing each generator going into and coming out of each state. (In the example above, you can see that each state has a green \(r\) arrow and dashed-blue \(f\) arrow going into and coming out of each of the eight states.)</li>
+</ol>
+
+<h2>Matrix representations</h2>
+<p>
+  While we have been thinking about dihedral groups as rotations and reflections, it may have crossed your mind that both rotations and reflections are linear transformations of the plane, and thus they can be represented by \(2 \times 2\) real-valued matrices. This is a profound idea that is studied in group representation theory!
+</p>
+<p>
+  It turns out that <i>every</i> finite group can be written as a collection of real-valued (alternatively complex-valued) square matrices, and this perspective is insightful because it both helps us to see the geometric nature of groups and because it allows us to leverage ideas from linear algebra to give new insights.
+</p>
+<p>
+  Instead of thinking about the dihedral group \[
+    D_n = \langle r, f \mid r^n = f^2 = (rf)^2 = e \rangle
+  \] as a collection of symmetries, we could instead write every element as a matrix, and describe the composition as matrix multiplication. Let's do it!
 </p>
 <div class="exercise">
-  Where does \(
-    \begin{pmatrix}
-      a_{11} & a_{12} \\
-      a_{21} & a_{22}
-    \end{pmatrix}
-  \) send the vectors ...?
+  Let's write the elements of the dihedral group of the square as linear transformations expressed as real-valued \(2 \times 2\) matrices with respect to the standard basis.
+  <ol>
+    <li>Let \(R\) be the rotation matrix corresponding to a \(90^\circ\) rotation. Write \(R\) explicitly.</li>
+    <li>Let \(F\) be the matrix corresponding to a horizontal reflection. Write \(F\) explicitly.</li>
+    <li>
+      Prove that \(R^4 = F^2 = (RF)^2 = I_2\), where \(I_2\) is the \(2\times2\) identity matrix.
+    </li>
+    <li>
+      Use this to simplify the matrix product \[
+        R^3FR^4FR^5F^9R^2F^6R^5.
+      \]
+      (Note that we can use the same exact strategy we used when we were thinking about this group abstractly!)
+    </li>
+  </ol>
 </div>
+<p>
+  Later on in the course we will learn about the concept of <i>group homomorphisms</i>, which will allow us to define matrix representations more formally.
+</p>
