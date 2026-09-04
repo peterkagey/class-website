@@ -3,32 +3,25 @@
     The <a href="../quiz/w2a/">quiz from Tuesday</a> of week 2 asked you to draw some Cayley diagrams.
     <details closed>
       <summary class="plain">Answer key.</summary>
-        \[
-          \begin{align}
-            e &= r^5 = f^2 = (rf)^2 \\
-            r &= r^{726} \\
-            {\color{gray}r^2} &= rfr^3f^2r^2fr \\
-            {\color{gray}r^3} &= (rf^2)^3 \\
-            r^4 &= r^{-1} \\
-            f &= fr^5\\
-            rf \\
-            {\color{gray}r^2f} &= fr^3 \\
-            {\color{gray}r^4f} &= fr \\
-          \end{align}
-        \]
+        <p>
+          Below is an example of a Cayley diagram for the dihedral group of the square \[ D_4 = \langle r, f \mid r^4 = f^2 = (rf)^2 = e \rangle, \] where the solid green edges represent \(r\) and the dashed blue edges represent \(f\).
+        </p>
+        <div style="display: flex; justify-content: center; margin-top:1em; margin-bottom:1em;">
+          {% include 'content/F26/MAT4170/quiz/assets/w1a_cayley_diagram_1.html' %}
+        </div>
+        <p>
+          We can also generate \(D_4\) with \(f\) and \(rf\) because we can build \(r = rf * f = r\), and we know we can reach every state with \(f\) and \(r\). If you draw the Cayley diagram (writing the states as dots), it will look like an octagon.
+          <div style="display: flex; justify-content: center; margin-top:1em;">
+            {% include 'content/F26/MAT4170/quiz/assets/w1a_cayley_diagram_2.html' %}
+          </div>
+        </p>
     </details>
   </li>
   <li>
-    The <a href="../quiz/w2b/">quiz from Thursday</a> of week 2 asked you to work with word notation and cycle notation.
+    The <a href="../quiz/w2b/">quiz from Thursday</a> of week 2 asked you to build the Cayley table for \(S_3\)
     <details closed>
       <summary class="plain">Answer key.</summary>
-        <ul>
-          <li>As a word, \(\pi = 152634\).</li>
-          <li>In cycle notation, \(\pi = (1)(253)(46)\).</li>
-          <li>As a word, the identity permutation is \(e = 123456\).</li>
-          <li>As a word, the identity permutation is \(e = 123456\).</li>
-          <li>Draw a diagram for the word \(\pi^{-1} = 135624\). ("Reversing the arrows" of the diagram at the top.)</li>
-        </ul>
+        {% include 'content/F26/MAT4170/quiz/assets/w2b_cayley_table_filled.html' %}
     </details>
   </li>
 </ol>
