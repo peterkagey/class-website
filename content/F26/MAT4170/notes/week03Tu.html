@@ -1,0 +1,116 @@
+---
+title: Group Axioms
+type: notes
+courseNumber: MAT4170
+term: F26
+date: 2026-09-08
+week: 3
+day: Tuesday
+layout: layouts/notes.njk
+---
+<p>
+  Today we are finally exploring the formal definition of a group and exploring the consequences! I encourage you to always keep in your mind our informal definition of symmetry as "something you can do to a system so that it looks the same afterward," and let this intuition guide you.
+</p>
+
+<h2>Group axioms</h2>
+<p>
+  The process of <i>abstracting</i> is finding commonality in all of our examples: the dihedral group of the \(n\)-gon (\(D_n\)), the symmetric group on \(n\) letters (\(S_n\)), the rotational symmetries of an \(n\)-gon (\(C_n\)), direct products of groups (\(G_1 \times G_2\)), and our in-class example of two coins that we could either flip or interchange.
+</p>
+<p>
+  In all of these cases, we said that we
+  had some collection \(G\) of "things we could so that the result looks the same afterward";
+  that combining two of these symmetries resulted in a symmetry;
+  that we could apply our symmetries as functions, meaning that we could apply rewrite rules anywhere in a word;
+  that "doing nothing" always constitutes a symmetry;
+  and that we could always <i>undo</i> anything that we did.
+</p>
+<div class="definition">
+  A <b>group</b> is a pair \((G,\star)\), where \(G\) is a set, and \(\star\) is a binary operation \(\star\colon G \times G \to G\) satisfying the following three axioms <dl>
+    <dt>Associativity</dt>
+    <dd>
+      The operation is associative, meaning that for all \(a, b, c \in G\), \[
+        (a \star b) \star c = a \star (b \star c).
+      \]
+    </dd>
+    <dt>Identity</dt>
+    <dd>
+      There exists an element \(e \in G\) such that for all \(g \in G\), \[
+        e \star g = g \star e = g.
+      \]
+    </dd>
+    <dt>Inverses</dt>
+    <dd>
+      For every element \(g \in G\), there exists an inverse element \(g^{-1} \in G\) such that \[
+        g^{-1} \star g = g \star g^{-1} = e.
+      \]
+    </dd>
+  </dl>
+</div>
+<p>
+  While a group is formally a pair, we often refer to the group \(G, \star\) just as \(G\), when the binary operation is understood.
+</p>
+<p>
+  We will soon see (if we haven't already!) that this abstraction goes beyond things that we might have formerly classified as symmetries. Moreover, we will start to recognize groups in new contexts.
+</p>
+<h3>Some beginning proofs</h3>
+<p>
+  Next, we will state some propositions and give some proofs to get a sense of the flavor of how group theoretic proofs go. At the beginning, we will be careful to justify each step in the proofs. Later, as we establish practice thinking about these concepts, we will become less pedantic about explaining every detail of each proof.
+</p>
+<div class="proposition">
+  In every group \((G, \star)\), the inverse element \(e\) is unique.
+</div>
+<div class="proof">
+  <details>
+    <summary class="plain">Hint #1</summary>
+      How do we show something is unique? Here we will assume that there is an element \(e'\) which behaves like an identity, and then prove that \(e'\) has no choice but to equal \(e\).
+  </details>
+  <details>
+    <summary class="plain">Proof sketch</summary>
+      Suppose that \(e'\) is an identity element, and thus for all \(g \in G\), \[
+        e' \star g = g \star e' = g.
+      \]
+      Take \(g = e\). Because \(e\) and \(e'\) are both identity elements, \(e' = e' \star e = e\). Thus \(e' = e\), and the identity is unique.
+  </details>
+</div>
+<div class="proposition">
+  In a group \((G, \star)\), each element \(g\) has a <i>unique</i> inverse element \(g^{-1}\).
+</div>
+<div class="proof">
+  <details>
+    <summary class="plain">Hint #1</summary>
+      We know that \(g^{-1}\) is an inverse of \(g\). Suppose also that \(x\) is an inverse of \(g\), and show that we are forced to conclude that \(x = g\).
+  </details>
+  <details>
+  <summary class="plain">Proof sketch</summary>
+    Suppose that \(x\) is an inverse of \(g\), meaning that \[
+      g \star x = e.
+    \]
+    We apply \(g^{-1}\) on the left on both sides: \[
+      g^{-1} \star (g \star x) = g^{-1} \star e.
+    \]
+    By the associative property, followed by the inverse property, followed by the identity property, the left-hand side becomes \[
+      g^{-1} \star (g \star x) = (g^{-1} \star g) \star x = e \star x = x,
+    \] while by the identity property the right-hand side becomes \[
+      g^{-1} \star e = g^{-1}.
+    \]
+    Thus \(x = g^{-1}\), and therefore inverse of \(g\) is unique.
+  </details>
+</div>
+
+<div class="proposition">
+  The inverse of \(g_1 \star g_2 \in (G,\star)\) is \[
+    (g_1 \star g_2)^{-1} = g_2^{-1} \circ g_1^{-1}
+  \]
+</div>
+<div class="proof">
+  <details>
+    <summary class="plain">Hint #1</summary>
+      What does it mean to be an inverse?
+  </details>
+</div>
+
+<h3>Examples and non-examples of groups</h3>
+<div class="exercise">
+  Determine which of the following are groups, always being sure to prove your answer. When checking the axioms, it is important to check <i>closure</i> of the operation, meaning that if \(a, b \in G\), then \(a \star b \in G\).
+  {% include 'content/F26/MAT4170/HW03/exercises/group_examples.html' %}
+</div>
