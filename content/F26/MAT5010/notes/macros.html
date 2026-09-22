@@ -1,0 +1,43 @@
+---
+title: Macros
+type: notes
+courseNumber: MAT5010
+term: F26
+date: 2026-09-15
+day: Tuesday
+layout: layouts/notes.njk
+---
+<p>
+  In these notes, I will show you how to make some basic macros using <code>\newcommand{...}[...]{...}</code>.
+</p>
+<h2>Macros as alias</h2>
+<p>
+  The most common first use of macros is to give an <i>alias</i> to commands. For example, we can typeset \(\mathbb{Z}\) using the code <code>\mathbb{Z}</code>. This is a little annoying to type, so you can add <code>\newcommand{\Z}{\mathbb{Z}}</code> to your preamble, and this allows you to instead just write in your code <code>\Z</code> when you want to use this time.
+</p>
+<div class="exercise">
+  <ol>
+    <li>
+      Write some aliases using <code>\newcommand</code>, and post on the "Macros" thread in the <code>#hw-prompts</code> channel of our Discord channel. (Make sure that you don't name your alias something that already exists as a command.)
+    </li>
+    <li>
+      Sometimes you want to overwrite an existing command. See what <code>\epsilon</code> looks like, and then add <code>\renewcommand{\epsilon}{\varepsilon}</code> to your preamble. How does <code>\epsilon</code> look different now?
+    </li>
+    <li>
+      There are also built-in codes that you can overwrite in order to change their values. Add <code>\renewcommand{\baselinestretch}{2}</code> to your preamble. What happens?
+    </li>
+  </ol>
+</div>
+
+
+<h2>Macros as functions</h2>
+<p>
+  We also can use <code>\newcommand</code> to define functions which take one or more parameters. For instance, instead of writing <code>\langle r,f \mid r^4=f^2=(rf)^2=e \langle</code>, I have defined a macro <pre><code>\newcommand{\pres}[2]{\langle #1 \mid #2 \rangle}</code></pre> so that I can instead type <code>\pres{r,f}{r^4=f^2=(rf)^2 = e}</code>.
+</p>
+<p>
+  The example above illustrates how the <code>\newcommand</code> syntax works. The first argument (in curly braces <code>{...}</code>) gives the name of the function. The second argument (in square brackets <code>[...]</code>) specifies the number of parameters. The third argument (in curly braces <code>{...}</code>) gives the function definition, where <code>#1</code> refers to the first argument, <code>#2</code> refers to the second argument, and so on.
+</p>
+<div class="exercise">
+  <p>
+    Write a function called <code>\paren</code> which wraps the argument in <code>\left(...\right)</code>. Then describe what <code>\[\paren{\frac{2}{3}}\]</code> does.
+  </p>
+</div>

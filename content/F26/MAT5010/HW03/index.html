@@ -4,9 +4,27 @@ type: assignment
 number: 3
 courseNumber: MAT5010
 term: F26
-date: 2026-09-08
+date: 2026-09-15
 layout: layouts/hw.njk
 ---
 <p>
-  For this assignment, work through the exercises in this <a href="../notes/w03/">week's lesson</a>. The assignment is designed to take approximately 30 minutes. If you get stuck or are otherwise spending more time than this, reach out to me or a classmate.
+  Read through the <a href="../notes/w03/">week 3 notes</a> and do the exercises throughout.
+</p>
+<p>
+  Lastly do the following three tasks in order to include your raw \(\LaTeX\) in an appendix at the end of your PDF:
+  <ol>
+    <li>
+      Make sure your \(\LaTeX\) file is named <code>HW0{{number}}.tex</code>.
+    </li>
+    <li>
+      Add the package <code>\usepackage{listings}</code> in your preamble.
+    </li>
+    <li>
+      Append the following code right before <code>\end{document}</code>:
+      <pre><code>\pagebreak
+\appendix
+\section*{Source Code}
+\lstinputlisting[language=TeX]{HW0{{number}}.tex}</code></pre>
+    </li>
+  </ol>
 </p>

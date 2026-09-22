@@ -12,7 +12,7 @@ courseTitle: Introduction to Mathematical Typesetting
 <ul>
 {% for post in collections.all | reverse %}{% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "notes") %}
   <li>
-    <a href="{{ post.url }}">Week {{ post.data.week }}</a>
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
   </li>
 {% endif %}{% endfor %}
 </ul>

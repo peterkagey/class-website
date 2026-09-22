@@ -1,0 +1,41 @@
+---
+title: TODOs and notes
+type: notes
+courseNumber: MAT5010
+term: F26
+date: 2026-09-15
+day: Tuesday
+layout: layouts/notes.njk
+---
+<h2>Comments</h2>
+<p>
+  You can get the \(\LaTeX\) compiler to ignore a line of code by putting <code>%</code> at the beginning of the line. Most text editors (including Overleaf) have a shortcut which will toggle which lines are commented. In Overleaf, the shortcut is <code>Ctrl + /</code> on Windows and <code>⌘ + /</code> on MacOS.
+</p>
+<div class="exercise">
+  <ol>
+    <li>
+      Add <code>%</code> at the beginning of the line and watch \(\LaTeX\) ignore it.
+    </li>
+    <li>
+      Use the shortcut described above to toggle the comment off from that line.
+    </li>
+  </ol>
+</div>
+
+<h2>TODO notes</h2>
+<p>
+  Frequently when working on a document, we want to add notes (which we will remove later). My preferred way to do this is to <code>\usepackage{todonotes}</code>.
+</p>
+<div class="exercise">
+  <p>
+    Make sure that <code>\usepackage{todonotes}</code> appears in your preamble.
+  </p>
+  <ol>
+    <li>
+      Add <code>\todo{Note goes here.}</code> somewhere in your code.
+    </li>
+    <li>
+      Add <code>\todo[inline, color=blue!10!white]{Note goes here.}</code> somewhere in your code, but make it magenta instead of blue.
+    </li>
+  </ol>
+</div>

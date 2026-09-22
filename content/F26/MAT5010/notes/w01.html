@@ -1,5 +1,5 @@
 ---
-title: Welcome to MAT 5010
+title: "Week 1: Getting started with \\(\\LaTeX\\)"
 type: notes
 courseNumber: MAT5010
 term: F26
@@ -59,3 +59,38 @@ We'll talk about what all of these lines of code mean soon, but for now, you can
 <p>
   The <code>\title</code>, <code>\author</code>, and <code>\date</code> are just what they sound like, and they show up at the beginning of the document.
 </p>
+
+<h2>Sections and subsections</h2>
+<p>
+  When writing a paper or thesis, usually we break things into sections and subsections. In \(\LaTeX\) we do this with <code>\section{...}</code> and <code>\subsection{...}</code>.
+</p>
+
+<h2>Week 1 Assignment</h2>
+<div class="exercise">
+  <p>
+    Consult the <a href="../notes/w01/">week 1 notes</a> and use \(\LaTeX\) to type up <u>one</u> of the following, making sure that it contains a significant amount of mathematical notation, including examples both inline <code>\(...\)</code> and display style <code>\[...\]</code>.
+    <ul>
+      <li>A write-up from a problem set from one of your classes.</li>
+      <li>Two or more paragraphs of notes from a class.</li>
+    </ul>
+  </p>
+
+  <p>
+    Lastly do the following three tasks in order to include your raw \(\LaTeX\) in an appendix at the end of your PDF:
+    <ol>
+      <li>
+        Make sure your \(\LaTeX\) file is named <code>HW01.tex</code>.
+      </li>
+      <li>
+        Add the package <code>\usepackage{listings}</code> in your preamble.
+      </li>
+      <li>
+        Append the following code right before <code>\end{document}</code>:
+        <pre><code>\pagebreak
+\appendix
+\section*{Source Code}
+\lstinputlisting[language=TeX]{HW01.tex}</code></pre>
+      </li>
+    </ol>
+  </p>
+</div>

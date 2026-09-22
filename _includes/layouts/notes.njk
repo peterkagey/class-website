@@ -11,6 +11,16 @@ layout: layouts/base.njk
   }
 </script>
 
+{% if courseNumber == "MAT5010" and term == "F26" %}
+  <div id="print-show">
+    <h1 style="margin-bottom:0em;">{{ title }}</h1>
+    <div>{{ date | htmlDateString }}</div>
+    <hr>
+    <div class="notes">
+      {{ content | safe }}
+    </div>
+  </div>
+{% else %}
 <div id="print-show">
   <h1 style="margin-bottom:0em;">Class notes</h1>
   <div>{{ date | htmlDateString }}</div>
@@ -19,3 +29,4 @@ layout: layouts/base.njk
     {{ content | safe }}
   </div>
 </div>
+{% endif %}

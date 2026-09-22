@@ -1,0 +1,62 @@
+---
+title: "Week 2b: Lists"
+type: notes
+courseNumber: MAT5010
+term: F26
+date: 2026-09-01
+week: 2
+day: Tuesday
+layout: layouts/notes.njk
+---
+<h2>Default environments</h2>
+<p>
+  There are many different <i>environments</i> that we use when writing \(\LaTeX\) to make lists, tables and more.
+</p>
+
+<h3>List environments</h3>
+<p>
+  In many writing contexts, especially when writing multi-part homework assignments, we want to make numbered lists. We do this with the <code>enumerate</code>, <code>itemize</code>, and <code>description</code>environments.
+</p>
+<h4>Enumerate</h4>
+<p>
+  The <code>enumerate</code> environment makes numbered lists using the following syntax:
+</p>
+<pre><code>\begin{enumerate}
+  \item First item in list.
+  \item Second item in list.
+\end{enumerate}</code></pre>
+<p>
+  As you nest these environments, it will automatically change the numbering style from numbers to letters to roman numerals and so on.
+</p>
+
+<h4>Itemize</h4>
+<p>
+  The <code>itemize</code> environment makes bulleted lists using the following syntax:
+</p>
+<pre><code>\begin{itemize}
+  \item First bullet in list.
+  \item Second bullet in list.
+\end{itemize}</code></pre>
+<p>
+  Again, as you nest these environments, it will automatically change the sub-bullet style.
+</p>
+
+<h4>Description</h4>
+<p>
+  The <code>description</code> environment allows you to start each item with words, which you explicitly add to each <code>\item</code>.
+</p>
+<pre><code>\begin{description}
+  \item[Case 1.] First case in a proof.
+  \item[Case 2.] Second case in a proof.
+\end{description}</code></pre>
+
+<h2>Week 2 Exercises</h2>
+<div style="font-weight: 700;">(Part 2/5)</div>
+<div class="exercise">
+  Give examples of the following:
+  <ul>
+    <li>An <code>enumerate</code> environment with a few items, nested two levels deep</li>
+    <li>An <code>itemize</code> environment with a few items, nested two levels deep</li>
+    <li>A <code>description</code> environment with at least two items</li>
+  </ul>
+</div>

@@ -1,0 +1,33 @@
+---
+title: Separating content
+type: notes
+courseNumber: MAT5010
+term: F26
+date: 2026-09-15
+day: Tuesday
+layout: layouts/notes.njk
+---
+<p>
+  When we have long complicated documents, it can be useful to manage your code in many different files instead of one very long file.
+</p>
+<h2>Include and input</h2>
+<p>
+  The most common way to do this is to use <code>\include</code>, which will take \(\LaTeX\) code from referenced file and place it in the referencing file. We can also use <code>\input</code> which will put the referenced file on it's own page in the referencing document.
+</p>
+<div class="exercise">
+  <ol>
+    <li>
+      Make a new file called <code>example.tex</code>, and put the following code in it:
+      <pre><code>We do some basic arithmetic to compute the fifth term of the Fibonacci sequence: \[
+  F_3 + F_4 = 3 + 5 = 8 = F_5.
+\] We can do similar computations to compute \(F_6\).</code></pre>
+      Now in your main document type <code>\include{example.tex}</code>, and see the statement appear.
+    </li>
+    <li>
+      What happens if you instead type <code>\input{example.tex}</code> in your main document?
+    </li>
+  </ol>
+</div>
+<p>
+  When writing documents, I'll frequently use this technique to put figures and other self-contained code snippets into their own file so that my main file remains readable.
+</p>

@@ -1,5 +1,5 @@
 ---
-title: Labels and references
+title: "Week 3: Labels and references"
 type: notes
 courseNumber: MAT5010
 term: F26
@@ -74,7 +74,7 @@ layout: layouts/notes.njk
   \centering
   \includegraphics[width=0.5\linewidth]{path/to/image.ext}
   \caption{This is the caption.}
-  \ref{fig:example-image}
+  \label{fig:example-image}
 \end{figure}</code></pre>
 <p>
   By default, figures <i>float</i>, meaning that they won't necessarily go right where you put them, but instead they will go where the \(LaTeX\) compiler thinks they fit the best. It is a writing convention that you must <i>always</i> refer to your figure somewhere in the body of your document.
@@ -94,7 +94,7 @@ layout: layouts/notes.njk
   \centering
   % Put a table here, using the code from last week.
   \caption{This is the table caption.}
-  \ref{tabl:example-table}
+  \label{tabl:example-table}
 \end{table}</code></pre>
   <p>
     Look up how to add a list of figures and a list of tables to the beginning of the document and add both.

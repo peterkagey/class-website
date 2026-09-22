@@ -1,0 +1,43 @@
+---
+title: Cosets and Lagrange's Theorem
+type: notes
+courseNumber: MAT4170
+term: F26
+date: 2026-09-17
+week: 4
+day: Thursday
+layout: layouts/notes.njk
+---
+<h2>Examples of cosets</h2>
+<p>
+
+</p>
+<h2>Cosets as an equivalence relation</h2>
+<div class="proposition">
+  Let \((G,*)\) be a group, and suppose \(H \leq G\) is a subgroup. Let the relation \(R\) where \(a \mathbin{\mathrm{R}} b\) if \[
+    a \in bH = \{ b * h \mid h \in H \}.
+  \]
+  Then this relation is an equivalence relation.
+</div>
+<p>
+  Note that this is equivalent to saying that \(a \mathbin{\mathrm{R}} b\) if and only if \(a = b * h\) for some \({h \in H}\).
+</p>
+<div class="proof">
+  We check that \(R\) is reflexive, symmetric, and transitive.
+  <dl>
+    <dt>Reflexive.</dt>
+    <dd>
+      Since \(H\) is a subgroup, \(e \in H\), and thus \(a = a * e \in aH\).
+    </dd>
+    <dt>Symmetric.</dt>
+    <dd>
+      Suppose \(a \in bH\), meaning that \(a = b*h\) for some \(h \in H\). Then \[
+        a*h^{-1} = (b*h)*h^{-1} = b*(h*h^{-1}) = b*e = b.
+      \] Since \(H\) is a group, it contains all inverses, so \(h^{-1} \in H\). Therefore \[b = a * h^{-1} \in aH.\]
+    </dd>
+    <dt>Transitive.</dt>
+    <dd>
+      [You will complete this on HW4.]
+    </dd>
+  </dl>
+</div>

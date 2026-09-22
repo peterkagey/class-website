@@ -1,0 +1,41 @@
+---
+title: "Week 2a: Whitespace"
+type: notes
+courseNumber: MAT5010
+term: F26
+date: 2026-09-01
+week: 2
+day: Tuesday
+layout: layouts/notes.njk
+---
+<p>
+  When writing \(\LaTeX\) in text mode, you should be writing in paragraphs, and paragraphs start with indentation (unless they are the first in a new section.) If you want to start a new paragraph (with a paragraph), just leave an entirely blank line in your source code. In general, you do <i>not</i> usually want to use a double-backslash <code>\\</code> to force a line break.
+</p>
+<p>
+  There are certain circumstances where you don't want to start a paragraph with an indent, in which case you can start the line with <code>\noindent</code>, but this is somewhat uncommon.
+</p>
+<h3>Blank space</h3>
+<p>
+  Often, you want to force your document to go to the next page, which you can do with <code>\pagebreak</code>.
+</p>
+<p>
+  Frequently when writing assignments, quizzes, or other documents for students, you want a specific amount of blank space. You can achieve this with <code>\vspace{5cm}</code> to get, say five centimeters of blank space.
+</p>
+<p>
+  If you want an entire blank line between paragraphs, use <code>\bigskip</code>, because this will do typographically smart things like automatically adjust when you change font size, or know when it's happening at a page break anyway and not overflow to the next page.
+</p>
+<p>
+  Sometimes you need to add horizontal space. If you need a tiny bit of space, you can use <code>\,</code>, a little bit more, you can use <code>\ </code> (which is <code>\[space]</code>). If you want more than a space-worth of space, you can use <code>\hspace{1cm}</code>. If you just need "a bit more than a space" usually it is a best practice to use something like <code>\quad</code> (or <code>\qquad</code>) for spacing equal to an "1em" (respectively "2em") or the height of the font (respectively twice the height of the font).
+</p>
+
+<h2>Week 2 Exercises</h2>
+<div style="font-weight: 700;">(Part 1/5)</div>
+<div class="exercise">
+  <ul>
+    <li>A paragraph that begins with <code>\noindent</code></li>
+    <li>A <code>\pagebreak</code></li>
+    <li>A <code>\vspace{1cm}</code></li>
+    <li>A <code>\bigskip</code></li>
+    <li>One line that uses <code>\,</code>, <code>\hspace{1cm}</code>, <code>\quad</code>, and <code>\qquad</code></li>
+  </ul>
+</div>

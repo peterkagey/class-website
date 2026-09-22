@@ -8,7 +8,7 @@ date: 2026-09-08
 layout: layouts/hw.njk
 ---
 
-<p>
+<!-- <p>
   This assignment will have you work though this <a href="../notes/w02/">week's lesson</a> on whitespace, environments, and theorem environments. It is designed to take approximately 30 minutes. If you get stuck or are otherwise spending more time than this, reach out to me or a classmate.
 </p>
 <p>
@@ -26,32 +26,10 @@ layout: layouts/hw.njk
   Use <code>\section{...}</code> and <code>\subsection{...}</code> to organize your submission. At the end of each section write an observation or a question.
 </p>
 
-<h3>Whitespace</h3>
-<ul>
-  <li>A paragraph that begins with <code>\noindent</code></li>
-  <li>A <code>\pagebreak</code></li>
-  <li>A <code>\vspace{1cm}</code></li>
-  <li>A <code>\bigskip</code></li>
-  <li>One line that uses <code>\,</code>, <code>\hspace{1cm}</code>, <code>\quad</code>, and <code>\qquad</code></li>
-</ul>
-
-<h3>Lists</h3>
-<ul>
-  <li>An <code>enumerate</code> environment with a few items, nested two levels deep</li>
-  <li>An <code>itemize</code> environment with a few items, nested two levels deep</li>
-</ul>
-
 <h3>Tables</h3>
 <ul>
   <li>A <code>tabular</code> environment with a few columns columns, a horizontal line, a vertical line, and at least one center-aligned and one left-aligned column</li>
   <li>A <code>pmatrix</code>, <code>bmatrix</code>, and <code>matrix</code> with a one sentence description of their differences.</li>
-</ul>
-
-<h3>Math environments</h3>
-<ul>
-  <li>An <code>align</code> or <code>align*</code> environment with at least two lines</li>
-  <li>An <code>alignat</code> environment with two alignments</li>
-  <li>An <code>equation</code> environment</li>
 </ul>
 
 <h3>AMS theorem package</h3>
@@ -73,4 +51,31 @@ layout: layouts/hw.njk
   <li>One definition</li>
   <li>One remark</li>
   <li>One unnumbered note (using <code>note*</code>)</li>
-</ol>
+</ol> -->
+<p>
+  Read through the week 2 notes parts
+  <a href="../notes/w02a/">a</a>,
+  <a href="../notes/w02b/">b</a>,
+  <a href="../notes/w02c/">c</a>,
+  <a href="../notes/w02d/">d</a>, and
+  <a href="../notes/w02e/">e</a>,
+  and do the exercises throughout.
+</p>
+<p>
+  Lastly do the following three tasks in order to include your raw \(\LaTeX\) in an appendix at the end of your PDF:
+  <ol>
+    <li>
+      Make sure your \(\LaTeX\) file is named <code>HW0{{number}}.tex</code>.
+    </li>
+    <li>
+      Add the package <code>\usepackage{listings}</code> in your preamble.
+    </li>
+    <li>
+      Append the following code right before <code>\end{document}</code>:
+      <pre><code>\pagebreak
+\appendix
+\section*{Source Code}
+\lstinputlisting[language=TeX]{HW0{{number}}.tex}</code></pre>
+    </li>
+  </ol>
+</p>

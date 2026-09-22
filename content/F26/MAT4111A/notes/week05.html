@@ -1,5 +1,5 @@
 ---
-title: Algebra
+title: Number theory
 type: notes
 courseNumber: MAT4111A
 term: F26
@@ -9,8 +9,64 @@ day: Thursday
 layout: layouts/notes.njk
 eleventyExcludeFromCollections: true
 ---
-<h2>Algebra</h2>
 
-<h3>Completing the square</h3>
 
-<h3>Vieta's formulas</h3>
+<h2>Number theory</h2>
+
+<h3>Modular arithmetic</h3>
+<div class="definition">
+  We say that \(a\) is congruent to \(b\) modulo \(n\), written \[
+    a \equiv b \pmod n,
+  \] if \(a - b = kn\) for some integer \(k \in \mathbb{Z}\).
+</div>
+<p>
+  The formal definition is helpful for proving things, but also keep in mind the informal definition that "two numbers are congruent mod \(n\) if they have the same remainder on division by \(n\)."
+</p>
+<div class="proposition">
+  If \(a \equiv a' \pmod n\) and \(b \equiv b' \pmod n\), then \[
+    a + b \equiv a' + b' \pmod n
+  \] and \[
+    a \times b \equiv a' \times b' \pmod n.
+  \]
+</div>
+<p>
+  This means that we can do convenient replacements: for instance, since \[
+    71 \equiv -1 \pmod{72},
+  \] then \[
+    71 \times 14 \equiv -1 \times 14 \equiv -14 \equiv 58 \pmod{72}.
+  \]
+</p>
+<p>
+  Also note that modular arithmetic can help with divisibility problems: we say that \({n \mid a}\) (read "\(n\) divides \(a\)" which means "\(a\) is divisible by \(n\)") if and only if \({a \equiv 0 \pmod n}\).
+</p>
+
+
+<h2>Chinese remainder theorem</h2>
+<i>See Evan Chen's 2014 article on [The Chinese Remainder Theorem](https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/crt.pdf).</i>
+<p>
+  The <b>Chinese remainder theorem</b> states that if $m_1, m_2, \dots m_k$ are pairwise coprime (i.e. $\gcd(m_i, m_j) = 1$ for all $i \neq j$) then for all $r_1, r_2, \dots, r_i,$ the system of congruences
+  \[
+    \begin{align*}
+      n \equiv &\ r_1 \pmod{m_1} \\
+      n \equiv &\ r_2 \pmod{m_2} \\
+      \        & \vdots \\
+      n \equiv &\ r_k \pmod{m_k}
+    \end{align*}
+  \] has a unique solution for $n$ modulo $m_1m_2\cdots m_k$.
+</p>
+<div class="example">
+  {% include 'content/F26/MAT4111A/problems/contest-problems/putnam/2020_A1.html' %}
+  <details>
+    <summary class="plain">Hint #1</summary>
+    <p>
+      <!-- 2/2/5/101 -->
+    </p>
+  </details>
+
+<!-- Putnam 2006 A3 -->
+
+
+
+
+<!-- Ryan: Should we talk about recurrence tricks.  -->
+<!-- Cynthia recommends 1998 AIME 12 - and corresponding theorem was cool -->

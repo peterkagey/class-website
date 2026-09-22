@@ -19,10 +19,10 @@ layout: layouts/hw.njk
   <li>Programming practice</li>
   <li>Expand your horizons</li>
 </ul>
-<!-- <h2>Change log</h2>
+<h2>Change log</h2>
 <ul>
-  <li><i>(2026-xx-xx xx:xx)</i>[...]</li>
-</ul> -->
+  <li><i>(2026-09-16 13:33)</i> Simplify Exercises 5.2a and 5.2b.</li>
+</ul>
 <hr>
 <h2>Reflect, Collaborate, and Write</h2>
 <span style="font-size: small;">(Required)</span>
@@ -58,6 +58,9 @@ layout: layouts/hw.njk
   <ol>
     <li>
       Download this <a href="/assets/F26/MAT4170/proof_portfolio.tex">proof_portfolio.tex</a> template, upload it in the same folder as this assignment (i.e., the same folder as <code>HW_{{number}}.tex</code>), make sure it's named <code>proof_portfolio.tex</code>, edit the author, and compile it.
+    </li>
+    <li>
+      (If you are compiling locally, you can skip this step.) If you are using Overleaf, then once you have compiled the Proof Portfolio, download the PDF. Next, use the upload feature to upload the PDF to Overleaf, and make sure it's called <code>proof_portfolio.pdf</code>.
     </li>
     <li>
       In <code>HW_{{number}}.tex</code>, add <code>\usepackage{pdfpages}</code> to the preamble (the code at the top). Under Exercise 3, type <code>\includepdf[pages=-]{proof_portfolio.pdf}</code>. You should see the section header for Exercise 3 on its own page and the proof portfolio on the following page.
@@ -101,10 +104,10 @@ layout: layouts/hw.njk
             Determine if \((\mathbb{Z}/7\mathbb{Z})^\times\) is a cyclic group and write down all of its subgroups.
           </li>
           <li>
-            Determine if \((\mathbb{Z}/15\mathbb{Z})^\times\) is a cyclic group and write down all of its subgroups.
+            Give two examples of subgroups of \((\mathbb{Z}/15\mathbb{Z})^\times\) of order \(4\). Make sure one is a cyclic subgroup, and another is not cyclic.
           </li>
           <li>
-            Determine if \((\mathbb{Z}/24 \mathbb{Z})^\times\) is a cyclic group and write down all of its subgroups.
+            Determine if \((\mathbb{Z}/24 \mathbb{Z})^\times\) is a cyclic group, and find a subgroup of order \(4\).
           </li>
         </ol>
       </li>
@@ -148,9 +151,10 @@ layout: layouts/hw.njk
 
 <details>
   <summary>
-    Choice Exercise 9 [≤5]
+    Choice Exercise 9 [3]
     <span style="font-size: small;">(Latin Square)</span>
   </summary>
+  <i>This problem was labeled incorrectly as 5 points. If you've already worked on it, you can claim all five points. If you're just starting it now, only claim up to 3 points.</i>
   {% include 'content/F26/MAT4170/HW03/exercises/latin_square.html' %}
 </details>
 
