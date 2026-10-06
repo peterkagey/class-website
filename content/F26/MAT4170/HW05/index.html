@@ -1,0 +1,194 @@
+---
+title: HW 5
+type: assignment
+number: 5
+courseNumber: MAT4170
+term: F26
+date: 2026-10-08
+layout: layouts/hw.njk
+---
+<h2>Goals</h2>
+<ul>
+  <li>Practice with normal subgroups and quotient groups</li>
+  <li>Prove groups are isomorphic</li>
+  <li>Review the quizzes and practice some basics</li>
+  <li>Make a tetrahedron, and study its symmetries</li>
+  <li>Practice your number theory and programming</li>
+</ul>
+<!-- <h2>Change log</h2>
+<ul>
+  <li><i>(2026-xx-xx xx:xx)</i>[...]</li>
+</ul> -->
+<hr>
+<h2>Reflect, Collaborate, and Write (Required)</h2>
+<details>
+  <summary>
+    Exercise 1 [4]
+    <span style="font-size: small;">(Reflection and formatting)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW03/exercises/reflect.html' %}
+</details>
+
+<details>
+  <summary>
+    Exercise 2 [3]
+    <span style="font-size: small;">(Collaborate)</span>
+  </summary>
+  <p>
+    {% include 'content/F26/MAT4170/HW03/exercises/collaborate.html' %}
+  </p>
+</details>
+
+<details>
+  <summary>
+    Exercise 3 [3]
+    <span style="font-size: small;">(Proof Portfolio)</span>
+  </summary>
+  <p>
+    Find two students from your section, and exchange your Proof Portfolio including both the \(\LaTeX\) code and the compiled document with them. (One way to do this is by inviting them to be a collaborator on Overleaf.)
+  </p>
+  <ol>
+    <li>
+      Spend at least 10 minutes giving each of them feedback on their writeup or code. Record the feedback here with the name of the student you gave it to.
+    </li>
+    <li>
+      List at least three pieces of feedback that were given to you, and implement it in your proof portfolio. Recompile your Proof Portfolio and attach it here.
+    </li>
+  </ol>
+</details>
+
+<h2>Required Exercises</h2>
+<details>
+  <summary>
+    Exercise 4 [4]
+    <span style="font-size: small;">(Exam problems)</span>
+  </summary>
+  <p>
+    Do the two problems from Exam 1 that you didn't attempt. Make sure to clearly indicate which problems you are attempting. (If you don't have a copy of the exam, reach out to me and I will post it on Canvas after everyone has taken the exam.)
+  </p>
+</details>
+
+<details>
+  <summary>
+    Exercise 5 [6]
+    <span style="font-size: small;">(Isomorphism and quotients)</span>
+  </summary>
+  <ol>
+    <li>[4]
+      Suppose that \(G = D_{12}\) and \(N = \langle r^3 \rangle\).
+      <ol>
+        <li>
+          Prove that \([G:N] = 6\) and \(N \triangleleft G\) is a normal subgroup.
+        </li>
+        <li>
+          Make a Cayley diagram or Cayley table for the quotient group \(G/N\), and prove that it is isomorphic to \(S_3\) by giving an explicit isomorphism \({\phi \colon G/N \to S_3}\). (i.e., specify where each coset of \(N\) goes under \(\phi\).)
+        </li>
+      </ol>
+    </li>
+    <li>[2]
+      Prove that if \(G\) is a group, and \(H \leq G\) such that \([G:H] = 2\), then \(H \triangleleft G\) is a normal subgroup, and \(G/H\) is isomorphic to \(C_2\).
+    </li>
+  </ol>
+</details>
+
+<h2>Choice Exercises</h2>
+<p>
+  <i>Do 10 points worth of the following choice exercises. Make sure to tag the appropriate exercises when you submit on Gradescope.</i>
+</p>
+
+<details>
+  <summary>
+    Choice Exercise 6 [≤6]
+    <span style="font-size: small;">(Quiz review)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW05/exercises/quiz_review.html' %}
+</details>
+
+<details>
+  <summary>
+    Choice Exercise 7 [≤10]
+    <span style="font-size: small;">(Free points?)</span>
+  </summary>
+  <i>Okay, well these points aren't exactly free, but they're close!</i>
+  <p>
+    Find some homework exercises that took you significantly longer than 10 minutes per point. For two points per exercise, write three sentences about the exercise that will help me and future students. (Below are some prompts that may help you figure out what to write.)
+    <ol>
+      <li>
+        Is there an idea, theorem, definition, or short hint that would have helped you to answer the question significantly faster? If so, what is it?
+      </li>
+      <li>
+        What is an "aha" moment you had or a connection you made while working on the problem?
+      </li>
+      <li>
+        Next time I teach this class, how many points should this problem be worth?
+      </li>
+      <li>
+        Is there anything you would change about the wording of the problem to help make it clearer? If so, what?
+      </li>
+    </ol>
+  </p>
+</details>
+
+<details>
+  <summary>
+    Choice Exercise 8 [≤10]
+    <span style="font-size: small;">(Practicing the basics)</span>
+  </summary>
+  <i>Do up to 10 points of the following.</i>
+  {% include 'content/F26/MAT4170/HW05/exercises/basic_practice.html' %}
+</details>
+
+<details>
+  <summary>
+    Choice Exercise 9 [≤9] ⭐️⭐️⭐️⭐️⭐️
+    <span style="font-size: small;">(Tetrahedral group)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW05/exercises/tetrahedron_group.html' %}
+</details>
+
+<details>
+  <summary>
+    Choice Exercise 10 [≤6]
+    <span style="font-size: small;">(Changing perspective on conjugation)</span>
+  </summary>
+  <ol>
+    <li>[3]
+      <b>Conjugating matrices.</b>
+      In linear algebra matrix <i>conjugation</i> (\(BAB^{-1}\)) allows us to "change perspective" by changing basis. That is, if you are thinking of a linear transformation \(A\) with respect to a given basis, and I am thinking about the same linear transformation but in another basis related by \(B\), we can "translate" between our perspectives with (matrix) conjugation: \(A' = BAB^{-1}\).
+      <br>
+      Give an example of how this works (perhaps by watching a YouTube video or reading a textbook that discusses this), and write a few sentences explaining what's going on in your own words.
+    </li>
+    <li>[3]
+      <b>Conjugating permutations.</b>
+      Suppose that we're thinking about $S_n$, and we're scrambling $n$ objects, but the objects are randomly positioned on the table. Reasonable minds could disagree about which position is position $1$ versus position $2$ versus position $n$. You come up with some labeling and I come up with some labeling too, and our labelings are related by the permutation \(\sigma\), which tells that what you are calling position \(1\), I am calling position \(\sigma(1)\).
+      <br>
+      Use this way of thinking to find \(\sigma \in S_7\) such that \[
+        \sigma (314)(25)(67) \sigma^{-1} = (124)(65)(37),
+      \] and explain formally or informally why conjugating permutations preserves <i>cycle structure</i> (e.g., in the above example the conjugates both consist of one \(3\)-cycle and two \(2\)-cycles.)
+    </li>
+  </ol>
+</details>
+
+<details>
+  <summary>
+    Choice Exercise 11 [≤11] ⭐️
+    <span style="font-size: small;">(Programming Bézout's identity)</span>
+  </summary>
+  <i>The programming part of this problem occurs in part 5. Parts 1&ndash;4 will be graded normally, and part 5 is graded based on spending 30 minutes attempting to code it in a programming language of your choice.</i>
+  {% include 'content/F26/MAT4170/HW05/exercises/bezouts_identity.html' %}
+</details>
+
+<details>
+  <summary>
+    Choice Exercise 12 [≤4]
+    <span style="font-size: small;">(Articles / Video)</span>
+  </summary>
+  <i>Do up to four points worth of the following parts.</i>
+  {% include 'content/F26/MAT4170/HW05/exercises/self_study.html' %}
+</details>
+
+<details>
+  <summary>Final Choice Exercise [≤7]</summary>
+  <i>Do any subset of the following parts, state which you did and how many points you are claiming for this problem (maximum of 7 points).</i>
+  {% include 'content/F26/MAT4170/HW05/exercises/final_choice_exercise.html' %}
+</details>

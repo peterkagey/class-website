@@ -1,5 +1,5 @@
 ---
-title: Number theory
+title: Modular arithmetic
 type: notes
 courseNumber: MAT4111A
 term: F26
@@ -7,13 +7,8 @@ date: 2026-09-24
 week: 5
 day: Thursday
 layout: layouts/notes.njk
-eleventyExcludeFromCollections: true
 ---
-
-
-<h2>Number theory</h2>
-
-<h3>Modular arithmetic</h3>
+<h2>{{title}}</h2>
 <div class="definition">
   We say that \(a\) is congruent to \(b\) modulo \(n\), written \[
     a \equiv b \pmod n,
@@ -40,11 +35,10 @@ eleventyExcludeFromCollections: true
   Also note that modular arithmetic can help with divisibility problems: we say that \({n \mid a}\) (read "\(n\) divides \(a\)" which means "\(a\) is divisible by \(n\)") if and only if \({a \equiv 0 \pmod n}\).
 </p>
 
-
 <h2>Chinese remainder theorem</h2>
-<i>See Evan Chen's 2014 article on [The Chinese Remainder Theorem](https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/crt.pdf).</i>
-<p>
-  The <b>Chinese remainder theorem</b> states that if $m_1, m_2, \dots m_k$ are pairwise coprime (i.e. $\gcd(m_i, m_j) = 1$ for all $i \neq j$) then for all $r_1, r_2, \dots, r_i,$ the system of congruences
+<i>See Evan Chen's 2014 article on <a href="https://s3.amazonaws.com/aops-cdn.artofproblemsolving.com/resources/articles/crt.pdf">The Chinese Remainder Theorem</a>.</i>
+<div class="proposition">
+  The <b>Chinese remainder theorem</b> states that if $m_1, m_2, \dots m_k$ are pairwise coprime (i.e., $\gcd(m_i, m_j) = 1$ for all $i \neq j$) then for all $r_1, r_2, \dots, r_i,$ the system of congruences
   \[
     \begin{align*}
       n \equiv &\ r_1 \pmod{m_1} \\
@@ -53,20 +47,32 @@ eleventyExcludeFromCollections: true
       n \equiv &\ r_k \pmod{m_k}
     \end{align*}
   \] has a unique solution for $n$ modulo $m_1m_2\cdots m_k$.
-</p>
+</div>
 <div class="example">
   {% include 'content/F26/MAT4111A/problems/contest-problems/putnam/2020_A1.html' %}
-  <details>
-    <summary class="plain">Hint #1</summary>
-    <p>
-      <!-- 2/2/5/101 -->
-    </p>
-  </details>
+</div>
+
+<h2>Euler's theorem</h2>
+<p>
+  <a href="https://en.wikipedia.org/wiki/Euler's_theorem">Euler's theorem</a> allows us to deal with <i>powers</i> in modular arithmetic, in certain circumstances.
+</p>
+<div class="definition">
+  Euler's phi function \(\phi(n)\) counts the number of positive integers less than \(n\) that are coprime to \(n\) (i.e., share no common factors.)
+</div>
+<div class="proposition">
+  Euler's theorem says that if \(a\) is coprime to \(n\), then \[
+    a^{\phi(n)} \equiv 1 \pmod n.
+  \]
+</div>
+<div class="exercise">
+  Compute the last two digits of \(14^{123456789}\).
+</div>
+<div class="example">
+  {% include 'content/F25/MAT4111A/problems/totient-theorem/power_tower.html' %}
+</div>
+
+
 
 <!-- Putnam 2006 A3 -->
-
-
-
-
 <!-- Ryan: Should we talk about recurrence tricks.  -->
 <!-- Cynthia recommends 1998 AIME 12 - and corresponding theorem was cool -->

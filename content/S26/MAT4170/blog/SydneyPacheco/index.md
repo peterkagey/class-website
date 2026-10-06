@@ -47,7 +47,7 @@ $$
     \\end{pmatrix}
 $$
 
-i.e. $\\delta$ inverts the $k$-cycle and leaves $x$
+i.e., $\\delta$ inverts the $k$-cycle and leaves $x$
 and $y$ switched without performing the transposition $(x y)$.
 
 Now let $n$ be an arbitrary permutation on $[n]$; it consists of disjoint cycles, and each can be inverted as above in sequence, after which $x$ and $y$ can be switched if necessary via $(x y)$, as desired.

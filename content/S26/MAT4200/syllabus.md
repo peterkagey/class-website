@@ -26,7 +26,7 @@ term: S26
 </p>
 <h3>Student drop-in hours</h3>
 <p>
-  I strongly encourage you to come to the student drop-in hours (i.e. "office hours" or "open hours") that are set aside for you in my calendar.
+  I strongly encourage you to come to the student drop-in hours (i.e., "office hours" or "open hours") that are set aside for you in my calendar.
 Visiting student hours is one of the best ways you can spend your time to support your learning in college.
 </p>
 <ul>

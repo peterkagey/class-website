@@ -1,0 +1,86 @@
+---
+title: "BibLaTeX (Week 5)"
+type: notes
+courseNumber: MAT5010
+term: F26
+date: 2026-09-22
+week: 5
+day: Tuesday
+layout: layouts/notes.njk
+---
+<p>
+  Citations are a critical part of articles, theses, and other mathematical writing. The most common tool for managing citations is <a href="https://ctan.org/pkg/biblatex?lang=en"><code>biblatex</code></a>. A good place to learn about this package is via the <a href="https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex">Overleaf documentation for bibliography management</a>.
+</p>
+
+<h2>Your <code>.bib</code> file</h2>
+<p>
+  You will store all of your bibliography data in a file called with the <code>.bib</code> extension, which has various kinds of data templates, such as <code>article</code>, <code>book</code>, and <code>misc</code>.
+</p>
+<pre><code>@article{Valiant1979,
+  title = {The complexity of computing the permanent},
+  journal = {Theoretical Computer Science},
+  volume = {8},
+  number = {2},
+  pages = {189-201},
+  year = {1979},
+  issn = {0304-3975},
+  doi = {https://doi.org/10.1016/0304-3975(79)90044-6},
+  url = {https://www.sciencedirect.com/science/article/pii/0304397579900446},
+  author = {L.G. Valiant}
+}
+
+@book{Stanley2011EC1,
+  author = {Stanley, Richard P.},
+  title = {Enumerative Combinatorics: Volume 1},
+  year = {2011},
+  isbn = {1107602629},
+  publisher = {Cambridge University Press},
+  address = {USA},
+  edition = {2nd}
+}
+
+@misc{MSELoop,
+  title = {The unique loop (quasigroup with unit) $L$ of order $5$ satisfying $x^2 = 1$ for all $x \in L$},
+  author = {Travis Willse},
+  howpublished = {Mathematics Stack Exchange},
+  note = {URL:https://math.stackexchange.com/q/1216907 (version: 2018-12-27)},
+  eprint = {https://math.stackexchange.com/q/1216907},
+  url = {https://math.stackexchange.com/q/1216907}
+}</code></pre>
+<p>
+  You can often export the citation from a journal's website!
+</p>
+<div class="exercise">
+  <ol>
+    <li>
+      Make a file called <code>HW5.bib</code> next to your <code>.tex</code> file.
+    </li>
+    <li>
+      Find an article online <a href="https://www.sciencedirect.com/science/article/pii/0304397579900446">such as the Valiant article above</a>, and see if you can export the bibliography. On ScienceDirect, you will click "export" and then "Export citation to BibTeX". (If this downloads a file, open it up, and copy/paste the relevant citation into your file.)
+    </li>
+    <li>
+      Find a physical book, and build a <code>@book</code> entry either by hand or by using a web tool (like an <a href="https://www.bibtex.com/c/isbn-to-bibtex-converter/">ISBN to BibTeX converter</a>). Note that each template has different requirements which you can read about <a href="https://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#Standard_templates">here</a>. For example a book requires either an <code>author</code> or <code>editor</code> along with a <code>title</code>, <code>publisher</code>, and <code>year</code>.
+    </li>
+  </ol>
+</div>
+
+<h2>Including a citation</h2>
+<p>
+  Once you have your bibtex file,  you're ready to start citing!
+</p>
+<div class="exercise">
+  <ol>
+    <li>
+      Make sure to add
+      <pre><code>\usepackage{biblatex}
+\addbibresource{HW5.bib}</code></pre>
+      to your header.
+    </li>
+    <li>
+      Now cite one of the entries in the body of your document with, for example, <code>\cite{Stanley2011EC1}</code>.
+    </li>
+    <li>
+      Wherever you want the bibliography (typically either before the appendix or before the end of the document), put <code>\printbibliography</code>.
+    </li>
+  </ol>
+</div>

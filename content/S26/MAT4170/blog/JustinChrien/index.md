@@ -42,7 +42,7 @@ Moreover, our method of assigning group elements to invertible linear operators 
 >A **representation** of a group $G$ over a vector space $V$ is as a group homomorphism $\\rho : G \\to GL(V)$
 
 
-The essence of representation theory is to take our abstract notion of groups and to translate them into a set of linear operators which we know more about and admit tools from linear algebra. Specifically, we will stick to finite dimensional representations (i.e. $\\mathrm{dim}(V)<\\infty$) this allows us to set $V=\\mathbb{R}^{n}$ or $V=\\mathbb{C}^{n}$ specifically and all the represented group elements become real valued or complex valued $n\\times n$ matrices.
+The essence of representation theory is to take our abstract notion of groups and to translate them into a set of linear operators which we know more about and admit tools from linear algebra. Specifically, we will stick to finite dimensional representations (i.e., $\\mathrm{dim}(V)<\\infty$) this allows us to set $V=\\mathbb{R}^{n}$ or $V=\\mathbb{C}^{n}$ specifically and all the represented group elements become real valued or complex valued $n\\times n$ matrices.
 
 
 One issue (or benefit depending on your perspective) with group representations, is that there are many choices for the vector space you choose. I can take the group $D_3$ and construct a representation $\\rho (D_3)$ which translates $r$'s and $f$'s to $2\\times 2$ rotation and reflection matrices ($\\rho (D_3) \\leq O(2,\\mathbb{R})$) or as purely $3\\times 3$ rotation matrices ($\\rho (D_3) \\leq SO(3,\\mathbb{R})$). In fact, a lot of interesting results in representation theory concern how representations of the same group differ based on their degree (the dimension of the underlying vector space $\\mathrm{dim}(V)$).

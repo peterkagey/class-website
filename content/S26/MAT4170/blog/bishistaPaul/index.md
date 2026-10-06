@@ -97,7 +97,7 @@ We will go through two examples.
 ## Example 1
 Our first is an example in which we have two gene types: homoplasmic and heteroplasmic.
 
-Let $g_0$ denote the heteroplasmic mitochondria(i.e contain $g_0, g_1, g_2$) and $g_1, g_2$ denote homoplasmic types(i.e. only contain themselves.)
+Let $g_0$ denote the heteroplasmic mitochondria(i.e contain $g_0, g_1, g_2$) and $g_1, g_2$ denote homoplasmic types(i.e., only contain themselves.)
 
 In biology, $g_0$ is called a transitory state, which will disappear after some cell generations. In comparison, $g_1, g_2$ are stable states and are the same from generation to generation.
 
