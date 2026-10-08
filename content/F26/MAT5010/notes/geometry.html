@@ -1,0 +1,29 @@
+---
+title: "Page layout (Week 7)"
+type: notes
+courseNumber: MAT5010
+term: F26
+date: 2026-10-06
+week: 7
+day: Tuesday
+layout: layouts/notes.njk
+---
+<p>
+  I tend not to do anything very sophisticated for page layout: I basically only ever change the font size, the margins, and the spacing.
+</p>
+
+<h2>Font size</h2>
+<p>
+  By default, \(\LaTeX\) only supports a small number of font sizes: <code>10pt</code>, <code>11pt</code>, and <code>12pt</code>. To select this, update the first line of your document:
+  <pre><code>\documentclass[11pt]{article}</code></pre>
+</p>
+
+<h2>Margins</h2>
+<p>
+  To adjust the margins, I use the <code>geometry</code> package: <pre><code>\usepackage[margin=1in]{geometry}</code></pre>
+</p>
+
+<h2>Spacing</h2>
+<p>
+  To adjust the spacing, use <code>\usepackage{setspace}</code> and then use <code>\setstretch{2}</code> to do double-spacing. (But most of the time, you just want to use the default spacing.)
+</p>

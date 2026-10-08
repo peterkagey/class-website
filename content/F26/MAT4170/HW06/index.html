@@ -11,8 +11,11 @@ eleventyExcludeFromCollections: true
 <br>
 <h2>Goals</h2>
 <ul>
-  <li>Complete your third-to-last HW assignment.</li>
-  <li>[...]</li>
+  <li>Complete your <a href="https://en.wiktionary.org/wiki/antepenultimate#English">antepenultimate</a> (third-to-last) homework assignment.</li>
+  <li>Classify all groups of order \(\le 11\)</li>
+  <li>Construct a variety of homomorphisms</li>
+  <li>Investigate the conjugacy classes of the symmetries of a hexagon.</li>
+  <li>Explore the \(48\) symmetries of a cube.</li>
 </ul>
 <!-- <h2>Change log</h2>
 <ul>
@@ -22,10 +25,10 @@ eleventyExcludeFromCollections: true
 <h2>Reflect, Collaborate, and Write (Required)</h2>
 <details>
   <summary>
-    Exercise 1 [4]
+    Exercise 1 [3]
     <span style="font-size: small;">(Reflection and formatting)</span>
   </summary>
-  {% include 'content/F26/MAT4170/HW03/exercises/reflect.html' %}
+  {% include 'content/F26/MAT4170/HW06/exercises/reflect.html' %}
 </details>
 
 <details>
@@ -40,11 +43,14 @@ eleventyExcludeFromCollections: true
 
 <details>
   <summary>
-    Exercise 3 [3]
-    <span style="font-size: small;">(Proof Portfolio - TODO)</span>
+    Exercise 3 [4]
+    <span style="font-size: small;">(Proofs Portfolio - TODO add draft of Proof portfolio instructions.)</span>
   </summary>
   <p>
-    [...]
+    When your proofs portfolio is completed, it should be compiled with 1 inch margins <code>\usepackage[margins=1in]{geometry}</code> and should be 4&ndash;6 pages. If your draft is longer than this, you should work on making your proofs tighter, and if it's shorter than this, you should be working on a plan to build it out.
+  </p>
+  <p>
+    There are two main strategies you can pursue while writing your portfolio: you can either go for breadth and try to include a small example of many topics, or you can go for depth, where you try to tell a particular story.
   </p>
 </details>
 
@@ -54,7 +60,7 @@ eleventyExcludeFromCollections: true
     Exercise 4 [10]
     <span style="font-size: small;">(Classifying small groups up to isomorphism)</span>
   </summary>
-  {% include 'content/F26/MAT4170/HW06/exercises/classifying_groups.tex' %}
+  {% include 'content/F26/MAT4170/HW06/exercises/classifying_groups.html' %}
 </details>
 
 <h2>Choice Exercises</h2>
@@ -64,56 +70,68 @@ eleventyExcludeFromCollections: true
 
 <details>
   <summary>
-    Choice Exercise 6 [≤2]
-    <span style="font-size: small;">(Quiz review - TODO)</span>
+    Choice Exercise 5 [≤2]
+    <span style="font-size: small;">(Quiz review)</span>
   </summary>
   {% include 'content/F26/MAT4170/HW06/exercises/quiz_review.html' %}
 </details>
 
 <details>
   <summary>
-    Choice Exercise 8 [≤10]
+    Choice Exercise 6 [≤9]
     <span style="font-size: small;">(Fundamentals)</span>
   </summary>
-</details>
-
-<details>
-  <summary>
-    Choice Exercise 8 [≤10]
-    <span style="font-size: small;">(Automorphism)</span>
-  </summary>
   <ol>
-    <li>Show conjugating by \(g\) is an (inner) automorphism.</li>
-    <li>See that "being consistent" with what we regard as a flip results in the "same" dihedral groups.</li>
-    <li>Show that automorphisms form a group under function composition.</li>
+    <li>[1]
+      Prove or disprove that if \(N \triangleleft G\) and \(N \leq H \leq G\), then \(N \triangleleft H\).
+    </li>
+    <li>[2]
+      Prove that there exists a homomorphism \(\phi\colon D_{12} \to S_4\) with \(\phi(r) = (1423)\) and \(\phi(f) = (13)(24)\), and prove that it is not an <i>isomorphism</i> by showing that it is not <i>injective</i> (1-to-1).
+    </li>
+    <li>[2]
+      Give an example of two groups \(G\) and \(H\) and a group homomorphism \(\phi \colon G \to H\) such that \(G\) is non-abelian, \(H\) is abelian, and \(\phi\) is <i>not</i> the trivial homomorphism.
+    </li>
+    <li>[2]
+      Give an example of a group \(G\) and a (normal) subgroup \(H \triangleleft G\) such that \(G/H\) is not abelian.
+    </li>
+    <li>[2]
+      Let \(\mathrm{GL}_n(\mathbb{R})\) denote the group of invertible \(n \times n\) real-valued matrices under matrix multiplication. Recall that a square matrix is invertible if and only if its determinant is non-zero and that \(\det(AB) = \det(A)\det(B)\). Let \[
+        \mathrm{SL}_n(\mathbb{R}) = \{A \in \mathrm{GL}_n(\mathbb{R}) \mid \det(A) = 1\}.
+      \] Prove that \(\mathrm{SL}_n(\mathbb{R})\) is a normal subgroup of \(\mathrm{GL}_n(\mathbb R)\).
+    </li>
   </ol>
 </details>
 
-
 <details>
   <summary>
-    Choice Exercise 9 [≤9]
-    <span style="font-size: small;">(Octahedral group - TODO)</span>
+    Choice Exercise 7 [≤8] ⭐️⭐️⭐️⭐️
+    <span style="font-size: small;">(Homomorphism, not isomorphism)</span>
   </summary>
-  {% include 'content/F26/MAT4170/HW06/exercises/octahedral_group.tex' %}
-</details>
-
-
-
-<details>
-  <summary>
-    Choice Exercise 12 [≤7]
-    <span style="font-size: small;">(Programming - TODO)</span>
-  </summary>
+  {% include 'content/F26/MAT4170/HW06/exercises/homomorphism_not_isomorphism.html' %}
 </details>
 
 <details>
   <summary>
-    Choice Exercise 13 [≤4]
-    <span style="font-size: small;">(Articles / Video)</span>
+    Choice Exercise 8 [6+2] ⭐️
+    <span style="font-size: small;">(Conjugacy classes of \(D_6\))</span>
   </summary>
-  <i>Do up to four points worth of the following parts.</i>
-  {% include 'content/F26/MAT4170/HW05/exercises/self_study.html' %}
+  {% include 'content/F26/MAT4170/HW06/exercises/conjugacy_d6.html' %}
+</details>
+
+<details>
+  <summary>
+    Choice Exercise 9 [5]
+    <span style="font-size: small;">(Monoids ≠ groups)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW06/exercises/smooshable.html' %}
+</details>
+
+<details>
+  <summary>
+    Choice Exercise 10 [≤15 + 5] 🌟
+    <span style="font-size: small;">(Perspectives on a cube + programming)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HW06/exercises/octahedral_group.html' %}
 </details>
 
 <details>
