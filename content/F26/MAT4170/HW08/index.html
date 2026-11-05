@@ -36,33 +36,7 @@ layout: layouts/hw.njk
     Exercise 2 [3]
     <span style="font-size: small;">(Favorite exercises)</span>
   </summary>
-  <p style="font-style: italic;">
-    The next time I teach this class, my students will really like getting to hear from you! Choose a (favorite?) exercise that you did on the homework this term, and write a sentence or two to future students about it.
-  </p>
-  <p>
-    Post on the <code>#hw-prompts</code> Discord using the following format, but only include the star if you're talking about your <i>favorite</i> exercise from the term. (Obviously, change the exercise and the message.)
-    <pre><code>**HW 2, Choice Exercise 6.** ⭐️ This was my favorite exercise of the term because I was really struggling with how to think about cycle notation, and everything clicked with this one.</code></pre>
-  </p>
-  <p>
-    Here are some examples of what you might say:
-  </p>
-  <ul>
-    <li>
-      "This problem was hard at first, but I'm really glad that I stuck with it. Once I finished this problem, quotient groups finally clicked for me!"
-    </li>
-    <li>
-      "Don't make my mistake: I got stuck on this problem because I forgot that not all subgroups are normal!"
-    </li>
-    <li>
-      "Avoid this problem unless it's worth like 10 points, lol"
-    </li>
-    <li>
-      "I'm really glad that I spent time thinking about symmetric groups on HW 2, because they came up again (and again and again)"
-    </li>
-    <li>
-      "This was my favorite problem because it really helped me understand some ideas from linear algebra which had been confusing to me when I first took that class."
-    </li>
-  </ul>
+  {% include 'content/F26/MAT4170/HW08/exercises/favorite_exercises.html' %}
 </details>
 
 <details>
@@ -70,19 +44,7 @@ layout: layouts/hw.njk
     Exercise 3 [5]
     <span style="font-size: small;">(Group project assignment + proofs portfolio)</span>
   </summary>
-  <p style="font-style: italic;">
-    Following this assignment, you will have (take-home) Exam 2, which will be available from Friday 10/30 until Friday 11/6. The following week, you will have two drafts due:
-    an initial draft of your student-authored homework is due on Thursday, 11/12, and
-    the final draft of your proofs portfolio is due on Friday, 11/13.
-  </p>
-  <ol>
-    <li>
-      Spend 15 minutes looking at the <a href="/F26/MAT4170/group_assignment">Group project (assignment)</a> guidelines. Start thinking about who you might like to have in your group, and consider some of the project ideas from the end of the document. You're welcome to use any of those ideas, but you are also encouraged to come up with your own idea!
-    </li>
-    <li>
-      Spend at least 30 minutes working on your <a href="/F26/MAT4170/proofs_portfolio">proofs portfolio</a>, making sure to take into consideration any feedback you have received on previous homework assignments. (At this point, your portfolio should be at least three full pages with no <code>\newpage</code> commands.)
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW08/exercises/group_project_and_portfolio.html' %}
 </details>
 
 <h2>Required Exercises</h2>
@@ -125,23 +87,7 @@ layout: layouts/hw.njk
       {% include 'content/F26/MAT4170/HW08/exercises/matrix_distributivity.html' %}
     </li>
     <li>
-      Recall that in the ring of complex numbers \(\mathbb{C}, + , \times\), we define multiplication such that \[
-        (a_1 + b_1i) \times (a_2 + b_2i) = (a_1a_2 - b_1b_2) + (a_1b_2 + a_2b_1)i.
-      \]
-      <ol>
-        <li>[2]
-          Prove that complex multiplication is associative.
-        </li>
-        <li>[1]
-          Prove that complex multiplication is commutative.
-        </li>
-        <li>[2]
-          Prove that complex multiplication distributes over addition. (Explain why knowing that multiplication is commutative implies that you only need to check one direction.)
-        </li>
-        <li>[2]
-          Prove that nonzero complex numbers have multiplicative inverses by computing the multiplicative inverse of \(a + bi\).
-        </li>
-      </ol>
+      {% include 'content/F26/MAT4170/HW08/exercises/complex_multiplication.html' %}
     </li>
   </ol>
 </details>
@@ -151,26 +97,7 @@ layout: layouts/hw.njk
     Choice Exercise 7 [7]
     <span style="font-size: small;">(Vector spaces over a finite field)</span>
   </summary>
-  <p>
-    It turns out that many (but not all) of the theorems that you learned about vector spaces over \(\mathbb{R}\) in linear algebra also work over finite fields.
-  </p>
-  <ol>
-    <li>
-      Let \(\mathbb{Z}_5^{3 \times 3}\) be the ring of \(3 \times 3\) matrices over the field \(\mathbb{Z}_5\). Compute the determinant \(\det(A) \in \mathbb{Z}_5\) where \[
-        A = \begin{pmatrix}
-          1 & 0 & 2 \\
-          2 & 1 & 0 \\
-          0 & 1 & 0
-        \end{pmatrix}.
-      \]
-    </li>
-    <li>
-      Because the determinant of \(A\) is nonzero, the matrix is invertible. Adapt the standard matrix inversion techniques to compute the inverse matrix \(A^{-1} \in \mathbb{Z}_5^{3 \times 3}\), which should have entries that are integers mod \(5\).
-    </li>
-    <li>
-      Compute \(\det(A^{-1})\) and show that \(\det(A^{-1}) = \det(A)^{-1}\), where the inverse is with respect to multiplication mod \(5\).
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW08/exercises/finite_field_matrices.html' %}
 </details>
 
 <details>
@@ -196,35 +123,7 @@ layout: layouts/hw.njk
     Choice Exercise 10 [≤12]
     <span style="font-size: small;">(Group of units)</span>
   </summary>
-  <p>
-    Let \((R, +, \times)\) be a ring. We define the <b>group of units</b> (under \(\times\)) as the set of elements in \(R\) that have a multiplicative inverse in \(R\): \[
-      R^\times = \{ r \in R \mid \exists\, r^{-1} \in R \}.
-    \]
-  </p>
-  <ol>
-    <li>[4]
-      Prove that for every ring \((R, +, \times)\), \(R^\times\) forms a group under \(\times\).
-    </li>
-    <li>[1]
-      Consider the ring \(\mathbb{R}^{2 \times 2}\) of \(2 \times 2\) real valued matrices under matrix addition and matrix multiplication. Describe the group of units in words. (We call this group of units \(GL_2(\mathbb{R})\), the "general linear group.")
-    </li>
-    <li>[1]
-      Describe the group of units for \(\mathbb{Z}\), \(\mathbb{Q}\), \(\mathbb{R}\), and \(\mathbb{C}\).
-    </li>
-    <li>[1]
-      Describe the group of units for \(\mathbb{Z}/7\mathbb{Z}\), \(\mathbb{Z}/8\mathbb{Z}\), and \(\mathbb{Z}/15\mathbb{Z}\).
-      <br>
-      (Hint: you did this on HW 3.)
-    </li>
-    <li>[2]
-      Describe the group of units for the Gaussian integers \[
-        \mathbb{Z}[i] = \{ a + bi \mid a, b \in \mathbb{Z} \}
-      \] and prove that the group of units is isomorphic to the cyclic group \(C_4\).
-    </li>
-    <li>[3]
-      Describe the group of units for the endomorphism ring defined in Choice Exercise 8.
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW08/exercises/group_of_units.html' %}
 </details>
 
 <details>

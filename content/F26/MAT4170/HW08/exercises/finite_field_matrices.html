@@ -1,0 +1,20 @@
+<p>
+  It turns out that many (but not all) of the theorems that you learned about vector spaces over \(\mathbb{R}\) in linear algebra also work over finite fields.
+</p>
+<ol>
+  <li>
+    Let \(\mathbb{Z}_5^{3 \times 3}\) be the ring of \(3 \times 3\) matrices over the field \(\mathbb{Z}_5\). Compute the determinant \(\det(A) \in \mathbb{Z}_5\) where \[
+      A = \begin{pmatrix}
+        1 & 0 & 2 \\
+        2 & 1 & 0 \\
+        0 & 1 & 0
+      \end{pmatrix}.
+    \]
+  </li>
+  <li>
+    Because the determinant of \(A\) is nonzero, the matrix is invertible. Adapt the standard matrix inversion techniques to compute the inverse matrix \(A^{-1} \in \mathbb{Z}_5^{3 \times 3}\), which should have entries that are integers mod \(5\).
+  </li>
+  <li>
+    Compute \(\det(A^{-1})\) and show that \(\det(A^{-1}) = \det(A)^{-1}\), where the inverse is with respect to multiplication mod \(5\).
+  </li>
+</ol>

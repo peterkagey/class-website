@@ -46,17 +46,7 @@ layout: layouts/hw.njk
     Exercise 3 [3]
     <span style="font-size: small;">(Proofs Portfolio)</span>
   </summary>
-  <p>
-    Find two students from your section, and exchange your Proofs Portfolio including both the \(\LaTeX\) code and the compiled document with them. (One way to do this is by inviting them to be a collaborator on Overleaf.)
-  </p>
-  <ol>
-    <li>
-      Spend at least 10 minutes giving each of them feedback on their writeup or code. Record the feedback here with the name of the student you gave it to.
-    </li>
-    <li>
-      List at least three pieces of feedback that were given to you, and implement it in your proofs portfolio. Recompile your Proofs Portfolio and attach it here.
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW05/exercises/proofs_portfolio.html' %}
 </details>
 
 <h2>Required Exercises</h2>
@@ -66,9 +56,7 @@ layout: layouts/hw.njk
     <!-- A student recommended that I make this worth more points next time. -->
     <span style="font-size: small;">(Exam problems)</span>
   </summary>
-  <p>
-    Do the two problems from Exam 1 that you didn't attempt. Make sure to clearly indicate which problems you are attempting. (If you don't have a copy of the exam, reach out to me and I will post it on Canvas after everyone has taken the exam.)
-  </p>
+  {% include 'content/F26/MAT4170/HW05/exercises/exam_problems.html' %}
 </details>
 
 <details>
@@ -98,24 +86,7 @@ layout: layouts/hw.njk
     Choice Exercise 7 [≤10]
     <span style="font-size: small;">(Free points?)</span>
   </summary>
-  <i>Okay, well these points aren't exactly free, but they're close!</i>
-  <p>
-    Find some homework exercises that took you significantly longer than 10 minutes per point. For two points per exercise, write three sentences about the exercise that will help me and future students. (Below are some prompts that may help you figure out what to write.)
-    <ol>
-      <li>
-        Is there an idea, theorem, definition, or short hint that would have helped you to answer the question significantly faster? If so, what is it?
-      </li>
-      <li>
-        What is an "aha" moment you had or a connection you made while working on the problem?
-      </li>
-      <li>
-        Next time I teach this class, how many points should this problem be worth?
-      </li>
-      <li>
-        Is there anything you would change about the wording of the problem to help make it clearer? If so, what?
-      </li>
-    </ol>
-  </p>
+  {% include 'content/F26/MAT4170/HW05/exercises/free_points.html' %}
 </details>
 
 <details>
@@ -140,22 +111,7 @@ layout: layouts/hw.njk
     Choice Exercise 10 [≤6]
     <span style="font-size: small;">(Changing perspective on conjugation)</span>
   </summary>
-  <ol>
-    <li>[3]
-      <b>Conjugating matrices.</b>
-      In linear algebra matrix <i>conjugation</i> (\(BAB^{-1}\)) allows us to "change perspective" by changing basis. That is, if you are thinking of a linear transformation \(A\) with respect to a given basis, and I am thinking about the same linear transformation but in another basis related by \(B\), we can "translate" between our perspectives with (matrix) conjugation: \(A' = BAB^{-1}\).
-      <br>
-      Give an example of how this works (perhaps by watching a YouTube video or reading a textbook that discusses this), and write a few sentences explaining what's going on in your own words.
-    </li>
-    <li>[3]
-      <b>Conjugating permutations.</b>
-      Suppose that we're thinking about $S_n$, and we're scrambling $n$ objects, but the objects are randomly positioned on the table. Reasonable minds could disagree about which position is position $1$ versus position $2$ versus position $n$. You come up with some labeling and I come up with some labeling too, and our labelings are related by the permutation \(\sigma\), which tells that what you are calling position \(1\), I am calling position \(\sigma(1)\).
-      <br>
-      Use this way of thinking to find \(\sigma \in S_7\) such that \[
-        \sigma (314)(25)(67) \sigma^{-1} = (124)(65)(37),
-      \] and explain formally or informally why conjugating permutations preserves <i>cycle structure</i> (e.g., in the above example the conjugates both consist of one \(3\)-cycle and two \(2\)-cycles.)
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW05/exercises/conjugation.html' %}
 </details>
 
 <details>

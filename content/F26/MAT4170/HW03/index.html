@@ -52,30 +52,7 @@ layout: layouts/hw.njk
     Exercise 3 [2]
     <span style="font-size: small;">(Proofs Portfolio)</span>
   </summary>
-  <p>
-    In this exercise, you will be starting your proofs portfolio, which you will be working on for the next
-  </p>
-  <ol>
-    <li>
-      Download this <a href="/assets/F26/MAT4170/proof_portfolio.tex">proof_portfolio.tex</a> template, upload it in the same folder as this assignment (i.e., the same folder as <code>HW_{{number}}.tex</code>), make sure it's named <code>proof_portfolio.tex</code>, edit the author, and compile it.
-    </li>
-    <li>
-      (If you are compiling locally, you can skip this step.) If you are using Overleaf, then once you have compiled the Proofs Portfolio, download the PDF. Next, use the upload feature to upload the PDF to Overleaf, and make sure it's called <code>proof_portfolio.pdf</code>.
-    </li>
-    <li>
-      In <code>HW_{{number}}.tex</code>, add <code>\usepackage{pdfpages}</code> to the preamble (the code at the top). Under Exercise 3, type <code>\includepdf[pages=-]{proof_portfolio.pdf}</code>. You should see the section header for Exercise 3 on its own page and the proofs portfolio on the following page.
-    </li>
-    <li>
-      Copy/paste a proposition/proof that you have written either from this assignment or from a previous assignment. Make sure that it matches the following format, with a carefully written proposition and proof:
-      <pre><code>\begin{proposition}
-  Let \(G)\ be a group [...]
-\end{proposition}
-\begin{proof}
-  Suppose that for \(a,b \in G\), [...]
-\end{proof}</code></pre>
-      I won't be checking the details of the proof this time, I'll only be confirming that you used the template, and that your proposition/proof matches the above.
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW03/exercises/proofs_portfolio.html' %}
 </details>
 
 <h2>Required Exercises</h2>
@@ -153,16 +130,7 @@ layout: layouts/hw.njk
     Choice Exercise 11 [≤5]
     <span style="font-size: small;">(Putnam Competition)</span>
   </summary>
-  <p>
-    In this exercise you will work on a problem that appeared on a Putnam Exam, widely considered to be one of the hardest math exams, with a typical median score of 0. Set a timer, and spend at least 20 minutes working on this problem, then look up a solution, understand it, and write it up in your own words.
-  </p>
-  <blockquote>
-    <p>
-      Let \(*\) be a commutative and associative binary operation on a set $S$. Assume that for every $x$ and $y$ in $S$, there exists $z$ in $S$ such that $x * z = y$. (This $z$ may depend on $x$ and $y$.) Show that if $a,b,c$ are in $S$ and $a*c = b*c$, then $a=b$.
-    </p>
-    <cite>2012 Putnam, <a href="https://kskedlaya.org/putnam-archive/2012.pdf">Problem A2</a></cite>
-  </blockquote>
-  </blockquote>
+  {% include 'content/F26/MAT4170/HW03/exercises/putnam.html' %}
 </details>
 
 <details>

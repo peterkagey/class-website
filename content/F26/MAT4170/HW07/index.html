@@ -54,12 +54,7 @@ layout: layouts/hw.njk
     Exercise 3 [3]
     <span style="font-size: small;">(Proofs portfolio)</span>
   </summary>
-  <p>
-    Set a timer for 20+ minutes, and work on your <a href="/F26/MAT4170/proofs_portfolio.html">proofs portfolio</a>. Remember that the goal of this document is to showcase your work from the term that you're proudest of, and to give you a chance to edit prior work to make it even stronger. You might use this time to revise existing work or to include new definitions, examples, propositions, and proofs.
-  </p>
-  <p>
-    When the timer goes off, download, and re-upload the PDF to include in your homework assignment.
-  </p>
+  {% include 'content/F26/MAT4170/HW07/exercises/proofs_portfolio.html' %}
 </details>
 
 <h2>Required Exercises</h2>
@@ -143,21 +138,7 @@ layout: layouts/hw.njk
     <span style="font-size: small;">(Other isomorphism theorems)</span>
     <button type="button" class="hw-favorite" data-template="hw7-6">⭐️</button>
   </summary>
-  <ol>
-    <li>[10]
-      Prove the <i>second</i> isomorphism theorem states that if \((G,*)\) is a group, $H \leq G$, $N \triangleleft G$, and \[
-        SN = \{s * n \mid s \in S \text{ and } n \in N\},
-      \] then the following quotient groups are isomorphic: \[
-        (SN)/N \cong S/(S \cap N).
-      \]
-      Before proving this, you should check that (a) \(SN \leq G\), (b) \(N \triangleleft SN\), and (c) \((S \cap N) \triangleleft S\).
-    </li>
-    <li>[10]
-      Prove the <i>third</i> isomorphism theorem, which states that if \(N \triangleleft G\) and \(N \leq K \triangleleft G\), then \[
-        (G/N)/(K/N) \cong G/K.
-      \] (You should also prove that \(N \triangleleft K\).)
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW07/exercises/other_isomorphism_theorems.html' %}
 </details>
 <template id="hw7-8">
   <blockquote>
@@ -173,12 +154,7 @@ layout: layouts/hw.njk
     Choice Exercise 9 [≤5]
     <span style="font-size: small;">(Self-study)</span>
   </summary>
-  <p>
-    Set a timer for \(8n\) minutes, where \(n\) is the number of points you are claiming on this problem. Read a textbook, watch a YouTube video, or do something related to get other perspectives on group theory.
-  </p>
-  <p>
-    Post in the class Discord with a link to what you read/watched, along with an interesting example you came across, an "aha moment" that you had, or anything else that you think your classmates might be interested to know about.
-  </p>
+  {% include 'content/F26/MAT4170/HW07/exercises/self_study.html' %}
 </details>
 
 <details>
