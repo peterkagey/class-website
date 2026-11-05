@@ -49,6 +49,7 @@ layout: layouts/hw.njk
   <summary>
     Exercise 3 [5]
     <span style="font-size: small;">(Cayley diagram)</span>
+    <button type="button" class="hw-favorite" data-template="hw2-3">⭐️</button>
   </summary>
   {% include 'content/F26/MAT4170/HW02/exercises/cayley_diagram.html' %}
 </details>
@@ -57,60 +58,9 @@ layout: layouts/hw.njk
   <summary>
     Exercise 4 [5]
     <span style="font-size: small;">(Cyclic groups)</span>
+    <button type="button" class="hw-favorite" data-template="hw2-4">⭐️</button>
   </summary>
-  <p>
-    Recall that we say a group \(G\) with operation \(\star\) is an <i>abelian group</i> if for every choice of symmetries \(a, b \in G\), \[
-      a \star b = b \star a.
-    \]
-  </p>
-  <p>
-    While <u>the</u> cycle group of order \(n\) is specifically \[C_n = \langle r \mid r^n = e\rangle, \]
-    <u>a</u> <i>cyclic group</i> is any group with an element \(g\) (called a <i>generator</i>), such that every element of the group can be written in the form \(g^k\), where \(k \in \mathbb{Z}\) is an integer.
-  </p>
-  <ol>
-    <li>
-      Prove that every cyclic group is abelian.
-    </li>
-    <li>
-      Draw a Cayley table for the direct product of cyclic groups \(C_2 \times C_3\), where \(C_n = \langle r \mid r^n = e \rangle\).
-      <br>
-      You can do this by drawing it by hand and including a picture, or you can modify this LaTeX code for the Cayley table for \(S_3\):
-      <details>
-        <summary class="plain">\(\LaTeX\) code for Cayley table</summary>
-        <pre><code>\[
-  \begin{tabular}{|l||c|c|c|c|c|c|}
-    \hline
-            &     $e$ &  $(12)$ &  $(13)$ &  $(23)$ & $(123)$ & $(132)$ \\
-    \hline & & & & & &\\[-1.1em] \hline
-    $e$     &         &         &         &         &         &         \\
-    \hline
-    $(12)$  &         &         &         &         &         &         \\
-    \hline
-    $(13)$  &         &(13)(12)=&         &         &         &         \\
-    \hline
-    $(23)$  &         &         &         &         &         &         \\
-    \hline
-    $(123)$ &         &         &         &         &         &         \\
-    \hline
-    $(132)$ &         &         &         &         &         &         \\
-    \hline
-  \end{tabular}
-\]</code></pre>
-      </details>
-    </li>
-    <li>
-      A group is abelian if and only if it is the same when you reflect its Cayley table across the main diagonal (like a matrix transpose). Explain informally why this is. Is \(C_2 \times C_3\) abelian?
-    </li>
-    <li>
-      It turns out (but it is not obvious!) that \(C_2 \times C_3\) is <i>cyclic</i>. Find a <i>generator</i> in the group that when applied repeatedly reaches every element in the group and use it to draw a Cayley diagram.
-    </li>
-    <li>
-      We say that the <i>order of a group</i> is the number of elements in the group and that the <i>order of an element</i> is the number of times you need to apply it to get back to the identity. Thus a group is cyclic precisely when it contains an element \(g\) whose order is equal to the order of the group: \(|g| = |G|.\) Check the order of every element in the dihedral group \(D_3\) to prove that this group is <i>not</i> cyclic.
-    </li>
-    <li>
-      Prove that not every abelian group is cyclic by giving an example of a direct product of cyclic groups that is not itself a cyclic group.
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HW02/exercises/cyclic_group.html' %}
 </details>
 
 <h2>Choice Exercises</h2>
@@ -146,8 +96,9 @@ layout: layouts/hw.njk
 
 <details>
   <summary>
-    Choice Exercise 8 [4] ⭐️
+    Choice Exercise 8 [4]
     <span style="font-size: small;">(Cayley polytope)</span>
+    <button type="button" class="hw-favorite" data-template="hw2-8">⭐️⭐️</button>
   </summary>
   <i>The star indicates that this is a previous student's favorite choice exercise.</i>
   <!-- Student suggestion: add some answers part of the way through to help students avoid having to backtrack after a mistake. -->

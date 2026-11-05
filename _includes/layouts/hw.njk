@@ -1,6 +1,10 @@
 ---
 layout: layouts/base.njk
 ---
+<script src="/assets/hw.js" defer></script>
+<dialog id="hw-favorite-dialog" style="width:50%;">
+  <div id="hw-favorite-content"></div>
+</dialog>
 <script>
   if (new URLSearchParams(window.location.search).get('open') === '0') {
     document.querySelectorAll('details[open]').forEach(d => d.open = false);
