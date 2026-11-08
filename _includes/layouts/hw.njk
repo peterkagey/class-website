@@ -61,7 +61,7 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-{% elif courseNumber == "MAT4170" and term == "F26" and type == "assignment" %}
+{% elif courseNumber == "MAT4170" and term == "F26" and type == "assignment" and title != "HW X" %}
 <h1>{{ title }}</h1>
 
 <ul class="post-metadata">
@@ -73,6 +73,10 @@ layout: layouts/base.njk
 </p>
 
 <button id="toggle-details">Collapse all exercises</button>
+
+{{ content | safe }}
+
+{% elif courseNumber == "MAT4170" and term == "F26" and type == "assignment" and title == "HW X" %}
 
 {{ content | safe }}
 
