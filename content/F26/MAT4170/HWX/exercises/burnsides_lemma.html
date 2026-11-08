@@ -1,0 +1,47 @@
+<p>
+  This problem will have you solve a natural problem in combinatorics where you will count something that I don't <i>think</i> anyone has ever counted before. It is closely related to a problem that I solved with a bunch of middle school students during a talk at Camp Conway last summer.
+</p>
+<p>
+  How many ways are there to fill the <i>diagram for the $n$-th centered square number</i> (illustrated below) with tiles that consist of either a horizontal or vertical stripe such as
+  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 100 100">
+    <rect x="2" y="2" width="96" height="96" fill="none" stroke="black" stroke-width="5"/>
+    <rect x="32" y="2" width="32" height="96" fill="#0A0" stroke="black" stroke-width="5"/>
+  </svg>
+  or
+  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 100 100">
+    <rect x="2" y="2" width="96" height="96" fill="none" stroke="black" stroke-width="5"/>
+    <rect x="2" y="32" width="96" height="32" fill="#0A0" stroke="black" stroke-width="5"/>
+</svg>.
+</p>
+<figure>
+  <img src="/assets/S26/MAT4170/HW09/diagrams.min.svg" alt="Illustrations of the diagrams of sizes 2, 3, 4, and 5.">
+  <figcaption>
+    Illustrations of the diagrams of size \( n \).
+  </figcaption>
+</figure>
+<p>
+  The diagram for the \( n \)-th centered square number can be defined by placing unit squares centered at all points \( (x, y) \in \mathbb{Z}^2 \) satisfying \( |x| + |y| < n \). Let \( a(n) \) be the number of ways of tiling the diagram for the \( n \)-th centered square number up to the symmetries of \( D_4 \), which are the rotations and reflections of the square.
+</p>
+<ol>
+  <li>
+    Prove by induction or any other method that the number of squares in the diagram is $n^2 + (n-1)^2$, and describe the diagram for the first centered square number.
+  </li>
+  <li>
+    Compute $a(1)$ by "brute-force" by drawing all of the possible ways of tiling the square up to rotation/reflection.
+  </li>
+  <li>
+    Compute \( a(2) \) using Burnside's lemma. (Note, you might just do the next part first.)
+  </li>
+  <li>
+    Give a formula for \( a(n) \) using Burnside's lemma, and check that it specializes to give the correct value for \( a(1). \)
+  </li>
+  <li>
+    Compute explicit numerical values for \( a(3) \), \( a(4) \), and \( a(5) \). (Using a calculator like WolframAlpha might be helpful here!)
+  </li>
+  <li>
+    $a(n) \neq 2^{n^2 + (n-1)^2 - 3}$, but it's an "asymptotically close" approximation. What is the relative error between $a(5)$ and the estimation? Which is bigger, \( a(5) \) or \( 2^{n^2 + (n-1)^2 - 3} \)?
+  </li>
+  <li>
+    Look up the sequence \( a(1), a(2), a(3), a(4), a(5) \) on the On-Line Encyclopedia of Integer sequences, and see if it's there!
+  </li>
+</ol>

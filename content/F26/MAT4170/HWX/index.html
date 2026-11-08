@@ -52,37 +52,8 @@ eleventyExcludeFromCollections: true
     <span style="font-size: small;">(Field of four elements)</span>
   </summary>
   <div style="font-style: italic;">This problem is a continuation of extra credit Problem 4.6 from Exam 2.</div>
-  <p>
-    Historically, \(i = \sqrt{-1}\) was "invented" to determine roots of polynomials in \(\mathbb{R}[x]\) such as \(x^2 + 4x + 5\), which has roots at \(-2 \pm i\). We're going to do a similar construction starting with a finite field.
-  </p>
-  <ol>
-    <li>
-      Verify that no elements of \(\mathbb{Z}_2\) are roots of the polynomial \(x^2 + x + 1 \in \mathbb{Z}_2[x]\).
-    </li>
-    <li>
-      Let \(\alpha \not\in \mathbb{Z}_2\) be a root of \(x^2 + x + 1\) polynomial, and explain why \(\alpha^2 = \alpha + 1\).
-    </li>
-    <li>
-      Is \(\alpha + 1\) a root of \(x^2 + x + 1 \in \mathbb{Z}_2[x]\)?
-    </li>
-    <li>
-      Consider the ring \[
-        \mathbb{Z}_2[\alpha] = \{x + y\alpha \mid x, y, \in \mathbb{Z}_2\},
-      \] show that it is a field, and make a Cayley table for \((\mathbb{Z}_2[\alpha] \setminus {0}, \times)\)
-    </li>
-    <li>
-      Now let's build a bigger field! Prove that every quadratic polynomial in \(\mathbb{Z}_2[x]\) has roots in \(\mathbb{Z}_2[\alpha]\), perhaps by checking all four of them.
-    </li>
-    <li>
-      Give a cubic polynomial in \(\mathbb{Z}_2[x]\) which does not have any roots in \(\mathbb{Z}_2[\alpha]\).
-    </li>
-    <li>
-      Let \(\beta\) be a root of this polynomial. Determine how many elements are in \(\mathbb{Z}_2[\beta]\), and prove that \(\mathbb{Z}_2[\beta]\) forms a field and that its group of units is cyclic.
-    </li>
-    <li>
-      Is there an element of \(\mathbb{Z}_2[\beta]\) that is a root of the polynomial \(x^2 + x + 1\)? How does \(\beta\) relate to \(\alpha\)?
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HWX/exercises/field_f4.html' %}
+
 </details>
 
 <details>
@@ -90,40 +61,8 @@ eleventyExcludeFromCollections: true
     Extra Credit Exercise 3 [3+7]
     <span style="font-size: small;">(Rational ring extensions)</span>
   </summary>
-  <ol>
-    <li>[3]
-      Describe the ring \((\mathbb{Z}[2/3],+,\times)\) and give a group isomorphism to prove that \((\mathbb{Z}[2/3],+) \cong (\mathbb{Z},+)\).
-    </li>
-    <li>[7]
-      Recall that \(\mathbb Q[\sqrt{2},\sqrt{3}]\) is the smallest ring containing the rational numbers along with \(\sqrt{2}\) and \(\sqrt 3\).
-      Prove that \(\mathbb Q[\sqrt{2},\sqrt{3}] = \mathbb Q[\sqrt{2} + \sqrt{3}]\) by doing the following.
-      <ol>
-        <li>[0] Show that \(\sqrt{2} + \sqrt{3} \in \mathbb Q[\sqrt{2},\sqrt{3}]\). (This is "obvious".)</li>
-        <li>[3]
-          Let \(\gamma = \sqrt 2 + \sqrt 3\).
-          Find a degree-\(4\) polynomial in \(\mathbb{Q}[x]\) with a root of gamma, using the fact that \begin{align*}
-            \gamma^1 &= \sqrt 2 + \sqrt 3 \\
-            \gamma^2 &= 2 \sqrt{6}+5 \\
-            \gamma^3 &= 11 \sqrt{2}+9 \sqrt{3} \\
-            \gamma^4 &= 20 \sqrt{6}+49.
-          \end{align*}
-          (Note: this is called the <i>minimal polynomial</i> of \(\gamma\), and \(\mathbb{Q}[\gamma]\) is called a <i>degree-\(4\)</i> extension of \(\mathbb{Q}\).)
-        </li>
-        <li>[1]
-          Explain why every element of \(\mathbb{Q}[\gamma]\) can be written in the form \[
-            a_0 + a_1\gamma + a_2\gamma^2 + a_3\gamma^3.
-          \]
-        </li>
-        <li>[2]
-          Show that \(\sqrt{2}, \sqrt{3} \in \mathbb{Q}[\gamma]\) by finding rational coefficients such that \begin{align*}
-            \sqrt{2} &= a_0 + a_1\gamma + a_2\gamma^2 + a_3\gamma^3 \\
-            \sqrt{3} &= a'_0 + a'_1\gamma + a'_2\gamma^2 + a'_3\gamma^3.
-          \end{align*}
-        </li>
-        <li>[1] Why does this prove that \(\mathbb Q[\sqrt{2},\sqrt{3}] = \mathbb Q[\sqrt{2} + \sqrt{3}]\)?</li>
-      </ol>
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HWX/exercises/rational_ring_extensions.html' %}
+
 </details>
 
 <details>
@@ -131,17 +70,7 @@ eleventyExcludeFromCollections: true
     Extra Credit Exercise 4 [≤10]
     <span style="font-size: small;">(Symmetry of surfaces)</span>
   </summary>
-  <p>
-    Check out Fran Herr's INCREDIBLE YouTube explainer video (30:53) which somehow has than 1000 views!
-  </p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/MUBI6E7n8DU?si=1SL8VecZozTgE1i4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
-  <ol>
-    <li>[3] Watch the whole thing at normal speed, without anything else distracting you.</li>
-    <li>[≤6] For \(n \leq 6\) points, spend at least \(6n\) minutes working through or reading about detail that you didn't quite understand. Write about anything you figured out while thinking about it more deeply.</li>
-    <li>[1]
-      Write about five sentences about what you understood, didn't understand, liked, didn't like, etc.
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HWX/exercises/symmetry_of_surfaces.html' %}
 </details>
 
 <details>
@@ -149,32 +78,7 @@ eleventyExcludeFromCollections: true
     Extra Credit Exercise 5 [≤10]
     <span style="font-size: small;">(Groups with same orders)</span>
   </summary>
-  <p>
-    Recall the idea we have often used when differentiating groups up to isomorphism. If we list out all of the orders of the elements, then the groups fail to be isomorphic if the orders fail to match. For example, the dihedral group of the square \(D_4\) has
-    \(1\) element of order \(1\),
-    \(5\) element of order \(2\), and
-    \(2\) element of order \(4\), whereas the quaternion group \(Q_8\) has
-    \(1\) element of order \(1\),
-    \(1\) element of order \(2\), and
-    \(6\) elements of order \(4\)&mdash;thus these two groups cannot be isomorphic.
-  </p>
-  <p>
-    This idea does not always succeed in differentiating between non-isomorphic groups&mdash;in fact, this technique stops working with groups of order \(16\).
-  </p>
-  <ol>
-    <li>
-      First, sketch a proof of the fact that if \(\phi\colon G \to H\) is a homomorphism, then the order of \(\phi(g)\) divides the order of \(g\).
-    </li>
-    <li>
-      Next, recall that if \(\phi\colon G \to H\) is an isomorphism, \(\phi^{-1}\colon H \to G\) is also an isomorphism. Explain why this implies that the order of \(\phi^{-1}(h)\) divides the order of \(h\), and use this to prove that the order of \(\phi(g)\) is equal to the order of \(g\).
-    </li>
-    <li>
-      Prove that the groups \(C_4 \times C_4\) and \(C_2 \times Q_8\) are <i>not</i> isomorphic.
-    </li>
-    <li>
-      Compute the orders of all sixteen elements of \(C_4 \times C_4\) and all sixteen elements of \(C_2 \times Q_8\) to see that the groups have the same number of elements of each order.
-    </li>
-  </ol>
+  {% include 'content/F26/MAT4170/HWX/exercises/groups_matching_orders.html' %}
 </details>
 
 <details>
@@ -204,9 +108,26 @@ eleventyExcludeFromCollections: true
   {% include 'content/F26/MAT4170/HWX/exercises/abelian.html' %}
 </details>
 
+<details>
+  <summary>
+    Extra Credit Exercise 9 [10]
+    <span style="font-size: small;">(Burnside's Lemma)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HWX/exercises/burnsides_lemma.html' %}
+</details>
+
+<details>
+  <summary>
+    Extra Credit Exercise 10 [10]
+    <span style="font-size: small;">(Group actions)</span>
+  </summary>
+  {% include 'content/F26/MAT4170/HWX/exercises/group_actions.html' %}
+</details>
+
+
 <hr>
 <p>
-  I'm likely to add to the list of problems above, based on some subset of the following list. If you want to see one of these topics in particular&mdash;or if you have an idea about an exercise you'd like me to write&mdash;let me know (or write it yourself!)
+  I'm likely to add to the list of problems above, based on some subset of the following list. If you want to see one of these topics in particular&mdash;or if you have an idea about an exercise you'd like me to write&mdash;ask for it (or write it yourself!)
 </p>
 <details>
   <summary>
@@ -266,6 +187,39 @@ eleventyExcludeFromCollections: true
     </li>
     <li>
       Give an example of trying to put a group structure on the points of a sphere.
+    </li>
+    <li>
+      Let \(B_3\) be the octahedral group. Describe the surjective homomorphism \(\phi\colon B_3 \to S_3\) and look at the kernel and image.
+    </li>
+    <li>
+      Explore the <a href="https://en.wikipedia.org/wiki/Burnside_ring">Burnside ring</a>.
+    </li>
+    <li>
+      Prove that the group ring \(\mathbb{C}[G]\) is a domain if and only if \(G = \{e\}\).
+    </li>
+    <li>
+      Affine groups and conjugation.
+    </li>
+    <li>
+      Distributive lattice.
+    </li>
+    <li>
+      Galois theory.
+    </li>
+    <li>
+      Lattice of subgroups
+    </li>
+    <li>
+      Finite groups of Lie type
+    </li>
+    <li>
+      Möbius transformations.
+    </li>
+    <li>
+      Semidirect products.
+    </li>
+    <li>
+      Wallpaper/frieze groups.
     </li>
   </ol>
 </details>
